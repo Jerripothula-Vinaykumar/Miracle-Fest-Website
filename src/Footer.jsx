@@ -1,8 +1,34 @@
 import { Link } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 
-export function Footer(){
-
-    return (
+export function Footer() {
+    const loc = useLocation();
+    
+    switch (loc.pathname ) {
+        
+        
+        case "/RegisterContent":
+                return(
+                 <div className="footerbottom-div2">
+                        <li className="footer-bottom2"> &copy; Copyright 2025</li><li className="footer-bottom">-</li>
+                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms & Conditions</Link></li>
+                        <li className="footer-bottom2">-</li>
+                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy Policy</Link></li>
+                   </div>
+                )
+                break;
+        case "/SignupContent":
+                return(
+                 <div className="footerbottom-div2">
+                        <li className="footer-bottom2"> &copy; Copyright 2025</li><li className="footer-bottom">-</li>
+                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms & Conditions</Link></li>
+                        <li className="footer-bottom2">-</li>
+                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy Policy</Link></li>
+                   </div>
+                )
+                break;
+        default : 
+                return (
         
         <footer className="footer">
             
@@ -59,6 +85,11 @@ export function Footer(){
           </footer>
         
         )
+        break;
+                
+        
+   
+    }
 }
 
 
