@@ -793,8 +793,10 @@
         display: flex;
         height : 80vh;
         width : 100%;
-        background-image: url("https://tse1.mm.bing.net/th?id=OIP.p0n9sJKo_yDbytLdAyeb9gHaE6&pid=Api&P=0&h=180");
-        background-repeat: no-repeat;
+      /*   background-image: url("https://tse1.mm.bing.net/th?id=OIP.p0n9sJKo_yDbytLdAyeb9gHaE6&pid=Api&P=0&h=180");
+       */
+       background-color: aliceblue;
+         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         object-fit: cover;
@@ -818,14 +820,16 @@
         height  : 6vh ;
         display: flex;
         width: 58vw;
-        border: none;
+        border:1px solid black;
     }
     .checkbox {
         margin  : 2px 0 0 15px;
+         
     }
     .verify {
         margin : 15px 0 0 15px ;
         font-size : 0.8em;
+       
     }
     .signupinputbutton {
         margin : 20px 0 0 10px ;
@@ -931,8 +935,9 @@
     }
     .footerbottom-div2 {
         height  : 10vh;
-        background-color: gray;
+        background-color: rgb(184, 176, 176);
         display: flex;
+        opacity: 0.5;
         flex-direction: row;
         align-items: center;
         gap: 1em;
