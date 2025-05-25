@@ -159,7 +159,7 @@
 
     /* For Small Devices ( Mobiles )  */
 
-    @media (min-width : 475px) {
+    @media (min-width : 475px) and (max-width : 669px) {
     
 
     /*  Header Section */
@@ -374,221 +374,8 @@
 
     /* For Medium Devices ( Tablets ) */
     
-    @media (min-width : 670px) {
+    @media (min-width : 670px) and (max-width : 767px) {
     /* ===========================  */
-
-    /* Header Section */
-    
-     .header {
-        height : 15vh ; 
-        width  : 100%;
-        background-color: rgb(18, 17, 17);
-    }
-    .header-nav {
-        padding-top: 2em;
-        height: 75%;
-       
-    }
-    .header-ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        height  : 100%;
-        flex-wrap: nowrap;
-        flex : 1 1 100px; 
-    }
-    .header .header-nav .header-ul .logo {
-        height: 100%;
-        font-size : 1.5em;
-        font-style: bold;
-        margin:  0.5em auto 2em 0.4em ;
-        font-weight: 900;
-    }
-    .header .header-nav .header-ul .nav-li {
-        padding-top: 15px;
-        margin : 2.5em 1em 0em 0em;
-    
-    }
-  
-   
- 
-   
-
-    .header .header-ul li {
-       
-        font-size : 14px;
-        text-align: center;
-        color : whitesmoke;
-    }
-
-
-
-    /* ===========================  */
-
-    /* Home Content Section */
-      
-
-    /*  ==============================  */
-
-    /* Event Content Section */
-     .event-main {
-        min-height: 100vh ;
-      }
-      .ecsec1 {
-        position: static;
-        margin : 2em 0em 1em 3em ;
-        height : 30vh ;
-        width  : 80%;
-        border : 1px solid blue ;
-      }
-      .ecsec2 {
-        position: static;
-        margin : 2em 0em 1em 3em ;
-        height : 30vh ;
-        width  : 80%;
-        border : 1px solid blue ;
-      }
-      .ecsec3 {
-        position: static;
-        margin : 2em 0em 1em 3em ;
-        height : 30vh ;
-        width  : 80%;
-        border : 1px solid blue ;
-      }
-      .ecsec4 {
-        position: static;
-        margin : 2em 0em 1em 3em ;
-        height : 30vh ;
-        width  : 80%;
-        border : 1px solid blue ;
-      }
-
-
-    /*  Schedule Content Section  */
-
-    /* ======================================= */
-
-    /*  Gallery Content Section  */
-
-    /* ======================================= */
-
-    /*  Leaderboard Content Section  */
-
-    /* ======================================= */
-
-    /*  Register Content Section  */
-
-    /* ======================================= */
-
-    /*  My Profie Content Section  */
-
-    /* ======================================= */
-
-
-    /* Footer Section */
-      
-      
-    /*  Admin Panel */
-
-    /*  Faculty Dashboard Content Section  */
-
-    /* ======================================= */
-
-    /*  Coordinator Dashboard Content Section  */
-
-    /* ======================================= */
-
-    /*  Event Coordinators Content Section  */
-
-    /* ======================================= */
-
-    /*  Volunteer`s Assignment Content Section  */
-
-    /* ======================================= */
-
-    /*  Support & QA Content Section  */
-
-    /* ======================================= */
-
-    /*  Certificate Download Content Section  */
-
-    /* ======================================= */
-
-    /* Gamification and Funfeatures     */
-
-    /*  Classical Events Content Section  */
-
-    /* ======================================= */
-
-    /*  Technical Events Content Section  */
-
-    /* ======================================= */
-
-    /*  Cultural Events Content Section  */
-
-    /* ======================================= */
-
-    /* Sponsors and Gallery */
-
-    /*  Sponsor Logos and Offers Content Section  */
-
-    /* ======================================= */
-
-    /*  Stalls Info and Coupons Content Section  */
-
-    /* ======================================= */
-
-    /*  About Fest Content Section  */
-
-    /* ======================================= */
-
-    /* Suport & Accessbility */
-
-    /*  FAQ Section Content Section  */
-
-    /* ======================================= */
-
-    /*  Emergency Contacts Content Section  */
-
-    /* ======================================= */
-
-    /* Post Fest */
-
-    /*  Feedback Form Content Section  */
-
-    /* ======================================= */
-
-    /*  Results & Winners Display Content Section  */
-
-    /* ======================================= */
-
-
-    /*  Export Data (Excel/PDF) Content Section  */
-
-    /* =======================================*/
-
-    /* Terms & Conditions Content Section  */
-
-    /* ======================================= */
-
-    /*  Privacy Policy Content Section  */
-
-    /* =======================================*/
-
-    /*  About us Content Section  */
-
-    /* ======================================= */
-
-    /*  Contact us Content Section  */
-
-    /* =======================================*/
-
-    /*  Archive of Past Events and Winner`s Content Section  */
-
-    /* =======================================*/
-
-
-
 
     }
     /* ======================================  */
@@ -596,7 +383,7 @@
  
     /* For Laptops  Devices*/
 
-    @media (max-width : 768px)  {
+    @media (max-width : 768px) and (max-width : 1023px) {
    
 
     /* Header Section */
