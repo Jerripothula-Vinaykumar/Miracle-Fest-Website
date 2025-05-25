@@ -377,13 +377,560 @@
     @media (min-width : 670px) and (max-width : 767px) {
     /* ===========================  */
 
+    /* Header Section */
+    
+    .header {
+        height : 15vh ; 
+        width  : 100%;
+        background-color: rgb(18, 17, 17);
+    }
+    .header-nav {
+        padding-top: 8%;
+       
+    }
+    .header-ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height  : 100%;
+        flex-wrap: nowrap;
+        
+    }
+    .header .header-nav .header-ul .logo {
+        height: 100%;
+        font-size : 1.5em;
+        font-style: bold;
+        margin:  0% auto 6% 4% ;
+        font-weight: 900;
+    }
+    .header .header-nav .header-ul .nav-li {
+        padding-top: 4%;
+        margin : 8% 4% 0% 0;
+    
+    }
+    .header .header-ul li {
+        font-size : 0.9em;
+        text-align: center;
+        color : whitesmoke;
+    }
+
+
+    /* ===========================  */
+
+    /* Home Content Section */
+
+    .homecontent {
+        background: rgb(7, 227, 239);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 80vh;
+    }
+    .homepic {
+        min-height: 30vh;
+        min-width: 40vw;
+        border-radius: 25em;
+    }
+
+       /* ===========================  */
+
+     /* Event Content Section */
+
+    .eventcontent {
+       display: flex;
+       background-color: whitesmoke ;
+       flex-direction: column;
+       gap : 1em;
+       align-items: center;   
+       padding: 2% 4% 4% 4%;
+    }
+    .eventheader {
+      margin: 10% auto 0 1%;
+      font-size: 1.4em;
+      font-style: bold ;
+      color: rgb(2, 21, 6);
+    }
+    .culturalheader {
+      margin: 4% auto 0 8%;
+      font-size: 1.1em;
+      font-style: bold ;
+      color: rgb(27, 10, 179);
+    }
+    .eventcard {
+        height: 20vh;
+        width: 70vw;
+        margin-top: 2%;
+        border-radius : 20px ;
+        background-color:  rgb(43, 252, 245);
+        border  : 1.8px solid black ; 
+    }
+    .chr {
+        margin-top: 2%;
+        width : 69.6vw;
+    }
+    .eventmore {
+        font-size: 1em;
+        margin : 1% 2% 5% 81%;
+    }
+    .eventstartdate {
+        margin : 3.5% 0 0 3%;
+        font-size: 0.8em;
+        opacity: 0.5;
+    }
+    .eventname {
+        margin : 5% 0 0 5% ;
+    }
+
+    /* ==================================================== */
+
+    /* Each Event Content  */
+
+    .event-container {
+        margin  : 9%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .event-info {
+        margin : 9%;
+        text-indent: 1.5em;
+        font-size: 1.1em;
+        word-spacing: 3px;
+        text-align: justify;
+        line-height: 1.8em;
+        font-weight: 900;
+        font-family: monospace;
+        width  : 80vw;
+    }
+    .event-img {
+        height: 30vh;
+        width  :80vw;
+    }
+    .container2 {
+        margin : 2% auto 0 3% ;
+        display: flex;
+        flex-direction: column;
+    }
+    .event-details {
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+    .event-timings-info {
+        width : 50vw;
+        margin : 5% 0 0 1% ;
+        line-height: 2em;
+        font-size: 1em;
+       
+    }
+    .event-header { 
+        margin : 0 auto 4% 0%;
+        font-weight: 900;
+        font : bold;
+        font-size: 2em;
+    }
+    .event-register-info {
+        margin : 7% 0 0 0;
+        font-weight: 900;
+        line-height: 1.8em;
+        font-size: 1.1em;
+    }
+    .register-button {
+        height :4.5vh;
+        width: 25vw;
+        font-size: 1.3em;
+        margin : 10% auto 0 0;
+        color  :whitesmoke;
+        background-color : rgb(245, 46, 46);
+        border-radius: 5px;
+        
+    }
+    .eventregistrationcontent {
+        margin : 20% 15% 60% 10%;
+    }
+
+    /* ===========================  */
+
+    /*  Schedule Content Section  */
+
+    /* ====================================== */
+
+    /*  Gallery Content Section  */
+
+    /* ======================================= */
+
+    /*  Leaderboard Content Section  */
+
+    /* ======================================= */
+
+    /*  Register Content Section  */
+
+    .registercontent {
+        display: flex;
+        height : 80vh;
+        width : 100%;
+      /*   background-image: url("https://tse1.mm.bing.net/th?id=OIP.p0n9sJKo_yDbytLdAyeb9gHaE6&pid=Api&P=0&h=180");
+       */
+       background-color: aliceblue;
+         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+    }
+    .register-container {
+        padding : 5%;
+        height : 65vh ;
+        width: 70vw ;
+     
+    }
+    .signupinput {
+        margin : 4%;
+        width: 28vh ;
+        padding : 2% 0 0 5%;
+        border  :none;
+    }
+    .captcha {
+        margin: 10px 5px 0 5px;
+        height  : 6vh ;
+        display: flex;
+        width: 58vw;
+        border:1px solid black;
+    }
+    .checkbox {
+        margin  : 2px 0 0 15px;
+         
+    }
+    .verify {
+        margin : 15px 0 0 15px ;
+        font-size : 0.8em;
+       
+    }
+    .signupinputbutton {
+        margin : 20px 0 0 10px ;
+        height  : 4.5vh;
+        width: 55vw;
+        border-radius: 2px;
+        border: none;
+
+
+    }
+    .signupinputbutton:hover {
+        background-color: rgba(62, 164, 7, 0.888);
+
+    }
+    .haveanacc {
+        font-weight: 700;
+        font-size: 1em;
+        color : black ; 
+        margin : 10% 0 0 15%;
+    }
+    .signinwith {    
+        font-weight: 700;
+        font-size : 0.9em;
+        opacity: 0.8;
+        margin : 5% 0 0 20%;
+    }
+    .signupcontainer {
+        display: flex;
+        flex-direction: row;
+        margin : 13% 0 0 27% ;
+        
+    }
+    .signupicon {
+       height: 1.9em;
+       padding-right : 7%;
+
+    }
+
+    /* ======================================= */
+
+    /*  My Profie Content Section  */
+
+    .myprofilecontent {
+        min-height: 100vh;
+        display: flex;
+        background: linear-gradient(10deg , rgb(214, 214, 221) ,rgb(193, 185, 185));
+        justify-content: center;
+    }
+    .myprofilecontainer {
+        height: 85vh;
+        width : 80vw;
+        margin : 5em 0 0 0;
+        border : 2px solid black ; 
+    }
+    .profilepicture {
+        margin : 2em 0em 0 7.5em;
+        height : 12vh;
+    }
+    .changeprofile {
+        height : 4vh;
+        display: block;
+        margin-left: 13em ; 
+    }
+    .info {
+        margin : 3em 0em 0em 2em;
+    }
+    .user {
+        margin-top: 1em;
+    }
+    .phr {
+        width : 79.6vw;
+    }
+
+    /* ======================================= */
+
+
+
+    /* Footer Section */
+
+    .footerul {
+        display: flex;
+        flex-direction: column;
+        gap : 1em;
+        padding : 1em;
+        align-items: center;
+        justify-content: center;
+        background-color: gray;
+    }
+    .footerul h1 {
+        font-size: 1.4em;
+        color  : green ;
+    }
+    .footerbottom-div {
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 1%;
+        gap:  1.7em;
+        padding:  0 0 0 2%;
+        font-size  :0.8em;
+        list-style-type: none;
+    }
+    .footerbottom-div2 {
+        height  : 10vh;
+        background-color: rgb(184, 176, 176);
+        display: flex;
+        opacity: 0.5;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        padding:  0 0 0 4%;
+        font-size  :0.8em;
+        list-style-type: none;
+    }
+    .footer-bottom2 {
+        margin-left : 2%;
+    }
+
+    /*  Admin Panel */
+
+    /*  Faculty Dashboard Content Section  */
+
+    /* ======================================= */
+
+    /*  Coordinator Dashboard Content Section  */
+
+    /* ======================================= */
+
+    /*  Event Coordinators Content Section  */
+
+    /* ======================================= */
+
+    /*  Volunteer`s Assignment Content Section  */
+
+    /* ======================================= */
+
+    /*  Support & QA Content Section  */
+
+    /* ======================================= */
+
+    /*  Certificate Download Content Section  */
+
+    /* ======================================= */
+
+    /* Gamification and Funfeatures     */
+
+    /*  Classical Events Content Section  */
+
+    /* ======================================= */
+
+    /*  Technical Events Content Section  */
+
+    /* ======================================= */
+
+    /*  Cultural Events Content Section  */
+
+    /* ======================================= */
+
+    /* Sponsors and Gallery */
+
+    /*  Sponsor Logos and Offers Content Section  */
+
+    /* ======================================= */
+
+    /*  Stalls Info and Coupons Content Section  */
+
+    /* ======================================= */
+
+    /*  About Fest Content Section  */
+   
+    /* ======================================= */
+
+    /* Suport & Accessbility */
+
+    /*  FAQ Section Content Section  */
+
+    /* ======================================= */
+
+    /*  Emergency Contacts Content Section  */
+
+    /* ======================================= */
+
+    /* Post Fest */
+
+    /*  Feedback Form Content Section  */
+
+    /* ======================================= */
+
+    /*  Results & Winners Display Content Section  */
+
+    /* ======================================= */
+
+
+    /*  Export Data (Excel/PDF) Content Section  */
+
+    /* =======================================*/
+
+    /* Terms & Conditions Content Section  */
+
+    /* ======================================= */
+
+    /*  Privacy Policy Content Section  */
+
+    /* =======================================*/
+
+    /*  About us Content Section  */
+    
+    .aboutuscontent {
+        margin : 3em;
+    }
+    .authcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+       
+    }
+    .authphoto {
+        height : 30vh ; 
+        width : 60vw ;  
+        border  : 2px solid rgb(162, 162, 171) ; 
+        margin : 2em 0 0 2em;
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15em;
+    }
+    .reachmeatp {
+        margin : 2em 0 0 2em;
+    }
+    .smicons {
+        display: flex;
+        margin-inline: 1em;
+    }
+    .smimg {
+        height: 4vh;
+        
+        margin  : 1em 0 0 1em; 
+    }
+    .hellothere {
+        font-size: 1.3em;
+        margin : 1em 0 0 0em;
+    }
+    .author {
+        margin : 0.5em 0 0 0;
+    }
+
+    /* ======================================= */
+
+    /*  Contact us Content Section  */
+    .contactuscontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactuscontainer {
+        height: 60vh;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin : 2em;
+        border-radius:  20em 20em 0 0 ;
+        border : 2px solid black ;
+    }
+    .contactus {
+        font-weight :900;
+        font-size: 2.5em;
+        margin :  0.5em 0 0 0em;
+    }
+    .contactusimg {
+        margin-top : 4em;
+        height : 7vh;
+    }
+    .contacticons {
+        height : 4vh;
+        display: flex;
+        flex-direction: column;
+        margin : 0.8em auto 0 1em;
+        justify-content: flex-start;
+        gap : 1em;
+    }
+    .contacticonsdiv {
+        display: flex;
+        flex-direction: row;
+    }
+    .contactusdetails1 {
+        font-size: 1.2em;
+        display: block;
+        text-align: center;
+        margin : 0.8em 5.5em 0 0 ;
+    }
+    .contactusdetails2 {
+        font-size: 1.5em;
+        display: block;
+        text-align: center;
+        margin : 0.6em 4.8em 0 0 ;
+    }
+    .contactusdetails3 {
+        font-size: 1.2em;
+        display: block;
+        text-align: center;
+        margin : 0.8em 2.5em 0 1em ;
+    }
+    .contactusdetails4 {
+        font-size: 1.2em;
+        margin : 1.2em 0.6em 0 0em;
+    }
+    /* =======================================*/
+
+    /*  Archive of Past Events and Winner`s Content Section  */
+
+    /* =======================================*/
+   
     }
     /* ======================================  */
 
  
     /* For Laptops  Devices*/
 
-    @media (max-width : 768px) and (max-width : 1023px) {
+    @media (max-width : 768px)  {
    
 
     /* Header Section */
