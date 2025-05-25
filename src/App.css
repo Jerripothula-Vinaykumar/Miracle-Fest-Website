@@ -955,7 +955,7 @@
     }
     .header .header-nav .header-ul .logo {
         height: 100%;
-        font-size : 1.5em;
+        font-size : 1.2em;
         font-style: bold;
         margin:  0% auto 6% 4% ;
         font-weight: 900;
@@ -966,7 +966,7 @@
     
     }
     .header .header-ul li {
-        font-size : 0.9em;
+        font-size : 0.7em;
         text-align: center;
         color : whitesmoke;
     }
@@ -1436,7 +1436,7 @@
         font-weight :600;
         font-size: 2em;
         width : 50vw;
-        margin : 11% 0% 0 13%;
+        margin : 11% 0% 0 5%;
       
     }
     .contactusimg {
