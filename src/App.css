@@ -374,7 +374,7 @@
 
     /* For Medium Devices ( Tablets ) */
     
-    @media (min-width : 670px) and (max-width : 767px) {
+    @media (max-width : 670px) {
     /* ===========================  */
 
     /* Header Section */
