@@ -255,7 +255,7 @@ export  function MyProfileContent() {
        <main className="myprofilecontent"> 
         <div className="myprofilecontainer">
           <img className="profilepicture" src="https://cdn-icons-png.flaticon.com/128/552/552721.png" alt="" />
-          <img className="changeprofile"src="https://cdn-icons-png.flaticon.com/128/5509/5509361.png" alt="" />
+          <img className="changeprofile"src="https://cdn-icons-png.flaticon.com/128/9522/9522568.png" alt="" />
         
           <div className="info">
             <p className="user">Name : </p>
@@ -752,20 +752,20 @@ export function EventRegistrationContent() {
       return(
         <main className="eventregistrationcontent">
             <div className="container2">
-           <p className="event-details">Event Details </p>
+           <p className="event-details">Registration Form </p>
             <div className="event-timings-info">
-              <p>Event Name :</p>
-              <p>Event Date : </p>
-              <p>Event Start Time : </p>
-              <p>Event Venue  :</p>
-              <p>Event End Time : </p>
+              <input type="text" className="signupinput"  placeholder="  Name of the Event"/>
+              <input type="text" className="signupinput"  placeholder="  Branch"/>
+               <input type="text" className="signupinput"  placeholder="  Year"/>
+                 <input type="text" className="signupinput"  placeholder="  Department"/>
+              <input type="text" className="signupinput"  placeholder="  Section"/>
+             <button className="register-button"><Link to="/EventRegistrationContent">Submit</Link></button>
             </div>
            <div className="event-register-info">
-              <p>Want To Register For The Traditional Day , Here is
-              the  Consultant Coordinator Contact , 
+              <p>For any Queries Contact Coordinator , 
               </p>
-              <p>Event Coordinator Name : </p>
-              <p>Event Coordinator Mobile : 00000-00000</p>
+              <p>Coordinator Name : </p>
+              <p>Coordinator Mobile : 00000-00000</p>
             </div>
             </div>
         </main>
