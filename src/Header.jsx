@@ -52,7 +52,7 @@ export function EventContent() {
                <p  className="eventstartdate">Event start time :</p>
                <p  className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/BannerLaunchContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/BannerLaunchContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Traditional day</h1>
@@ -61,7 +61,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/TraditionalDayContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/TraditionalDayContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Final Fest </h1>
@@ -70,7 +70,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue :</p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/FinalFestContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/FinalFestContent">more</Link></button>
             </div>
               <h1 className="culturalheader"> Technical Events</h1>
               <div className="eventcard">
@@ -80,7 +80,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/ProCoderContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/ProCoderContent">more</Link></button>
             </div>
               <div className="eventcard">
                <h1 className="eventname"> Guess the Output </h1>
@@ -89,7 +89,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/GuessTheOutptContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/GuessTheOutptContent">more</Link></button>
             </div>
               <div className="eventcard">
                <h1 className="eventname">Quiz</h1>
@@ -98,7 +98,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/QuizContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/QuizContent">more</Link></button>
             </div>
               <div className="eventcard">
                <h1 className="eventname"> Essay Writing</h1>
@@ -107,7 +107,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue : </p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/EssayWritingContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/EssayWritingContent">more</Link></button>
             </div>
             
              <h1 className="culturalheader">Sports Events</h1>
@@ -118,7 +118,7 @@ export function EventContent() {
                <p className="eventstartdate">Event start time :</p>
                <p className="eventstartdate">Event Venue :</p>    
                <hr className="chr" />
-               <button className="eventmore"><Link to="/MensCricketContent">more &gt;</Link></button>
+               <button className="eventmore"><Link to="/MensCricketContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname"> Men`s Kabaddi</h1>
@@ -127,7 +127,7 @@ export function EventContent() {
                  <p className="eventstartdate">Event start time :</p>
                  <p className="eventstartdate">Event Venue :</p>    
                  <hr className="chr" />
-                 <button className="eventmore"><Link to="/MensKabaddiContent">more &gt;</Link></button>
+                 <button className="eventmore"><Link to="/MensKabaddiContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Men`s Volley Ball</h1>
@@ -136,7 +136,7 @@ export function EventContent() {
                 <p className="eventstartdate">Event start time :</p>
                 <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/MensVolleyBallContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/MensVolleyBallContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Men`s Kho Kho</h1>
@@ -145,7 +145,7 @@ export function EventContent() {
                  <p className="eventstartdate">Event start time :</p>
                  <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/MensKhoKhoContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/MensKhoKhoContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Carrom Board</h1>
@@ -154,7 +154,7 @@ export function EventContent() {
                  <p className="eventstartdate">Event start time :</p>
                  <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/CarromBoardContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/CarromBoardContent">more</Link></button>
             </div>
             
              <div className="eventcard">
@@ -164,7 +164,7 @@ export function EventContent() {
                   <p className="eventstartdate">Event start time :</p>
                    <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/FreeFireContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/FreeFireContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname">Pubg</h1>
@@ -173,7 +173,7 @@ export function EventContent() {
                   <p className="eventstartdate">Event start time :</p>
                  <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/PubgContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/PubgContent">more</Link></button>
             </div>
              <div className="eventcard">
                <h1 className="eventname"> Women`s Throwball</h1>
@@ -182,7 +182,7 @@ export function EventContent() {
                  <p className="eventstartdate">Event start time :</p>
                  <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
-                <button className="eventmore"><Link to="/WomensThrowBallContent">more &gt;</Link></button>
+                <button className="eventmore"><Link to="/WomensThrowBallContent">more</Link></button>
             </div>
        </main>
     )

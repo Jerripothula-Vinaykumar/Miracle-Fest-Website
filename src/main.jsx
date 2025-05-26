@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client'
+
 import './App.css'
 import { BrowserRouter , Routes , Route  } from 'react-router-dom'
 import { MainHeader , HomeContent , EventContent , RegisterContent , SignupContent, MyProfileContent ,
@@ -8,7 +9,7 @@ import { MainHeader , HomeContent , EventContent , RegisterContent , SignupConte
  
 import {Footer , FacultyDashboardContent , CoordinatorDashboardContent , 
       EventCoordinatorsContent , VolunteersAssignmentContent, SupportQAContent ,
-      CertificateDownloadContent , ClassicalEventsContent , TechnicalEventsContent , CulturalEventsContent , 
+      CertificateDownloadContent , SportsEventsContent , TechnicalEventsContent , CulturalEventsContent , 
       SponsorslogosandoffersContent , StallsinfoandCouponsContent , AboutfestContent , 
       FaqSectionContent , EmergencyContactContent , LiveChatSupportContent , 
       FeedbackformContent , ResultsandWinnersDisplayContent , ExportDataContent , TermsandConditionsContent , PrivacyPolicyContent , 
@@ -63,7 +64,7 @@ createRoot(document.getElementById('root')).render(
     
      {/* Gamification & Funfeatres Contents */}
 
-     <Route path="/ClassicalEventsContent" element={<ClassicalEventsContent />}>  </Route>
+     <Route path="/SportsEventsContent" element={<SportsEventsContent />}>  </Route>
      <Route path="/TechnicalEventsContent" element={<TechnicalEventsContent />}>  </Route>
      <Route path="/CulturalEventsContent" element={<CulturalEventsContent />}>  </Route>
       
