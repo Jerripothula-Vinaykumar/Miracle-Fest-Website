@@ -12,20 +12,20 @@ export function Footer() {
         case "/RegisterContent":
                 return(
                  <div className="footerbottom-div2">
-                        <li className="footer-bottom2"> &copy; Copyright 2025</li><li className="footer-bottom">-</li>
-                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms & Conditions</Link></li>
-                        <li className="footer-bottom2">-</li>
-                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy Policy</Link></li>
+                        <li className="footer-bottom2"> &copy;Copyright 2025</li><li className="footer-bottom">|</li>
+                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms</Link></li>
+                        <li className="footer-bottom2">|</li>
+                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy</Link></li>
                    </div>
                 )
                 break;
         case "/SignupContent":
                 return(
                  <div className="footerbottom-div2">
-                        <li className="footer-bottom2"> &copy; Copyright 2025</li><li className="footer-bottom">-</li>
-                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms & Conditions</Link></li>
-                        <li className="footer-bottom2">-</li>
-                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy Policy</Link></li>
+                        <li className="footer-bottom2"> &copy; Copyright 2025</li><li className="footer-bottom">|</li>
+                        <li className="footer-bottom2"><Link to="/TermsandConditionsContent">Terms</Link></li>
+                        <li className="footer-bottom2">|</li>
+                        <li className="footer-bottom2"><Link to="/PrivacyPolicyContent">Privacy</Link></li>
                    </div>
                 )
                 break;
@@ -72,10 +72,10 @@ export function Footer() {
                     <li><Link to="/ContactusContent">Contact us</Link></li>
                     <li><Link to="/ArchiveofPastEventsandWinnersContent">Archive of Past Events and Winner`s</Link></li>
                     <div className="footerbottom-div">
-                        <li className="footer-bottom"> &copy; Copyright 2025</li><li className="footer-bottom">-</li>
-                        <li className="footer-bottom"><Link to="/TermsandConditionsContent">Terms & Conditions</Link></li>
-                        <li className="footer-bottom">-</li>
-                        <li className="footer-bottom"><Link to="/PrivacyPolicyContent">Privacy Policy</Link></li>
+                        <li className="footer-bottom"> &copy; Copyright 2025 </li><li className="footer-bottom">|</li>
+                        <li className="footer-bottom"><Link to="/TermsandConditionsContent">Terms</Link></li>
+                        <li className="footer-bottom">|</li>
+                        <li className="footer-bottom"><Link to="/PrivacyPolicyContent">Privacy</Link></li>
                    </div>
                    <hr></hr>
                 </ul>

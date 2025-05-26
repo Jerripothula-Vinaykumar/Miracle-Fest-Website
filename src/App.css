@@ -618,7 +618,7 @@ body {
     height: 85vh;
     width: 80vw;
     margin: 5em 0 0 0;
-    border: 2px solid black;
+
   }
   .profilepicture {
     margin: 2em 0em 0 7.5em;
@@ -961,7 +961,7 @@ body {
     color: rgb(27, 10, 179);
   }
   .eventcard {
-    height: 20vh;
+    height: 21vh;
     width: 70vw;
     margin-top: 2%;
     border-radius: 20px;
@@ -1118,24 +1118,26 @@ body {
   }
   .haveanacc {
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.8em;
     color: black;
+    word-spacing: 0.3em;
     margin: 10% 0 0 15%;
   }
   .signinwith {
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 0.8em;
     opacity: 0.8;
-    margin: 5% 0 0 20%;
+     word-spacing: 0.3em;
+    margin: 5% 0 0 16%;
   }
   .signupcontainer {
     display: flex;
     flex-direction: row;
-    margin: 13% 0 0 27%;
+    margin: 13% 0 0 25%;
   }
   .signupicon {
     height: 1.9em;
-    padding-right: 7%;
+    padding-right: 6%;
   }
 
   /* ======================================= */
@@ -1147,15 +1149,17 @@ body {
     display: flex;
     background: linear-gradient(10deg, rgb(214, 214, 221), rgb(193, 185, 185));
     justify-content: center;
+    align-items: center;
+    padding : 5%;
   }
   .myprofilecontainer {
-    height: 85vh;
+    min-height: 85vh;
     width: 80vw;
-    margin: 5em 0 0 0;
-    border: 2px solid black;
+    margin: 10% 0 0 0;
+   
   }
   .profilepicture {
-    margin: 2em 0em 0 7.5em;
+    margin: 5% 0 0 35%;
     height: 12vh;
   }
   .changeprofile {
@@ -1214,7 +1218,7 @@ body {
     list-style-type: none;
   }
   .footer-bottom2 {
-    margin-left: 2%;
+    margin-left: 6%;
   }
 
   /*  Admin Panel */

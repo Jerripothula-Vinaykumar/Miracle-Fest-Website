@@ -256,7 +256,7 @@ export  function MyProfileContent() {
         <div className="myprofilecontainer">
           <img className="profilepicture" src="https://cdn-icons-png.flaticon.com/128/552/552721.png" alt="" />
           <img className="changeprofile"src="https://cdn-icons-png.flaticon.com/128/5509/5509361.png" alt="" />
-          <hr className="phr" />
+        
           <div className="info">
             <p className="user">Name : </p>
             <p className="user">Year : </p>
