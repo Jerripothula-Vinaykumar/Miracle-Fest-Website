@@ -752,14 +752,14 @@ export function EventRegistrationContent() {
       return(
         <main className="eventregistrationcontent">
             <div className="container2">
-           <p className="event-details">Registration Form </p>
+           <p className="event-registration-header">Registration Form </p>
             <div className="event-timings-info">
               <input type="text" className="signupinput"  placeholder="  Name of the Event"/>
               <input type="text" className="signupinput"  placeholder="  Branch"/>
                <input type="text" className="signupinput"  placeholder="  Year"/>
                  <input type="text" className="signupinput"  placeholder="  Department"/>
               <input type="text" className="signupinput"  placeholder="  Section"/>
-             <button className="register-button"><Link to="/EventRegistrationContent">Submit</Link></button>
+             <button className="event-reg-submit-button"><Link to="/EventRegistrationContent">Submit</Link></button>
             </div>
            <div className="event-register-info">
               <p>For any Queries Contact Coordinator , 
