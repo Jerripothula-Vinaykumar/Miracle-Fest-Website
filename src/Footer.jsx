@@ -185,7 +185,7 @@ export function Footer() {
                 <li className="footer-bottom">
                   <Link to="/PrivacyPolicyContent">Privacy</Link>
                 </li>
-                 <li className="footer-bottom">|</li>
+               
               </div>
               <hr></hr>
             </ul>

@@ -305,8 +305,7 @@ export function BannerLaunchContent() {
                 <p>Event Venue  :</p>
                 <p>Event End Time : </p>
               </div>
-                <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
-              </div>
+           </div>
         </div>
       </main>
   )
@@ -333,10 +332,7 @@ export function TraditionalDayContent() {
               <p>Event Start Time : </p>
               <p>Event Venue  :</p>
               <p>Event End Time : </p>
-            </div>
-           
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
-             
+            </div> 
             </div>
         </div>
       </main>
@@ -365,9 +361,6 @@ export function FinalFestContent() {
               <p>Event Venue  :</p>
               <p>Event End Time : </p>
             </div>
-          
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
-             
             </div>
         </div>
       </main>
@@ -754,11 +747,11 @@ export function EventRegistrationContent() {
             <div className="container2">
            <p className="event-registration-header">Registration Form </p>
             <div className="event-timings-info">
-              <input type="text" className="signupinput"  placeholder="  Name of the Event"/>
-              <input type="text" className="signupinput"  placeholder="  Branch"/>
-               <input type="text" className="signupinput"  placeholder="  Year"/>
-                 <input type="text" className="signupinput"  placeholder="  Department"/>
-              <input type="text" className="signupinput"  placeholder="  Section"/>
+              <input type="text" className="signupinput-eve-reg"  placeholder="  Name of the Event"/>
+              <input type="text" className="signupinput-eve-reg"  placeholder="  Branch"/>
+               <input type="text" className="signupinput-eve-reg"  placeholder="  Year"/>
+                 <input type="text" className="signupinput-eve-reg"  placeholder="  Department"/>
+              <input type="text" className="signupinput-eve-reg"  placeholder="  Section"/>
              <button className="event-reg-submit-button"><Link to="/EventRegistrationContent">Submit</Link></button>
             </div>
            <div className="event-register-info">

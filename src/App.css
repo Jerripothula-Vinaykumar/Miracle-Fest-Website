@@ -483,6 +483,12 @@ body {
     height: 30vh;
     width: 80vw;
   }
+  .event-header {
+    margin: 0 auto 4% 0%;
+    font-weight: 900;
+    font: bold;
+    font-size: 2em;
+  }
 
   /* ====================================== */
   
@@ -512,17 +518,22 @@ body {
     line-height: 2em;
     font-size: 1em;
   }
-  .event-header {
-    margin: 0 auto 4% 0%;
-    font-weight: 900;
-    font: bold;
-    font-size: 2em;
+  .event-registration-header {
+    font-size: 1em;
+    text-transform: capitalize;
+    margin : 0 0 3% 0;
   }
   .event-register-info {
-    margin: 7% 0 0 0;
+    margin: 12% 0 0 0;
     font-weight: 900;
-    line-height: 1.8em;
-    font-size: 1.1em;
+    line-height: 2em;
+    font-size: 0.9em;
+  }
+  .signupinput-eve-reg {
+    margin: 4%;
+    width: 28vh;
+    padding: 2% 0 0 8%;
+    border: none;
   }
   .register-button {
     height: 4.5vh;
@@ -691,15 +702,16 @@ body {
   .footerbottom-div {
     background-color: gray;
     display: flex;
-    width  : 70vw;
+    width  : 100vw;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    margin-top: 1%;
+    justify-content: center;
     gap: 1em;
     padding: 0 0 0 2%;
     font-size: 0.8em;
     list-style-type: none;
-    
+   
   }
   .footerbottom-div2 {
     height: 10vh;
@@ -707,15 +719,14 @@ body {
     display: flex;
     opacity: 0.5;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    gap: 1em;
-    padding: 0 0 0 4%;
+    gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
+    border : 1px solid red ; 
   }
-  .footer-bottom2 {
-    margin-left: 6%;
-  }
+  
 
   /*  Admin Panel */
 
@@ -807,6 +818,7 @@ body {
   /* =======================================*/
 
   /* Terms & Conditions Content Section  */
+  
   .termsandconditionsheading {
     font-size: 1.2em;
   }
@@ -817,9 +829,11 @@ body {
   .termsandconditionsinfo {
     margin: 4% 0 0 0;
   }
+
   /* ======================================= */
 
   /*  Privacy Policy Content Section  */
+  
   .privacypolicyheading {
     font-size: 1.2em;
   }
@@ -830,12 +844,13 @@ body {
   .privacypolicyinfo {
     margin: 4% 0 0 0;
   }
+
   /* =======================================*/
 
   /*  About us Content Section  */
 
   .aboutuscontent {
-    margin: 3em;
+    margin: 10%;
   }
   .authcontainer {
     display: flex;
@@ -847,7 +862,7 @@ body {
     height: 30vh;
     width: 60vw;
     border: 2px solid rgb(162, 162, 171);
-    margin: 2em 0 0 2em;
+    margin: 10% 0 0 11%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
@@ -855,7 +870,8 @@ body {
     border-radius: 15em;
   }
   .reachmeatp {
-    margin: 2em 0 0 2em;
+    margin: 10% 0 0 15%;
+    width: 50vw;
   }
   .smicons {
     display: flex;
@@ -863,15 +879,14 @@ body {
   }
   .smimg {
     height: 4vh;
-
-    margin: 1em 0 0 1em;
+    margin: 10% 0 0 5%;
   }
   .hellothere {
-    font-size: 1.3em;
-    margin: 1em 0 0 0em;
+    font-size: 0.9em;
+    margin: 10% 0 0 18%;
   }
   .author {
-    margin: 0.5em 0 0 0;
+    margin: 5% 0 0 0;
   }
 
   /* ======================================= */
@@ -882,6 +897,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin : 10% ;
   }
   .contactuscontainer {
     height: 60vh;
@@ -889,7 +905,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2%;
+    padding: 5%;
     border-radius: 20em 20em 0 0;
     border: 2px solid black;
   }
@@ -902,6 +918,7 @@ body {
   .contactusimg {
     height: 7vh;
     width: 20vw;
+    margin : 60% 0 0 0 ;
   }
   .contacticons {
     height: 3vh;
@@ -916,16 +933,16 @@ body {
     flex-direction: row;
   }
   .contactusdetails1 {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     margin: 6% 45% 0 8%;
     height: 6vh;
     width: 40vw;
   }
   .contactusdetails2 {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
-    margin: 5% 52% 0 8%;
+    margin: 6% 52% 0 8%;
     height: 5vh;
     width: 50vw;
   }
