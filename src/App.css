@@ -491,24 +491,23 @@ body {
   }
 
   /* ====================================== */
-  
+
   /* Event Registration Form Content */
 
   .eventregistrationcontent {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
   .container2 {
     display: flex;
-    width : 100vw ;
-    padding : 5%;
+    width: 100vw;
+    padding: 5%;
     flex-direction: column;
-    
   }
   .event-details {
-    margin : 2% 0 0 7% ;
+    margin: 2% 0 0 7%;
     font-size: 1.2em;
     font-weight: 900;
   }
@@ -521,7 +520,7 @@ body {
   .event-registration-header {
     font-size: 1em;
     text-transform: capitalize;
-    margin : 0 0 3% 0;
+    margin: 0 0 3% 0;
   }
   .event-register-info {
     margin: 12% 0 0 0;
@@ -702,7 +701,7 @@ body {
   .footerbottom-div {
     background-color: gray;
     display: flex;
-    width  : 100vw;
+    width: 100vw;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
@@ -711,7 +710,6 @@ body {
     padding: 0 0 0 2%;
     font-size: 0.8em;
     list-style-type: none;
-   
   }
   .footerbottom-div2 {
     height: 10vh;
@@ -724,33 +722,104 @@ body {
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
-    border : 1px solid red ; 
+    border: 1px solid red;
   }
-  
+
+  /* ======================================= */
 
   /*  Admin Panel */
 
   /*  Faculty Dashboard Content Section  */
 
+  .facultydashboardcontent {
+    margin: 10%;
+  }
+  .facultydashboard-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  
+
   /* ======================================= */
 
   /*  Coordinator Dashboard Content Section  */
 
+  .coordinatordashboardcontent {
+    margin: 10%;
+  }
+  .coordinatordashboard-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+
   /* ======================================= */
 
   /*  Event Coordinators Content Section  */
-
+  .eventcoordinatorscontent {
+    margin: 10%;
+  }
+  .eventcoordinatordashboard-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
   /* ======================================= */
 
   /*  Volunteer`s Assignment Content Section  */
+
+  .volunteersassignmentcontent {
+    margin: 10%;
+  }
+  .volunteersassignment-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
 
   /* ======================================= */
 
   /*  Support & QA Content Section  */
 
+  .supportqacontent {
+    margin: 10%;
+  }
+  .supportqa-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
   /* ======================================= */
 
   /*  Certificate Download Content Section  */
+
+  .certificatedownloadcontent {
+    margin  : 10%; 
+  }
+  .certificatedownload-container {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
 
   /* ======================================= */
 
@@ -779,7 +848,7 @@ body {
   /* ======================================= */
 
   /*  About Fest Content Section  */
-  
+
   .aboutfestheading {
     font-size: 1.2em;
   }
@@ -818,7 +887,7 @@ body {
   /* =======================================*/
 
   /* Terms & Conditions Content Section  */
-  
+
   .termsandconditionsheading {
     font-size: 1.2em;
   }
@@ -833,7 +902,7 @@ body {
   /* ======================================= */
 
   /*  Privacy Policy Content Section  */
-  
+
   .privacypolicyheading {
     font-size: 1.2em;
   }
@@ -867,9 +936,12 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 15em;
+    border-radius: 10em;
   }
   .reachmeatp {
+    height: 4vh;
+    font-size: 0.8rem;
+    padding: 2% 2% 2% 0;
     margin: 10% 0 0 15%;
     width: 50vw;
   }
@@ -897,7 +969,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin : 10% ;
+    margin: 10%;
   }
   .contactuscontainer {
     height: 60vh;
@@ -918,7 +990,7 @@ body {
   .contactusimg {
     height: 7vh;
     width: 20vw;
-    margin : 60% 0 0 0 ;
+    margin: 60% 0 0 0;
   }
   .contacticons {
     height: 3vh;
