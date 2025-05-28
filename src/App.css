@@ -732,18 +732,92 @@ body {
   /*  Faculty Dashboard Content Section  */
 
   .facultydashboardcontent {
-    margin: 10%;
+    padding : 10%;
   }
   .facultydashboard-container {
-    height: 80vh;
     width: 80vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;  
   }
-  
+  .assign-coordinators-container {
+    height :60vh ;
+    width : 100% ;
+  }
+  .assign-event-coordinator-header-container {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(237, 53, 3);
+  }
+  .assign-event-coordinator-header {
+    color : whitesmoke ;
+    text-align: center;
+    margin :  0 0 0 8%;
 
+  }
+  .signupinput-assign-coor {
+    margin  : 5% ;
+    height: 3.5vh;
+    width  : 70% ; 
+    padding : 1% 0 0 4%;
+  }
+  .event-coordinator-assign-submit-button {
+    height: 4.5vh;
+    width: 100%;
+    font-size: 1.3em;
+    margin: 1% auto 0 0%;
+    color: whitesmoke;
+    background-color: rgb(237, 53, 3);
+    border-radius: 5px;
+  }
+  .coor-ass-inputs-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .assign-event-details-header-container {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(12, 166, 35);
+  }
+  .assign-event-details-header {
+     color : whitesmoke ;
+    text-align: center;
+    margin :  0 0 0 8%;
+  }
+  .event-details-assign-submit-button {
+    height: 4.5vh;
+    width: 100%;
+    font-size: 1.3em;
+    margin: 1% auto 0 0%;
+    color: whitesmoke;
+    background-color: rgb(12, 166, 35);
+    border-radius: 5px;
+  }
+  .hodnote-container {
+    margin : 5% 0 5% 0%;
+    height: 10vh ;
+    text-align: center;
+    display: flex;
+    line-height: 1.5em;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width : 100% ;
+   
+  }
+  .hodnotetext {
+    font-style: italic;
+    font-size: 0.8em;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+  }
   /* ======================================= */
 
   /*  Coordinator Dashboard Content Section  */
