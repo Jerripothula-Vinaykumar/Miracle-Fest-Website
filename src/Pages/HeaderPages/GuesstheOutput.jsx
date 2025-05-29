@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 
+Link
 
 export function GuessTheOutptContent() {
   return (
@@ -21,7 +23,7 @@ export function GuessTheOutptContent() {
               <p>Event End Time : </p>
             </div>
            
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/GuessTheOutputRegistrationContent">Register</Link></button>
              
             </div>
         </div>

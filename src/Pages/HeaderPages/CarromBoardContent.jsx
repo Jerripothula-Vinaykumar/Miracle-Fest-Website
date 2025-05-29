@@ -22,7 +22,7 @@ export function CarromBoardContent() {
               <p>Event End Time : </p>
             </div>
            
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/CarromsRegistrationContent">Register</Link></button>
              
             </div>
         </div>

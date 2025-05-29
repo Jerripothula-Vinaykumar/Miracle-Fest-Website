@@ -23,7 +23,7 @@ export function MensCricketContent() {
               <p>Event End Time : </p>
             </div>
           
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/MensCricketRegistrationContent">Register</Link></button>
              
             </div>
         </div>

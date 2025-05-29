@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom"
 
+    
 export function EssayWritingContent() {
   return (
       <main className="essaywritingcontent">
@@ -20,7 +22,7 @@ export function EssayWritingContent() {
               <p>Event End Time : </p>
             </div>
           
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/EssayWritingRegistrationContent">Register</Link></button>
              
             </div>
         </div>

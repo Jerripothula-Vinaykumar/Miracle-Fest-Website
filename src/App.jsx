@@ -23,7 +23,20 @@ import { CarromBoardContent } from "./Pages/HeaderPages/CarromBoardContent";
 import { FreeFireContent } from "./Pages/HeaderPages/FreeFireContent";
 import { PubgContent } from "./Pages/HeaderPages/PubgContent";
 import { WomensThrowBallContent } from "./Pages/HeaderPages/WomensThrowBall";
+
 import { EventRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { MensCricketRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { MensKabaddiRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { MensVolleyBallRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { MensKhoKhoRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { CarromsRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { FreeFireRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { PubgRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { WomesThrowBallRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { ProcoderRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { GuessTheOutputRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { QuizRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
+import { EssayWritingRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
 
 import { PrivacyPolicyContent } from "./Pages/FooterPages/Privacy";
 import { AboutusContent } from "./Pages/FooterPages/Aboutus";
@@ -135,9 +148,59 @@ function App() {
         <Route
           path="/EventRegistrationContent"
           element={<EventRegistrationContent />}
-        >
+        > </Route>
+           <Route
+          path="/MensCricketRegistrationContent"
+          element={<MensCricketRegistrationContent />}
+        ></Route>
+          <Route
+          path="/MensKabaddiRegistrationContent"
+          element={<MensKabaddiRegistrationContent />}
+        ></Route>
+
+         <Route
+          path="/MensVolleyBallRegistrationContent"
+          element={<MensVolleyBallRegistrationContent />}
+        ></Route>
+         <Route
+          path="/MensKhoKhoRegistrationContent"
+          element={<MensKhoKhoRegistrationContent />}
+        ></Route>
+        <Route
+          path="/CarromsRegistrationContent"
+          element={<CarromsRegistrationContent />}
+        ></Route>
+           <Route
+          path="/FreeFireRegistrationContent"
+          element={<FreeFireRegistrationContent />}
+        ></Route>
+          <Route
+          path="/PubgRegistrationContent"
+          element={<PubgRegistrationContent />}
+        ></Route>
+         <Route
+          path="/WomesThrowBallRegistrationContent"
+          element={<WomesThrowBallRegistrationContent />}
+        ></Route>
+        <Route
+          path="/ProcoderRegistrationContent"
+          element={<ProcoderRegistrationContent />}
+        ></Route>
+         <Route
+          path="/GuessTheOutputRegistrationContent"
+          element={<GuessTheOutputRegistrationContent />}
+        ></Route>
+         <Route
+          path="/QuizRegistrationContent"
+          element={<QuizRegistrationContent />}
+        ></Route>
+        <Route
+          path="/EssayWritingRegistrationContent"
+          element={<EssayWritingRegistrationContent />}
+        ></Route>
+
          
-        </Route>
+       
 
         {/* Footer Page Contents */}
 

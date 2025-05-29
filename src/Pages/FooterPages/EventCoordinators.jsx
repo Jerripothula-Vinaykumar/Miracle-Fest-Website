@@ -2,7 +2,10 @@
 export function EventCoordinatorsContent() {
   return (
     <main className="eventcoordinatorscontent">
-      Event Coordinators Content Page Section
+      <div className="eventcoordinatordashboard-container"> 
+         Event Coordinators Content Page Section
+      </div>
+    
     </main>
   );
 }

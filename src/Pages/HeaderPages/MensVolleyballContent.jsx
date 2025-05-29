@@ -21,7 +21,7 @@ export function MensVolleyBallContent() {
               <p>Event End Time : </p>
             </div>
          
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/MensVolleyBallRegistrationContent">Register</Link></button>
              
             </div>
         </div>

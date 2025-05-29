@@ -21,7 +21,7 @@ export function WomensThrowBallContent() {
               <p>Event End Time : </p>
             </div>
           
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/WomesThrowBallRegistrationContent">Register</Link></button>
              
             </div>
         </div>

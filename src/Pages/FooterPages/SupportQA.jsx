@@ -1,6 +1,11 @@
 
 export function SupportQAContent() {
   return (
-    <main className="Support QA Content">Support & QAContent Page Section</main>
+    <main className="Support QA Content">
+      <div className="supportqa-container">
+        Support & QAContent Page Section
+      </div>
+      
+      </main>
   );
 }

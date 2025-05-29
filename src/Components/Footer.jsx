@@ -19,6 +19,7 @@ export function Footer() {
           <li className="footer-bottom2">
             <Link to="/PrivacyPolicyContent">Privacy</Link>
           </li>
+          
         </div>
       );
       break;

@@ -4,10 +4,11 @@ export function AboutusContent() {
     <main className="aboutuscontent">
       <div className="authcontainer">
         <div className="authphoto"></div>
-        <p className="hellothere">
-          Hello there , I am J Vinay Kumar {"\u{1F44B}"}{" "}
-          <p className="author">Author of this Application</p>
-        </p>
+        <div className="hellothere">
+          <p >
+          Hello there , I am J Vinay Kumar {"\u{1F44B}"}</p>
+          <p >Author of this Application</p>
+      </div>
         <div className="info">
           <p className="user">Name : </p>
           <p className="user">Year : </p>

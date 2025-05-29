@@ -23,7 +23,7 @@ export function MensKabaddiContent() {
               <p>Event End Time : </p>
             </div>
           
-            <button className="register-button"><Link to="/EventRegistrationContent">Register</Link></button>
+            <button className="register-button"><Link to="/MensKabaddiRegistrationContent">Register</Link></button>
              
             </div>
         </div>

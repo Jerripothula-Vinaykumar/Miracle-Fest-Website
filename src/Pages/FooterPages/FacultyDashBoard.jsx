@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 
 export function FacultyDashboardContent() {
   const role = "faculty";
@@ -15,11 +15,25 @@ export function FacultyDashboardContent() {
                 </p>
               </div>
              <div className="coor-ass-inputs-container">
-              <input
+               <select
                 type="text"
                 className="signupinput-assign-coor"
                 placeholder="  Name of the Event"
-              />
+              >
+              <option value="None" selected> None</option>
+              <option value="Banner Launch"> Banner Launch</option>
+              <option value="Traditional Day"> Traditional Day</option>
+              <option value="Final Fest"> Final Fest</option>
+              <option value=" Men`s Cricket"> Men`s Cricket</option>
+              <option value="Men`s Kabaddi"> Men`s Kabaddi</option>
+              <option value="Men`s Volley Ball"> Men`s Volley Ball</option>
+              <option value="Men`s Kho Kho"> Men`s Kho Kho</option>              
+              <option value=" Carroms"> Carroms</option>             
+              <option value="PUBG"> PUBG</option>         
+              <option value=" Free Fire"> Free Fire</option>
+              <option value=" Womens Throw Ball"> Womens Throw Ball</option>
+              
+               </select>
               <input
                 type="text"
                 className="signupinput-assign-coor"

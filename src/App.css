@@ -524,9 +524,9 @@ body {
   }
   .event-register-info {
     margin: 12% 0 0 0;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 2em;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
   .signupinput-eve-reg {
     margin: 4%;
@@ -617,8 +617,6 @@ body {
     width: 55vw;
     border-radius: 2px;
     border: none;
-  }
-  .signupinputbutton:hover {
     background-color: rgba(62, 164, 7, 0.888);
   }
   .haveanacc {
@@ -722,7 +720,6 @@ body {
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
-    border: 1px solid red;
   }
 
   /* ======================================= */
@@ -848,17 +845,19 @@ body {
     align-items: center;
     border: 2px solid black;
   }
+
   /* ======================================= */
 
   /*  Volunteer`s Assignment Content Section  */
 
   .volunteersassignmentcontent {
-    margin: 10%;
-  }
+
+   }
   .volunteersassignment-container {
     height: 80vh;
     width: 80vw;
     display: flex;
+    margin: 10%;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
@@ -869,11 +868,12 @@ body {
   /*  Support & QA Content Section  */
 
   .supportqacontent {
-    margin: 10%;
+   
   }
   .supportqa-container {
     height: 80vh;
     width: 80vw;
+     margin: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1028,12 +1028,17 @@ body {
     margin: 10% 0 0 5%;
   }
   .hellothere {
+   
+    width : 100%;
     font-size: 0.9em;
-    margin: 10% 0 0 18%;
+    margin : 5% 0 2% 0 ;
+    display: flex;
+    padding : 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .author {
-    margin: 5% 0 0 0;
-  }
+ 
 
   /* ======================================= */
 
