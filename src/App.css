@@ -353,6 +353,7 @@ body {
 /* For Laptops  Devices*/
 
 @media (max-width: 768px) {
+
   /* Header Section */
 
   .header {
@@ -390,6 +391,23 @@ body {
   .profileicon {
     height: 2vh;
   }
+
+  /* ===========================  */
+
+  .landingpagecontent {
+    background: rgb(7, 227, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 80vh;
+  }
+  .landingpagepic {
+    min-height: 30vh;
+    min-width: 40vw;
+    border-radius: 25em;
+  }
+
 
   /* ===========================  */
 

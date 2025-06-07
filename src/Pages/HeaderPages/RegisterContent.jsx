@@ -1,8 +1,12 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function RegisterContent() {
- 
+  
+    const navigate = useNavigate();
+    const navigateto = () => {
+      navigate("/HomeContent");
+    }
   return (
     <main className="registercontent">
       <section className="register-container">
@@ -30,7 +34,7 @@ export function RegisterContent() {
           <input type="checkbox" className="checkbox" />{" "}
           <p className="verify">Verify if you are a human</p>
         </div>
-        <button className="signupinputbutton">Sign up</button>
+        <button onClick={navigateto} className="signupinputbutton">Sign up</button>
         <div>
           <p className="haveanacc">
             Have an account ? <Link to="/SignupContent">Sign in</Link>

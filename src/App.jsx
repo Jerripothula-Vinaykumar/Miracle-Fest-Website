@@ -2,6 +2,7 @@ import React from "react";
 
 import { BrowserRouter , Routes , Route  } from 'react-router-dom'
 
+import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
 import { HomeContent } from "./Pages/HeaderPages/HomeContent";
 import { EventContent } from "./Pages/HeaderPages/EventContent";
@@ -71,9 +72,15 @@ function App() {
     <BrowserRouter>
     <MainHeader />
       <Routes>
+        {/* Landing Page Content */}
+
+         <Route path="/" element={<LandingPageContent />}>
+         
+        </Route>
+          
         {/* Header Page Contents */}
 
-        <Route path="/" element={<HomeContent />}>
+        <Route path="/HomeContent" element={<HomeContent />}>
          
         </Route>
         <Route path="/EventContent" element={<EventContent />}>

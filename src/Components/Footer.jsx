@@ -6,6 +6,25 @@ export function Footer() {
   const loc = useLocation();
 
   switch (loc.pathname) {
+    
+    case "/" :
+       return (
+        <div className="footerbottom-div2">
+            
+          <li className="footer-bottom2">Copyright &copy; 2025</li>
+          <li className="footer-bottom">|</li>
+          <li className="footer-bottom2">
+            <Link to="/TermsandConditionsContent">Terms</Link>
+          </li>
+          <li className="footer-bottom2">|</li>
+          <li className="footer-bottom2">
+            <Link to="/PrivacyPolicyContent">Privacy</Link>
+          </li>
+          
+        </div>
+      );
+      break;
+    
     case "/RegisterContent"  :
       return (
         <div className="footerbottom-div2">
@@ -42,10 +61,6 @@ export function Footer() {
       return (
         <div className="footerbottom-div2">
           <li className="footer-bottom2">Copyright &copy; 2025</li>
-          <li className="footer-bottom">|</li>
-          <li className="footer-bottom2">
-            <Link to="/TermsandConditionsContent">Terms</Link>
-          </li>
           <li className="footer-bottom2">|</li>
           <li className="footer-bottom2">
             <Link to="/PrivacyPolicyContent">Privacy</Link>
@@ -60,10 +75,6 @@ export function Footer() {
           <li className="footer-bottom">|</li>
           <li className="footer-bottom2">
             <Link to="/TermsandConditionsContent">Terms</Link>
-          </li>
-          <li className="footer-bottom2">|</li>
-          <li className="footer-bottom2">
-            <Link to="/PrivacyPolicyContent">Privacy</Link>
           </li>
         </div>
       );
