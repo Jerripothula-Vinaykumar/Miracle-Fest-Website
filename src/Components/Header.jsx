@@ -70,7 +70,27 @@ export function MainHeader() {
                     <ul className="header-ul">
 
                         <li className="logo"><h1><Link to="/">MIRACLE</Link></h1></li>
-                        <li className="nav-li"><Link to="/RegisterContent">Login</Link></li>
+                           <li className="landingaboutfest"><Link to="/AboutFestContent">About Fest </Link></li>
+                        <button className="landingregister"><Link to="/RegisterContent">Register</Link></button>
+
+                 </ul>
+                </nav>
+           
+        </header>
+    )
+
+    break;
+        
+        case "/AboutFestContent"  :
+
+    return (
+        <header className="header">
+
+                <nav className="header-nav"> 
+
+                    <ul className="header-ul">
+
+                        <li className="logo"><h1><Link to="/">MIRACLE</Link></h1></li>
 
                  </ul>
                 </nav>

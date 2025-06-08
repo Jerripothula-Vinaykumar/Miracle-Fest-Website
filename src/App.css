@@ -394,8 +394,10 @@ body {
 
   /* ===========================  */
 
+  /* Landing Page Content */
+  
   .landingpagecontent {
-    background: rgb(7, 227, 239);
+    background: rgb(54, 190, 142);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,14 +409,30 @@ body {
     min-width: 40vw;
     border-radius: 25em;
   }
-
+  .landingregister {
+    margin: 9% 4% 0% 0;
+    height: 3.5vh;
+    width : 15vw;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgba(255 , 0,0 , 0.7);
+    color : whitesmoke;
+    border : 2px solid red;
+    border-radius: 0.5em;
+  }
+  .landingaboutfest {
+    margin : 0 4% 0 0 ;
+    font-size: 1em;
+    text-align: center;
+    padding: 1%;
+  }
 
   /* ===========================  */
 
   /* Home Content Section */
 
   .homecontent {
-    background: rgb(7, 227, 239);
+    background: rgb(42, 209, 218);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -439,6 +457,7 @@ body {
     align-items: center;
     padding: 2% 4% 4% 4%;
   }
+
   .eventheader {
     margin: 10% auto 0 1%;
     font-size: 1.4em;
