@@ -6,7 +6,8 @@ export function EventContent() {
        <main className="eventcontent"> 
             <h1 className="eventheader"> List of Events in Miracle fest</h1>
             <h1 className="culturalheader"> Cultural Events</h1>
-              <div className="eventcard">
+           <div className="culturalevents">
+               <div className="eventcard">
                <h1 className="eventname"> Banner Launch</h1>
                <hr className="chr" />
                <p  className="eventstartdate">Event date :</p>
@@ -33,7 +34,10 @@ export function EventContent() {
                <hr className="chr" />
                <button className="eventmore"><Link to="/FinalFestContent">more</Link></button>
             </div>
+            </div>
+           
               <h1 className="culturalheader"> Technical Events</h1>
+               <div className="culturalevents">
               <div className="eventcard">
                <h1 className="eventname"> Pro Coder</h1>
                <hr className="chr" />
@@ -70,8 +74,9 @@ export function EventContent() {
                <hr className="chr" />
                <button className="eventmore"><Link to="/EssayWritingContent">more</Link></button>
             </div>
-            
-             <h1 className="culturalheader">Sports Events</h1>
+            </div>
+           <h1 className="culturalheader">Sports Events</h1>
+          <div className="culturalevents">
             <div className="eventcard">
                <h1 className="eventname">Men`s Cricket</h1>
                <hr className="chr" />
@@ -144,6 +149,7 @@ export function EventContent() {
                  <p className="eventstartdate">Event Venue :</p>    
                 <hr className="chr" />
                 <button className="eventmore"><Link to="/WomensThrowBallContent">more</Link></button>
+            </div>
             </div>
        </main>
     )

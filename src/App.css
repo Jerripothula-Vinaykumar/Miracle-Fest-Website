@@ -473,7 +473,7 @@ body {
   .eventcard {
     height: 21vh;
     width: 70vw;
-    margin-top: 2%;
+    margin-top: 4%;
     border-radius: 20px;
     background-color: rgb(43, 252, 245);
     border: 1.8px solid black;
@@ -720,32 +720,41 @@ body {
   /* ======================================= */
 
   /* Footer Section */
-
-  .footerul {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    align-items: center;
-    justify-content: center;
+  .footer {
+    padding : 4%;
     background-color: gray;
   }
-  .footerul h1 {
-    font-size: 1.4em;
-    color: green;
+  .footernav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+  .footernav > * {
+    margin : 1%;
+  }
+  .navdiv h1 {
+    font-size: 1.2em;
+    color:green;
+    text-align: center;
+  }
+  .navdiv li{
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 2em;
+    text-align: center;
+  }
+
   .footerbottom-div {
     background-color: gray;
     display: flex;
-    width: 100vw;
-    flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1em;
-    padding: 0 0 0 2%;
+    gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
+    margin : 2%;
   }
  .footerbottom-div2 {
     height: 10vh;
@@ -888,9 +897,7 @@ body {
 
   /*  Volunteer`s Assignment Content Section  */
 
-  .volunteersassignmentcontent {
-
-   }
+  
   .volunteersassignment-container {
     height: 80vh;
     width: 80vw;
@@ -905,9 +912,7 @@ body {
 
   /*  Support & QA Content Section  */
 
-  .supportqacontent {
-   
-  }
+
   .supportqa-container {
     height: 80vh;
     width: 80vw;
@@ -1674,7 +1679,7 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    min-height: 70vh;
+    min-height: 100vh;
   }
   .homepic {
     margin: 4%;
@@ -1695,46 +1700,53 @@ body {
     padding: 1em;
   }
   .eventheader {
-    margin: 5% auto 0% 5%;
+    margin: 1% auto 0% 2%;
     font-size: 2em;
     display: block;
+    width : 30%;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: bold;
     color: rgb(2, 21, 6);
+  
+  }
+  .culturalevents {
+    display: grid;
+    width : 100%;
+    grid-template-columns: repeat(3,1fr);
+    margin : 1%;
   }
   .culturalheader {
-    margin: 2% auto 0 20%;
+    margin: 2% auto 0 2%;
     font-size: 1.5em;
     font-family: cursive;
     color: rgb(53, 45, 122);
   }
   .eventcard {
-    height: 47vh;
-    width: 45vw;
-    margin: 1em;
+    height: 35vh;
+    width: 30vw;
+    margin: 4%;
     border-radius: 1em;
     background-color: rgb(43, 252, 245);
     border: 3px solid black;
   }
   .chr {
-    width: 43.7vw;
+    width: 29.7vw;
   }
   .eventmore {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0% 0 0 24.9em;
+    margin: 0% 0 0 84%;
   }
   .eventstartdate {
-    margin: 3% auto 4.5% 1em;
+    margin: 2% auto 4.5% 4%;
     font-size: 1.2em;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     opacity: 0.5;
   }
-
   .eventname {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: serif;
-    margin: 15px 0 0 1em;
+    margin: 2% 0 0 4%;
   }
 
   /* ==================================================== */
@@ -1802,9 +1814,7 @@ body {
     background-color: rgb(245, 46, 46);
     border-radius: 0.5em;
   }
-  .register-button:hover {
-    /*  background-color : rgb(206, 165, 112); */
-  }
+
   .eventregistrationcontent {
     margin: 9% auto 0 10%;
   }
@@ -1922,28 +1932,29 @@ body {
   .myprofilecontent {
     min-height: 100vh;
     display: flex;
-    padding: 2%;
+    padding: 1%;
     background: whitesmoke;
     align-items: center;
     justify-content: center;
   }
   .myprofilecontainer {
-    height: 105vh;
     width: 50vw;
-    margin: 2% 0 0 0;
+    margin: 2%;
     border: 2px solid black;
   }
   .profilepicture {
     margin: 2em 0em 0 40%;
-    height: 19vh;
+    height: 20vh;
   }
   .changeprofile {
     height: 5vh;
-
-    margin: 0% 0 0 56%;
+    margin :  0 0 0 80%;
+    border : 1px solid black;
   }
-  .info {
-    margin: 7% 0 0 10%;
+
+  .myprofileinfo {
+    margin: 6% 0 0 20%;
+  
   }
   .user {
     margin-top: 1em;
@@ -1955,7 +1966,46 @@ body {
 
   /* Footer Section  */
 
-  .footerul {
+  .footer {
+    height : 47vh;
+    background-color: gray;
+  }
+
+  .footernav {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+  }
+
+  .navdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:0.5em;
+    margin : 8%;
+  }
+  .navdiv h1 {
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color : green;
+    text-align: center;
+  }
+  .navdiv li {
+    list-style-type: none ;
+  }
+  .footerbottom-div {
+    display: flex;
+    align-items: center;
+    gap : 2em;
+    justify-content: center;
+    margin : 1%;
+  }
+  .footerbottom-div li {
+    list-style-type: none;
+  }
+
+  /* .footerul {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -1978,19 +2028,18 @@ body {
     margin: 1% 0 0 0;
     font-size: 1em;
     flex-wrap: nowrap;
-  }
+  }*/
    .footerbottom-div2 {
     height: 10vh;
     background-color: rgb(217, 201, 201);
     display: flex;
-  
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
-  }
+  } 
 
   /*  Admin Panel */
 
@@ -2081,7 +2130,8 @@ body {
   /*  About us Content Section  */
 
   .aboutuscontent {
-    margin: 5%;
+    min-height: 70vh;
+    padding: 1%;
   }
   .authcontainer {
     display: flex;
@@ -2090,22 +2140,22 @@ body {
     align-items: center;
   }
   .authphoto {
-    height: 50vh;
-    width: 30%;
+    height: 40vh;
+    width: 35%;
     border: 2px solid rgb(162, 162, 171);
-    margin: 1% 0 0 2%;
+    margin: 3% 0 0 2%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 15em;
+    border-radius: 1em;
   }
   .reachmeat {
     margin: 2% auto 0 29%;
   }
   .reachmeatp {
-    font-size: 1.5em;
-    margin: 5%;
+    font-size: 1.3em;
+    margin: 5%  0 0 10%; 
     width: 20vw;
   }
   .smicons {
@@ -2117,15 +2167,25 @@ body {
     margin: 1em 0 0 1em;
   }
   .hellothere {
-    font-size: 2em;
-    margin: 1em 0 0 0em;
+    font-size: 1.5em;
+    margin: 2% 0 0 0;
   }
   .author {
     margin: 1% 0 0 0;
   }
   .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2em;
-    margin: 2% auto 0 30%;
+    width : 50%;
+    margin: 2% auto 0 22%;
+  }
+  .user {
+    text-align: justify;
+    width : 50%;
+  
   }
   /* ======================================= */
 

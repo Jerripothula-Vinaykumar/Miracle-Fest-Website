@@ -25,7 +25,7 @@ export function Footer() {
       );
       break;
     
-    case "/RegisterContent"  :
+    case "/AboutFestContent"  :
       return (
         <div className="footerbottom-div2">
             
@@ -42,6 +42,26 @@ export function Footer() {
         </div>
       );
       break;
+
+       case "/RegisterContent"  :
+      return (
+        <div className="footerbottom-div2">
+            
+          <li className="footer-bottom2">Copyright &copy; 2025</li>
+          <li className="footer-bottom">|</li>
+          <li className="footer-bottom2">
+            <Link to="/TermsandConditionsContent">Terms</Link>
+          </li>
+          <li className="footer-bottom2">|</li>
+          <li className="footer-bottom2">
+            <Link to="/PrivacyPolicyContent">Privacy</Link>
+          </li>
+          
+        </div>
+      );
+      break;
+  
+
     case "/SignupContent":
       return (
         <div className="footerbottom-div2">
@@ -68,7 +88,7 @@ export function Footer() {
         </div>
       );
       break;
-       case "/PrivacyPolicyContent":
+      case "/PrivacyPolicyContent":
       return (
         <div className="footerbottom-div2">
           <li className="footer-bottom2">Copyright &copy; 2025</li>
@@ -83,7 +103,7 @@ export function Footer() {
       return (
         <footer className="footer">
           <nav className="footernav">
-            <ul className="footerul">
+            <div className="navdiv">
               <h1>Admin Panel</h1>
               <li>
                 <Link to="/FacultyDashboardContent">Faculty Dashboard</Link>
@@ -109,6 +129,8 @@ export function Footer() {
                   Certificate Download
                 </Link>
               </li>
+              </div>
+              <div className="navdiv">
 
               <h1>Gamification&Funfeatures</h1>
               <li>
@@ -120,7 +142,8 @@ export function Footer() {
               <li>
                 <Link to="/CulturalEventsContent">Cultural Events</Link>
               </li>
-
+          </div>
+          <div className="navdiv">
               <h1>Sponsors&Gallery</h1>
               <li>
                 <Link to="/SponsorslogosandoffersContent">
@@ -135,7 +158,8 @@ export function Footer() {
               <li>
                 <Link to="/AboutfestContent">About Fest</Link>
               </li>
-
+          </div>
+          <div className="navdiv">
               <h1>Suport&Accessbility</h1>
               <li>
                 <Link to="/FaqSectionContent">FAQ Section</Link>
@@ -146,7 +170,8 @@ export function Footer() {
               <li>
                 <Link to="/LiveChatSupportContent"> Live Chat Support</Link>
               </li>
-
+              </div>
+            <div className="navdiv">
               <h1>Post-fest</h1>
               <li>
                 <Link to="/FeedbackformContent">Feedback Form</Link>
@@ -171,6 +196,8 @@ export function Footer() {
                   Archive of Past Events and Winner`s
                 </Link>
               </li>
+            </div>
+        </nav>
               <div className="footerbottom-div">
                 <li className="footer-bottom">Copyright &copy; 2025 </li>
                 <li className="footer-bottom">|</li>
@@ -183,9 +210,9 @@ export function Footer() {
                 </li>
                
               </div>
-              <hr></hr>
-            </ul>
-          </nav>
+            
+        
+          
         </footer>
       );
       break;
