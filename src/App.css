@@ -12,7 +12,7 @@
 
 /*  Body Section */
 body {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 /* ======================================= */
 
@@ -150,198 +150,8 @@ body {
 
 /* For Small Devices ( Mobiles )  */
 
-@media (min-width: 475px) and (max-width: 669px) {
-  /*  Header Section */
-
-  .header {
-    height: 10vh;
-    width: 100%;
-    background: rgb(199, 21, 21);
-  }
-  .header-nav {
-    padding-top: 3em;
-  }
-  .header-ul {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-  }
-
-  .header-ul li {
-    margin-inline: 0.7em;
-  }
-  .header .logo {
-    margin-right: auto;
-  }
-  .header .logo h1 {
-    font-size: 2em;
-  }
-
-  .header nav {
-    width: 100%;
-  }
-
-  .header .header-ul li {
-    font-size: 0.7em;
-    text-align: center;
-    color: whitesmoke;
-  }
-
-  /* ======================================= */
-
-  /*  Home Content Section  */
-
-  /* ======================================= */
-
-  /*  Event Content Section  */
-
-  /* ======================================= */
-
-  /*  Schedule Content Section  */
-
-  /* ======================================= */
-
-  /*  Gallery Content Section  */
-
-  /* ======================================= */
-
-  /*  Leaderboard Content Section  */
-
-  /* ======================================= */
-
-  /*  Register Content Section  */
-
-  /* ======================================= */
-
-  /*  My Profie Content Section  */
-
-  /* ======================================= */
-
-  /*  FOOTER SECTION */
-
-  .footer {
-    max-width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 3em;
-    background: gray;
-  }
-  .footer .fcon .fli {
-    padding-top: 1em;
-    text-align: center;
-    list-style-type: none;
-  }
-  .footer .fcon .fli h1 {
-    font-weight: 1000;
-    font-size: 1.3rem;
-    color: green;
-  }
-  .footer .fcon .fli li {
-    line-height: 1.8em;
-  }
-  hr {
-    margin: 1em;
-  }
-
-  /* ======================================= */
-
-  /*  Admin Panel */
-
-  /*  Faculty Dashboard Content Section  */
-
-  /* ======================================= */
-
-  /*  Coordinator Dashboard Content Section  */
-
-  /* ======================================= */
-
-  /*  Event Coordinators Content Section  */
-
-  /* ======================================= */
-
-  /*  Volunteer`s Assignment Content Section  */
-
-  /* ======================================= */
-
-  /*  Support & QA Content Section  */
-
-  /* ======================================= */
-
-  /*  Certificate Download Content Section  */
-
-  /* ======================================= */
-
-  /* Gamification and Funfeatures     */
-
-  /*  Classical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Technical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Cultural Events Content Section  */
-
-  /* ======================================= */
-
-  /* Sponsors and Gallery */
-
-  /*  Sponsor Logos and Offers Content Section  */
-
-  /* ======================================= */
-
-  /*  Stalls Info and Coupons Content Section  */
-
-  /* ======================================= */
-
-  /*  About Fest Content Section  */
-
-  /* ======================================= */
-
-  /* Suport & Accessbility */
-
-  /*  FAQ Section Content Section  */
-
-  /* ======================================= */
-
-  /*  Emergency Contacts Content Section  */
-
-  /* ======================================= */
-
-  /* Post Fest */
-
-  /*  Feedback Form Content Section  */
-
-  /* ======================================= */
-
-  /*  Results & Winners Display Content Section  */
-
-  /* ======================================= */
-
-  /*  Export Data (Excel/PDF) Content Section  */
-
-  /* =======================================*/
-
-  /* Terms & Conditions Content Section  */
-
-  /* ======================================= */
-
-  /*  Privacy Policy Content Section  */
-
-  /* =======================================*/
-
-  /*  About us Content Section  */
-
-  /* ======================================= */
-
-  /*  Contact us Content Section  */
-
-  /* =======================================*/
-
-  /*  Archive of Past Events and Winner`s Content Section  */
-
-  /* =======================================*/
+@media (min-width: 475px) {
+ 
 }
 
 /* For Medium Devices ( Tablets ) */
@@ -357,13 +167,11 @@ body {
   /* Header Section */
 
   .header {
-    height: 15vh;
+    height: 11vh;
     width: 100%;
     background-color: rgb(18, 17, 17);
   }
-  .header-nav {
-    padding-top: 8%;
-  }
+ 
   .header-ul {
     display: flex;
     flex-direction: row;
@@ -374,10 +182,10 @@ body {
   }
   .header .header-nav .header-ul .logo {
     height: 100%;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-family: serif;
     font-style: bold;
-    margin: 0% auto 6% 4%;
-    font-weight: 900;
+    margin: 0% auto 0% 2%;
   }
   .header .header-nav .header-ul .nav-li {
     padding-top: 6%;
@@ -471,8 +279,7 @@ body {
     color: rgb(27, 10, 179);
   }
   .eventcard {
-    height: 21vh;
-    width: 70vw;
+    width: 100%;
     margin-top: 4%;
     border-radius: 20px;
     background-color: rgb(43, 252, 245);
@@ -484,7 +291,7 @@ body {
   }
   .eventmore {
     font-size: 1em;
-    margin: 1% 2% 5% 81%;
+    margin: 1% 2% 2% 81%;
   }
   .eventstartdate {
     margin: 3.5% 0 0 3%;
@@ -1088,76 +895,6 @@ body {
   .authinfo {
     width : 100%;
   }
-  
-
- 
-
-  /*
-  .authcontainer {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding :1%;
-  }
-
-  .authphoto {
-    height: 40vh;
-    width: 75%;
-    border: 2px solid rgb(162, 162, 171);
-    margin: 3% 0 0 2%;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1em;
-  }
-  .aboutuscon {
-    height: 70%;
-    width : 90%;
-    padding: 2%;
-    margin :  13% 0 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .hellothere {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap:0.5em;
-    font-family: serif;
-    font-size: 1.2em;
-    margin: 2% 0 0 0;
-    width : 75%;
-  }
-  .authinfo {
-    width : 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  .reachmeat {
-    margin: 1% 0 0 0%;
-  }
-  .reachmeatp {
-    font-size: 1.1em;
-    margin: 5%  0 0 0%; 
-    width: 20vw;
-  } 
-   .smicons {
-    display: flex;
-    gap :1em;
-    width : 40%;
-  
-  }
-  .smimg {
-    height: 4vh;
-    margin: 1em 0 0 0;
-  }
-  */
 
  
 
@@ -1239,10 +976,48 @@ body {
 
   /* =======================================*/
 }
+@media (min-width : 769px) {
+      /* Header Section */
+
+  .header {
+    height: 15vh;
+    width: 100%;
+    background-color: rgb(18, 17, 17);
+  }
+  .header-nav {
+    padding-top: 0.5em;
+    height: 75%;
+  }
+  .header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+    flex-wrap: nowrap;
+    flex: 1 1 100px;
+  }
+  .header .header-nav .header-ul .logo {
+    height: 100%;
+    font-size: 1.5em;
+    font-style: bold;
+    margin: 0.5em auto 2em 0.8em;
+  }
+  .header .header-nav .header-ul .nav-li {
+    padding-top: 15px;
+    margin: 2.5em 1em 0em 0em;
+  }
+  .header .header-ul li {
+    font-size: 1.5em;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+}
 
 /* For Desktps  */
 
-@media (min-width: 1024px) and (max-width: 1365px) {
+@media (min-width: 1024px)  {
+  
   /* Header Section */
 
   .header {
@@ -1413,7 +1188,8 @@ body {
 
 /* ======================================  */
 
-@media (min-width: 1366px) and (max-width: 1920px) {
+@media (min-width: 1366px) {
+
   /* Header Section */
 
   .header {
@@ -1699,10 +1475,9 @@ body {
   }
   .header .header-nav .header-ul .logo {
     height: 100%;
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: serif;
     margin: 1% auto 0 0;
-    font-weight: 500;
   }
 
   .header .header-ul .nav-li {
@@ -1884,7 +1659,7 @@ body {
     font-size: 1.2em;
   }
   .register-button {
-    height: 6vh;
+    height: 7vh;
     width: 25vw;
     font-size: 2em;
     margin: 10% auto 0 0;
@@ -2009,7 +1784,6 @@ body {
 
   .myprofilecontent {
     display: flex;
-    padding: 0;
     background: whitesmoke;
     align-items: center;
     justify-content: center;
@@ -2021,27 +1795,27 @@ body {
     gap : 5em;
     margin: 2%;
   }
+ 
   .profilepiccon {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20% 0 10% 20%;
-    height: 55vh;
+    height: 45vh;
     width : 60%;
     border : 2px solid gray;
     border-radius: 1em; 
+
   }
   
-
   .myprofileinfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    font-size: 1em;
     width : 80%;
-    padding :  5% 0 5% 0 ;
+    padding :  5% 0 5% 5% ;
     margin: 6% 0% 10% 0%;
-  
   }
   .user {
     margin-top: 1em;
@@ -2061,7 +1835,6 @@ body {
   .footernav {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-
   }
 
   .navdiv {
@@ -2106,7 +1879,107 @@ body {
   /*  Admin Panel */
 
   /*  Faculty Dashboard Content Section  */
+  
+  .facultydashboardcontent {
+    padding : 2%;
+  }
+  .facultydashboard-container {
+    height: 70vh;
+    padding :3% 0 0 4% ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin :  0 0 0% 0;
+    width : 100% ;
+  }
+  .assign-coordinators-container {
+   margin : 0 0 0 20%;
+    width : 80%;
+  }
 
+  .assign-event-coordinator-header-container {
+    height: 6vh;
+    width : 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(237, 53, 3);
+    border-radius: 0.4em;
+  }
+  .assign-event-coordinator-header {
+    color : whitesmoke ;
+    text-align: center;
+    margin :  0 0 0 8%;
+
+  }
+  .signupinput-assign-coor {
+    margin  : 2% ;
+    width  : 50% ; 
+    padding : 1% 0 1% 3%;
+   
+  }
+  .event-coordinator-assign-submit-button {
+    height: 4.5vh;
+    width: 70%;
+    font-size: 1.3em;
+    margin: 1% auto 0 0%;
+    color: whitesmoke;
+    background-color: rgb(237, 53, 3);
+    border-radius: 5px;
+  }
+  .coor-ass-inputs-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+  }
+  .assign-event-details-container {
+    padding: 5%;
+    width : 80%;
+  }
+
+
+  .assign-event-details-header-container {
+    height: 6vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(12, 166, 35);
+    border-radius: 0.4em;
+    margin : 0% 0 0% 0;
+  }
+  .assign-event-details-header {
+     color : whitesmoke ;
+    text-align: center;
+    margin :  0 0 0 8%;
+  }
+  .event-details-assign-submit-button {
+    height: 5vh;
+    width: 60%;
+    font-size: 1.3em;
+    margin: 4% auto 0 0%;
+    color: whitesmoke;
+    background-color: rgb(12, 166, 35);
+    border-radius: 5px;
+  }
+  .hodnote-container {
+    margin : 1% 0 0% 0%;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    line-height: 1.5em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 100% ;
+    font-family: serif;
+  }
+  .hodnotetext {
+    font-style: italic;
+    font-size: 0.8em;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+  }
   /* ======================================= */
 
   /*  Coordinator Dashboard Content Section  */

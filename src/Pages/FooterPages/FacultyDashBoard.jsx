@@ -8,7 +8,9 @@ export function FacultyDashboardContent() {
       return (
         <main className="facultydashboardcontent">
           <div className="facultydashboard-container">
+      
             <div className="assign-coordinators-container">
+              
               <div className="assign-event-coordinator-header-container">
                 <p className="assign-event-coordinator-header">
                   Assign Event Coordinator
@@ -65,6 +67,7 @@ export function FacultyDashboardContent() {
               </button>
 
             </div>
+            
            <div className="assign-event-details-container">
               <div className="assign-event-details-header-container">
                 <p className="assign-event-details-header">
@@ -96,6 +99,13 @@ export function FacultyDashboardContent() {
                 className="signupinput-assign-coor"
                 placeholder="Event Date ( D - M - Y )"
               />
+               <input
+                type="text"
+                className="signupinput-assign-coor"
+                placeholder="Event Venue"
+              />
+              
+
               <input
                 type="text"
                 className="signupinput-assign-coor"
@@ -112,7 +122,11 @@ export function FacultyDashboardContent() {
                 Set Event Details
               </button>
             </div>
-             <div className="hodnote-container">
+           
+            
+         </div>
+
+           <div className="hodnote-container">
                <p className="hodnotetext">
                 Only Access to ,
               </p>
@@ -123,8 +137,6 @@ export function FacultyDashboardContent() {
                Mr Raja Sheaker
               </p>
              </div>
-            
-         </div>
         </main>
       );
       break;
