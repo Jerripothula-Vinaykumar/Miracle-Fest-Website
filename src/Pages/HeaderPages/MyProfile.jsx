@@ -4,10 +4,10 @@ export  function MyProfileContent() {
     return (
        <main className="myprofilecontent"> 
         <div className="myprofilecontainer">
-          <img className="profilepicture" src="https://cdn-icons-png.flaticon.com/128/552/552721.png" alt="" />
-          <img className="changeprofile"src="https://cdn-icons-png.flaticon.com/128/9522/9522568.png" alt="" />
-        
-          <div className="info">
+          <div className="profilepiccon">
+            Profile Picture
+         </div>
+          <div className="myprofileinfo">
             <p className="user">Name : </p>
             <p className="user">Year : </p>
             <p className="user">Branch : </p>

@@ -3,13 +3,17 @@ export function AboutusContent() {
   return (
     <main className="aboutuscontent">
       <div className="authcontainer">
-        <div className="authphoto"></div>
+        <div className="aboutuscon">
+          <div className="authphoto"></div>
         <div className="hellothere">
           <p >
           Hello there , I am J Vinay Kumar {"\u{1F44B}"}</p>
           <p >Author of this Application</p>
       </div>
-        <div className="info">
+      </div>
+        <div className="authinfo">
+
+          <div className="info">
           <p className="user">Name : Vinay Kumar Jerripothula </p>
           <p className="user">Year : 4 Yr</p>
           <p className="user">Branch : Computer Science</p>
@@ -18,10 +22,9 @@ export function AboutusContent() {
           <p className="user">Village : Venkatapuram</p>
           <p className="user">District : Anakapalli </p>
           <p className="user">State : Andhra Pradesh</p>
-        </div>
-        <div className="reachmeat">
-          <p className="reachmeatp">You can also reach me at ,</p>
-          <div className="smicons">
+           <p className="reachmeatp">You can also reach me at ,</p>
+              <div className="reachmeat">
+         <div className="smicons">
             <img
               className="smimg"
               src="https://img.icons8.com/?size=96&id=Mhl1TfJLdkh5&format=png"
@@ -43,6 +46,10 @@ export function AboutusContent() {
               alt=""
             />
           </div>
+        </div>
+        </div>
+
+      
         </div>
       </div>
     </main>
