@@ -1036,19 +1036,23 @@ body {
   /*  About us Content Section  */
 
   .aboutuscontent {
-    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+    margin: 5%;
   }
   .authcontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
   .authphoto {
     height: 30vh;
     width: 60vw;
     border: 2px solid rgb(162, 162, 171);
-    margin: 10% 0 0 11%;
+    margin: 10% 0 0 0%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
@@ -1057,30 +1061,104 @@ body {
   }
   .reachmeatp {
     height: 4vh;
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 0.9rem;
     padding: 2% 2% 2% 0;
-    margin: 10% 0 0 15%;
-    width: 50vw;
+    margin: 5% 0 0 0%;
+    width: 50vw; 
   }
   .smicons {
     display: flex;
-    margin-inline: 1em;
+    gap : 0.5em;
   }
   .smimg {
-    height: 4vh;
-    margin: 10% 0 0 5%;
+    height: 3vh;
+    margin: 4% 0 0 0%;
   }
   .hellothere {
-   
     width : 100%;
     font-size: 0.9em;
-    margin : 5% 0 2% 0 ;
+    margin : 10% 0 0% 0% ;
     display: flex;
     padding : 5%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+  .authinfo {
+    width : 100%;
+  }
+  
+
+ 
+
+  /*
+  .authcontainer {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding :1%;
+  }
+
+  .authphoto {
+    height: 40vh;
+    width: 75%;
+    border: 2px solid rgb(162, 162, 171);
+    margin: 3% 0 0 2%;
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1em;
+  }
+  .aboutuscon {
+    height: 70%;
+    width : 90%;
+    padding: 2%;
+    margin :  13% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hellothere {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:0.5em;
+    font-family: serif;
+    font-size: 1.2em;
+    margin: 2% 0 0 0;
+    width : 75%;
+  }
+  .authinfo {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .reachmeat {
+    margin: 1% 0 0 0%;
+  }
+  .reachmeatp {
+    font-size: 1.1em;
+    margin: 5%  0 0 0%; 
+    width: 20vw;
+  } 
+   .smicons {
+    display: flex;
+    gap :1em;
+    width : 40%;
+  
+  }
+  .smimg {
+    height: 4vh;
+    margin: 1em 0 0 0;
+  }
+  */
+
  
 
   /* ======================================= */
