@@ -917,11 +917,14 @@ body {
     justify-content: center;
     align-items: center;
   }
+  .aboutuscon {
+    width : 100%;
+  }
   .authphoto {
     height: 30vh;
     width: 60vw;
     border: 2px solid rgb(162, 162, 171);
-    margin: 10% 0 0 0%;
+    margin: 10% 0 0 15%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
@@ -952,7 +955,8 @@ body {
     padding : 5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    
   }
   .authinfo {
     width : 100%;
