@@ -12,8 +12,7 @@ export function StallsinfoandCouponsContent() {
                <p  className="eventstartdate">Stall Owner  :</p>
                <p  className="eventstartdate">Mobile  : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+               </div>
              <div className="stallcard">
                <h1 className="eventname">Fried Rice ( Veg & NonVeg )</h1>
                <hr className="chr" />
@@ -21,8 +20,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner :</p>
                <p className="eventstartdate">Mobile : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+              </div>
              <div className="stallcard">
                <h1 className="eventname">Noodles</h1>
                <hr className="chr" />
@@ -30,8 +28,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner :</p>
                <p className="eventstartdate">Mobile :</p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+                </div>
             </div>
            
               <h1 className="culturalheader"> Cool Drinks &  Fruit Salaads</h1>
@@ -43,8 +40,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner:</p>
                <p className="eventstartdate">Mobile : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+             </div>
               <div className="stallcard">
                <h1 className="eventname"> Fruits Juices </h1>
                <hr className="chr" />
@@ -52,8 +48,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner :</p>
                <p className="eventstartdate">Mobile : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+              </div>
               <div className="stallcard">
                <h1 className="eventname">Fruit Salaads</h1>
                <hr className="chr" />
@@ -61,8 +56,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner:</p>
                <p className="eventstartdate">Mobile : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-            </div>
+           </div>
               <div className="stallcard">
                <h1 className="eventname"> Snacks</h1>
                <hr className="chr" />
@@ -70,8 +64,7 @@ export function StallsinfoandCouponsContent() {
                <p className="eventstartdate">Stall Owner :</p>
                <p className="eventstartdate">Mobile : </p>    
                <hr className="chr" />
-               <button className="eventmore">more</button>
-          
+            
    
             </div>
             </div> 

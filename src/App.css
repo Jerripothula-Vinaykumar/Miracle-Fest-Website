@@ -812,8 +812,9 @@ body {
     padding : 5%;
   }
   .stallsheader {
-    font-size: 1em;
-    font-family: serif;
+    font-size: 1.1em;
+    font-family: Helvetica;
+    font-weight: 500;
     margin : 5% auto 0 3% ;
   }
   .fastfoodstallsheader {
@@ -823,6 +824,7 @@ body {
     color :rgb(17, 16, 16) ;
   }
   .stallcard {
+    height:20vh;
     width: 100%;
     margin-top: 4%;
     border-radius: 20px;
@@ -956,7 +958,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    
   }
   .authinfo {
     width : 100%;
@@ -1905,7 +1906,7 @@ body {
   /* Footer Section  */
 
   .footer {
-    height : 40vh;
+    height : 42vh;
     background-color: gray;
   }
 
@@ -1930,6 +1931,10 @@ body {
   }
   .navdiv li {
     list-style-type: none ;
+    font-family: serif;
+    text-align: center;
+    font-size: 1.2em;
+    width:100%;
   }
   .footerbottom-div {
     display: flex;
@@ -2358,7 +2363,93 @@ body {
   /* ======================================= */
 
   /*  Contact us Content Section  */
-
+   .contactuscontent {
+    min-height: 100dvh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 5%;
+  }
+  .contactuscontainer {
+    height: 90dvh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-radius: 20em 20em 0 0;
+    border: 5px solid black;
+  }
+  .contactusdiv {
+    width  :100%;
+  }
+  .contactus {
+    font-weight: 600;
+    font-size: 2.5em;
+    font-family: serif;
+    text-align: center;
+    width: 100%;
+    margin:10% 0 3% 0 ;
+    
+  }
+  .contactusimg {
+    height: 15dvh;
+    width: 10vw;
+    margin: 6% 0 0 0;
+   
+  }
+  .contacticons {
+    height: 4vh;
+    display: flex;
+    flex-direction: column;
+    margin: 3% auto 0 0%;
+    justify-content: flex-start;
+    gap : 2em;
+    
+  }
+  .contacticonsdiv {
+    display: flex;
+    width : 60%;
+    flex-direction: row;
+  }
+  .contactusdetails1 {
+    font-size: 1.5em;
+    text-align: left;
+    margin: 2% auto 0 0%;
+    height: 6vh;
+    font-weight: 500;
+    width  :70%;
+  }
+  .contactusdetails2 {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+    margin: 2% auto 0 0%;
+    height: 5vh;
+    width: 70%;
+    
+  }
+  .contactusdetails3 {
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 500;
+    margin: 2% auto 0 0%;
+    height: 5vh;
+    width: 70%;
+   
+  }
+  .contactusdetails4 {
+    display: flex;
+    font-size: 1.5em;
+    flex-wrap: nowrap;
+    font-weight: 500;
+    margin: 3% auto 0 11%;
+    height: 3vh;
+    width: 50vw;
+    
+  }
   /* =======================================*/
 
   /*  Archive of Past Events and Winner`s Content Section  */

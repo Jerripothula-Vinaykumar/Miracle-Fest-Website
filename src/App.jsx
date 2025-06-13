@@ -52,7 +52,6 @@ import { EmergencyContactContent } from "./Pages/FooterPages/EmergencyContent";
 import { LiveChatSupportContent } from "./Pages/FooterPages/LiveChatSupport";
 import { ResultsandWinnersDisplayContent } from "./Pages/FooterPages/ResultsWinnersContent";
 import { FeedbackformContent } from "./Pages/FooterPages/Feedbackform";
-import { ExportDataContent } from "./Pages/FooterPages/ExportData";
 import { ContactusContent } from "./Pages/FooterPages/Contactus";
 import { ArchiveofPastEventsandWinnersContent } from "./Pages/FooterPages/ArchiveContent";
 import { SupportQAContent } from "./Pages/FooterPages/SupportQA";
@@ -320,9 +319,7 @@ function App() {
         >
          
         </Route>
-        <Route path="/ExportDataContent" element={<ExportDataContent />}>
-         
-        </Route>
+       
         <Route
           path="/TermsandConditionsContent"
           element={<TermsandConditionsContent />}

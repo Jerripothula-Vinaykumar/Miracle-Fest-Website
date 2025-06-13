@@ -10,7 +10,7 @@ export function ContactusContent() {
             alt=""
           />
         </div>
-        <div>
+        <div className="contactusdiv">
           <p className="contactus">Contact us</p>
         </div>
         <div className="contacticons">

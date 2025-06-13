@@ -181,10 +181,7 @@ export function Footer() {
                   Results & Winners Display
                 </Link>
               </li>
-              <li>
-                <Link to="/ExportDataContent">Export Data (Excel/PDF)</Link>
-              </li>
-
+             
               <li>
                 <Link to="/AboutusContent">About us</Link>
               </li>
