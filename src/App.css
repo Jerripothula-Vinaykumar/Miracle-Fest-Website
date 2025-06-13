@@ -467,15 +467,15 @@ body {
     font-weight: 700;
     font-size: 0.8em;
     color: black;
-    word-spacing: 0.3em;
+    word-spacing: 0.2em;
     margin: 10% 0 0 15%;
   }
   .signinwith {
     font-weight: 700;
     font-size: 0.8em;
     opacity: 0.8;
-    word-spacing: 0.3em;
-    margin: 5% 0 0 16%;
+    word-spacing: 0.1em;
+    margin: 5% 0 0 20%;
   }
   .signupcontainer {
     display: flex;
@@ -527,6 +527,7 @@ body {
   /* ======================================= */
 
   /* Footer Section */
+
   .footer {
     padding : 4%;
     background-color: gray;

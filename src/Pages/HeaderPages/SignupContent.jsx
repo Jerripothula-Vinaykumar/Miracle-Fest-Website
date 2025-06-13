@@ -22,15 +22,16 @@ export  function SignupContent() {
        <main className="registercontent"> 
             
         <section className="register-container">
-            <form onSubmit={handleSubmit(   )}>
+            <form onSubmit={handleSubmit}>
           <div className="signupinputcontainer">
             <input type="email" onChange={(e) => {setEmail(e.target.value)}} className="signupinput"  placeholder="  E-mail address"/>
             <input type="password" onChange={(e) => {setPassword(e.target.value)}} className="signupinput"  placeholder="  Password"/>
             </div>
-        </form>
+        
             <div className="captcha"><input type="checkbox" className="checkbox" /> <p className="verify">Verify if you are a human</p></div>
             <button type="submit" className="signupinputbutton">Sign up</button> 
             <div ></div>
+            </form>
             <div className="">
                 <p className="signinwith">or you can sign in with , </p>
                 <div className="signupcontainer">

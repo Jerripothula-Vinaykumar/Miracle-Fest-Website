@@ -15,6 +15,11 @@ export function RegisterContent() {
           className="signupinput"
           placeholder="  Username"
         />
+         <input
+          type="email"
+          className="signupinput"
+          placeholder="  E-mail address"
+        />
         <input
           type="password"
           className="signupinput"
@@ -25,11 +30,7 @@ export function RegisterContent() {
           className="signupinput"
           placeholder="  Confirm password"
         />
-        <input
-          type="email"
-          className="signupinput"
-          placeholder="  E-mail address"
-        />
+       
         <div className="captcha">
           <input type="checkbox" className="checkbox" />{" "}
           <p className="verify">Verify if you are a human</p>
