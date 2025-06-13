@@ -196,7 +196,7 @@ body {
     text-align: center;
     color: whitesmoke;
   }
-  .profileicon {
+  .myprofileicon {
     height: 2vh;
   }
 
@@ -284,6 +284,8 @@ body {
     border-radius: 20px;
     background-color: rgb(43, 252, 245);
     border: 1.8px solid black;
+    box-shadow: 0 2px 5px black;
+
   }
   .chr {
     margin-top: 2%;
@@ -495,33 +497,33 @@ body {
   .myprofilecontent {
     min-height: 100vh;
     display: flex;
-    background: linear-gradient(10deg, rgb(214, 214, 221), rgb(193, 185, 185));
+    flex-direction: column;
+    background:  rgb(235, 235, 243);
     justify-content: center;
     align-items: center;
     padding: 5%;
   }
   .myprofilecontainer {
-    min-height: 85vh;
-    width: 80vw;
-    margin: 10% 0 0 0;
+    width: 100%;
+    margin: 2% 0 0 0;
   }
-  .profilepicture {
-    margin: 5% 0 0 35%;
-    height: 12vh;
+  .profilepiccon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid black;
+    width: 60%;
+    margin: 5% 0 0 20%;
+    height: 20vh;
+    border-radius: 1em;
   }
-  .changeprofile {
-    height: 4vh;
-    display: block;
-    margin-left: 65%;
-  }
-  .info {
-    margin: 3em 0em 0em 2em;
+  
+  .myprofileinfo {
+    margin: 25% 0 0 15%;
   }
   .user {
-    margin-top: 1em;
-  }
-  .phr {
-    width: 79.6vw;
+    margin-top: 4%;
   }
 
   /* ======================================= */
@@ -734,16 +736,46 @@ body {
 
   /*  Certificate Download Content Section  */
 
-  .certificatedownloadcontent {
-    margin  : 10%; 
-  }
-  .certificatedownload-container {
-    height: 80vh;
-    width: 80vw;
+ .certificatedownloadcontent {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    padding : 15%  5% 5% 5% ;
+  }
+  .certificatedownloadheader {
+    margin : 1%;
+    width: 100%;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+  }
+  .certificatedownloadbox {
+    min-height: 60dvh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .samplecertificate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40dvh;
+    width : 100%;
+    margin : 3% 0 0 0;
+    box-shadow: 0 1px 5px black;
+  }
+  .downloadcertificatebutton {
+    height : 4vh;
+    width : 45%;
+    margin : 9% 1% 0 auto   ;
+    background-color: green;
+    color: whitesmoke;
+    font-family: serif;
+    border : 2px solid black;
+    border-radius: 0.3em;
   }
 
   /* ======================================= */
@@ -847,8 +879,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3%;
-    margin: 5%;
+    padding: 5%;
   }
   .authcontainer {
     display: flex;
@@ -858,14 +889,14 @@ body {
   }
   .authphoto {
     height: 30vh;
-    width: 60vw;
+    width: 70%;
     border: 2px solid rgb(162, 162, 171);
     margin: 10% 0 0 0%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 10em;
+    border-radius: 25em;
   }
   .reachmeatp {
     height: 4vh;
@@ -886,19 +917,23 @@ body {
   .hellothere {
     width : 100%;
     font-size: 0.9em;
-    margin : 10% 0 0% 0% ;
+    margin : 2% 0 0% 0% ;
     display: flex;
     padding : 5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
   }
   .authinfo {
     width : 100%;
+    padding :  0 0 0  0;
   }
-
- 
-
+  .info {
+    width: 100%;
+    padding :  0 0 0 10%;
+    margin  :  0 5% 0 0;
+  }
+  
   /* ======================================= */
 
   /*  Contact us Content Section  */
@@ -1486,6 +1521,9 @@ body {
     text-align: center;
     color: whitesmoke;
   }
+  .myprofileicon {
+    height : 3vh;
+  }
 
   /* ======================================= */
   
@@ -1582,6 +1620,7 @@ body {
     border-radius: 1em;
     background-color: rgb(43, 252, 245);
     border: 3px solid black;
+    box-shadow: 0 5px 5px black;
   }
   .chr {
     width: 29.7vw;
@@ -1606,7 +1645,7 @@ body {
   /* ==================================================== */
 
   /* Each Event Content  */
-
+  
   .event-container {
     margin: 5%;
     display: flex;
@@ -1669,9 +1708,12 @@ body {
     border-radius: 0.5em;
   }
 
-  .eventregistrationcontent {
-    margin: 9% auto 0 10%;
-  }
+  /* Event Registration Content */
+ 
+  
+  /* ============================== */
+
+  
 
   /* ======================================= */
 
@@ -2000,7 +2042,43 @@ body {
   /* ======================================= */
 
   /*  Certificate Download Content Section  */
-
+  
+  .certificatedownloadcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 5%;
+    min-height: 50dvh;
+  }
+  .certificatedownloadbox {
+    min-height: 70dvh;
+    width : 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border : 2px solid red ;
+    border : none;
+    box-shadow: 0 1px 5px black;
+  }
+  .samplecertificate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50dvh;
+    width : 70%;
+    margin : 3% 0 0 0;
+    box-shadow: 0 1px 5px black;
+  }
+  .downloadcertificatebutton {
+    height : 5vh;
+    width : 20%;
+    margin : 3% 8% 0 auto   ;
+    background-color: green;
+    color: whitesmoke;
+    font-family: serif;
+    border : 2px solid black;
+  }
   /* ======================================= */
 
   /* Gamification and Funfeatures     */
@@ -2028,7 +2106,17 @@ body {
   /* ======================================= */
 
   /*  About Fest Content Section  */
-
+  .aboutfestcontent {
+    padding : 5%;
+  }
+  .aboutfestheading {
+    font-size: 2em;
+    font-family: serif;
+  }
+  .aboutfestinfo {
+    margin : 1% 0 0 0;
+    text-align: justify;
+  }
   /* ======================================= */
 
   /* Suport & Accessbility */
@@ -2056,11 +2144,34 @@ body {
   /* =======================================*/
 
   /* Terms & Conditions Content Section  */
-
+  .termsandconditionscontent {
+    padding : 5%;
+  }
+  .termsandconditionsheading {
+    font-size: 2em;
+    font-family: serif;
+    font-weight: 500;
+  }
+  .termsandconditionsinfo {
+    margin : 1% 0 0 0;
+    text-align: justify;
+  }
   /* ======================================= */
 
   /*  Privacy Policy Content Section  */
-
+  
+  .privacypolicycontent {
+    padding : 5%;
+  }
+  .privacypolicyheading {
+    font-size: 2em;
+    font-family: serif;
+    font-weight: 500;
+  }
+  .privacypolicyinfo {
+    margin : 1% 0 0 0;
+    text-align: justify;
+  }
   /* =======================================*/
 
   /*  About us Content Section  */

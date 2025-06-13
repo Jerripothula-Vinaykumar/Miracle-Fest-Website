@@ -3,13 +3,12 @@ export function AboutusContent() {
   return (
     <main className="aboutuscontent">
       <div className="authcontainer">
-        <div className="aboutuscon">
+        
           <div className="authphoto"></div>
         <div className="hellothere">
           <p >
           Hello there , I am J Vinay Kumar {"\u{1F44B}"}</p>
           <p >Author of this Application</p>
-      </div>
       </div>
         <div className="authinfo">
 

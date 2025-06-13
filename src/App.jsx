@@ -4,6 +4,7 @@ import { BrowserRouter , Routes , Route  } from 'react-router-dom'
 
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
+import { ScrollToTop } from "./Pages/HeaderPages/ScrollToTop";
 import { HomeContent } from "./Pages/HeaderPages/HomeContent";
 import { EventContent } from "./Pages/HeaderPages/EventContent";
 import { RegisterContent } from "./Pages/HeaderPages/RegisterContent";
@@ -64,14 +65,21 @@ import { CulturalEventsContent } from "./Pages/FooterPages/CulturalEvents";
 import { SportsEventsContent } from "./Pages/FooterPages/SportsEvents";
 
 import './App.css'
+
 import { MainHeader } from "./Components/Header";
 import { Footer } from "./Components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
+
     <MainHeader />
+    <ScrollToTop />
+
       <Routes>
+
+       
+        
         {/* Landing Page Content */}
 
          <Route path="/" element={<LandingPageContent />}>

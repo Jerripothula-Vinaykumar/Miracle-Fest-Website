@@ -200,14 +200,8 @@ export function Footer() {
         </nav>
               <div className="footerbottom-div">
                 <li className="footer-bottom">Copyright &copy; 2025 </li>
-                <li className="footer-bottom">|</li>
-                <li className="footer-bottom">
-                  <Link to="/TermsandConditionsContent">Terms</Link>
-                </li>
-                <li className="footer-bottom">|</li>
-                <li className="footer-bottom">
-                  <Link to="/PrivacyPolicyContent">Privacy</Link>
-                </li>
+                
+                
                
               </div>
             
