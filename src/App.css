@@ -802,6 +802,36 @@ body {
 
   /*  Stalls Info and Coupons Content Section  */
 
+  .stallsinfoandcouponscontent {
+    display: flex;
+    background: whitesmoke;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+  }
+  .stallsheader {
+    font-size: 1em;
+    font-family: serif;
+    margin : 5% auto 0 3% ;
+  }
+  .fastfoodstallsheader {
+    font-size: 1.7em;
+    width: 100%;
+    margin : 1% auto 0 1% ;
+    color :rgb(17, 16, 16) ;
+  }
+  .stallcard {
+    width: 100%;
+    margin-top: 4%;
+    border-radius: 20px;
+    background-color: rgb(9, 197, 87);
+    border: 1.8px solid black;
+    box-shadow: 0 2px 5px black;
+
+  }
+  
   /* ======================================= */
 
   /*  About Fest Content Section  */
@@ -889,7 +919,7 @@ body {
   }
   .authphoto {
     height: 30vh;
-    width: 70%;
+    width: 60vw;
     border: 2px solid rgb(162, 162, 171);
     margin: 10% 0 0 0%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
@@ -1628,7 +1658,7 @@ body {
   .eventmore {
     font-size: 1.3em;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0% 0 0 84%;
+    margin: 3% 0 0 84%;
   }
   .eventstartdate {
     margin: 2% auto 4.5% 4%;
@@ -1639,7 +1669,7 @@ body {
   .eventname {
     font-size: 1.5em;
     font-family: serif;
-    margin: 2% 0 0 4%;
+    margin: 2% 0 5% 4%;
   }
 
   /* ==================================================== */
@@ -1871,7 +1901,7 @@ body {
   /* Footer Section  */
 
   .footer {
-    height : 47vh;
+    height : 40vh;
     background-color: gray;
   }
 
@@ -1891,7 +1921,7 @@ body {
   .navdiv h1 {
     font-size: 1.5em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color : green;
+    color : green;  
     text-align: center;
   }
   .navdiv li {
@@ -1976,7 +2006,6 @@ body {
    align-items: flex-start;
   }
   .assign-event-details-container {
-    padding: 5%;
     width : 80%;
   }
 
@@ -2045,16 +2074,23 @@ body {
   
   .certificatedownloadcontent {
     display: flex;
+    flex-direction: column  ;
     justify-content: center;
     align-items: center;
     padding : 5%;
     min-height: 50dvh;
   }
+  .certificatedownloadheader {
+    font-size: 2em;
+    font-family: serif;
+    width: 100%;
+    margin : 0 auto 4% 0;
+  }
   .certificatedownloadbox {
     min-height: 70dvh;
     width : 70%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     border : 2px solid red ;
@@ -2098,11 +2134,72 @@ body {
   /* Sponsors and Gallery */
 
   /*  Sponsor Logos and Offers Content Section  */
+  
+  .sponsorslogosandofferscontent {
+    padding: 8%;
+  }
+  .sponserlogoheader {
+    margin : 0 0 2% 0 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    width : 100%;
+  }
+  .logoflexitems {
+    height : 60dvh;
+    width : 100%;
+    margin : 0 0 2% 0;  
+    border : 2px solid red;
+  }
+  .logosflexcontainer {
+    display: flex;
+    flex:1;
+  }
+  .logosgridcontainer {
+    display: grid;
+    gap : 3em;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .logogriditems {
+    height : 50dvh;
+    width : 100%;
+    margin-bottom: 5%;
+    border :2px solid black;
+  }
 
   /* ======================================= */
 
   /*  Stalls Info and Coupons Content Section  */
-
+  
+  .stallsinfoandcouponscontent {
+    display: flex;
+    background: whitesmoke;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    padding : 2%;
+  }
+  .stallsheader {
+    font-size: 2em;
+    font-family: serif;
+    margin : 0 auto 0 1% ;
+  }
+  .fastfoodstallsheader {
+    font-size: 1.7em;
+    width: 100%;
+    margin : 1% auto 0 1% ;
+    color :rgb(17, 16, 16) ;
+  }
+  .stallcard {
+    height: 35vh;
+    width: 30vw;
+    margin: 4%;
+    border-radius: 1em;
+    background-color: rgb(11, 175, 85);
+    border: 3px solid black;
+    box-shadow: 0 5px 5px black;
+  }
+  
   /* ======================================= */
 
   /*  About Fest Content Section  */
@@ -2144,6 +2241,7 @@ body {
   /* =======================================*/
 
   /* Terms & Conditions Content Section  */
+
   .termsandconditionscontent {
     padding : 5%;
   }
@@ -2156,6 +2254,7 @@ body {
     margin : 1% 0 0 0;
     text-align: justify;
   }
+
   /* ======================================= */
 
   /*  Privacy Policy Content Section  */

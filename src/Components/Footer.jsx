@@ -152,7 +152,7 @@ export function Footer() {
               </li>
               <li>
                 <Link to="/StallsinfoandCouponsContent">
-                  Stalls Info and Coupons
+                 Food Stalls 
                 </Link>
               </li>
               <li>
