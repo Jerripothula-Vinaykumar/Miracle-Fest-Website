@@ -4,6 +4,7 @@ import { BrowserRouter , Routes , Route  } from 'react-router-dom'
 
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
+import LoadingSpinner from "./Pages/HeaderPages/LandingPageContent";
 import { ScrollToTop } from "./Pages/HeaderPages/ScrollToTop";
 import { HomeContent } from "./Pages/HeaderPages/HomeContent";
 import { EventContent } from "./Pages/HeaderPages/EventContent";
@@ -84,6 +85,12 @@ function App() {
          
         </Route>
           
+
+          
+         <Route path="/LoadingSpinner" element={<LoadingSpinner />}>
+         
+        </Route>
+
         {/* Header Page Contents */}
 
         <Route path="/HomeContent" element={<HomeContent />}>

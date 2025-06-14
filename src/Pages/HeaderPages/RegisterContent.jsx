@@ -1,14 +1,33 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import LoadingSpinner from "./LoadingSpinner";
 
 export function RegisterContent() {
-  
+    const [loading , setLoading ]  = useState(false);
     const navigate = useNavigate();
+    
+
     const navigateto = () => {
-      navigate("/HomeContent");
+
+      setLoading(true);
+
+      setTimeout(()=>{
+
+      setLoading(false);
+
+          navigate("/HomeContent");
+   
+    } , 3000);
+
+
+    console.log("after : " + loading );
+    
     }
   return (
-    <main className="registercontent">
+    <>
+    {loading ? <LoadingSpinner /> :
+
+      <main className="registercontent">
       <section className="register-container">
         <input
           type="text"
@@ -62,6 +81,7 @@ export function RegisterContent() {
           </div>
         </div>
       </section>
-    </main>
+    </main>}
+    </>
   );
 }
