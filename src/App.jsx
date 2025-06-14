@@ -26,7 +26,6 @@ import { FreeFireContent } from "./Pages/HeaderPages/FreeFireContent";
 import { PubgContent } from "./Pages/HeaderPages/PubgContent";
 import { WomensThrowBallContent } from "./Pages/HeaderPages/WomensThrowBall";
 
-import { EventRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
 import { MensCricketRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
 import { MensKabaddiRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
 import { MensVolleyBallRegistrationContent } from "./Pages/HeaderPages/EventRegistration";
@@ -159,10 +158,7 @@ function App() {
         >
          
         </Route>
-        <Route
-          path="/EventRegistrationContent"
-          element={<EventRegistrationContent />}
-        > </Route>
+      
            <Route
           path="/MensCricketRegistrationContent"
           element={<MensCricketRegistrationContent />}

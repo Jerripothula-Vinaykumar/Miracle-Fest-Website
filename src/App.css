@@ -309,7 +309,7 @@ body {
   /* Each Event Content  */
 
   .event-container {
-    margin: 9%;
+    padding : 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,75 +333,119 @@ body {
     margin: 0 auto 4% 0%;
     font-weight: 900;
     font: bold;
-    font-size: 2em;
+    padding : 0 0  0 4%;
+    width  : 100%;
+    font-family: serif;
+    font-size: 1.2em;
+  }
+  .each-event-details-container {
+    width : 100%;
+    padding : 0 0 0 6%;
+  }
+  .event-details-header {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin : 0 0 2% 0 ;
+  }
+  .event-timings-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+  }
+  .event-register-button {
+    background-color: red;
+    color : whitesmoke;
+    width : 30%;
+    padding : 1%;
+    font-size: 1em;
+    margin : 4% 0 2% 0;
+    border-radius: 0.3rem;
   }
 
   /* ====================================== */
 
   /* Event Registration Form Content */
-
+   
   .eventregistrationcontent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    padding : 5%;
   }
-  .container2 {
-    display: flex;
-    width: 100vw;
+
+  .event-registration-container {
+    width : 100%;
     padding: 5%;
-    flex-direction: column;
-  }
-  .event-details {
-    margin: 2% 0 0 7%;
-    font-size: 1.2em;
-    font-weight: 900;
-  }
-  .event-timings-info {
-    width: 50vw;
-    margin: 5% 0 0 10%;
-    line-height: 2em;
-    font-size: 1em;
   }
   .event-registration-header {
+    font-size : 1em;
+    font-family: serif;
+    font-weight: 500;
+    border-radius: 0.3em;
+    color : whitesmoke;
+    text-align: center;
+    padding : 1%;
+    background-color: rgb(30, 235, 40);
+  }
+  event-registration-queries {
+    background-color: blue;
+  }
+  .event-registration-input-fileds-container {
+    display: flex;
+    flex-direction: column;
+    padding : 3% 0 0 0%;
+  }
+  .signupinput-assign-coor {
+    font-size: 0.9em;
+    font-family: serif;
+    margin  : 0 0 0 0%;
+  
+  }
+  .event-registration-input-filed {
+    height : 3vh;
+    margin : 8% 0% 1% 0;
     font-size: 1em;
-    text-transform: capitalize;
-    margin: 0 0 3% 0;
+    font-weight: 500;
+    opacity: 0.9;
+    width : 70%;
+    padding : 4% 0 4% 5%;
   }
-  .event-register-info {
-    margin: 12% 0 0 0;
-    font-weight: 600;
-    line-height: 2em;
-    font-size: 0.8em;
+  .event-registration-submit-button {
+    width :100%;
+    height : 3vh;
+    font-size: 1em;
+    background-color: red;
+    border-radius: 0.3em;
+    margin  : 5% auto 0 0% ;
+    color : whitesmoke;
   }
-  .signupinput-eve-reg {
-    margin: 4%;
-    width: 28vh;
-    padding: 2% 0 0 8%;
-    border: none;
+  .registration-container {
+    min-height : 45vh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 0 0 0 0%;
   }
-  .register-button {
-    height: 4.5vh;
-    width: 25vw;
-    font-size: 1.3em;
-    margin: 7% auto 0 7%;
-    color: whitesmoke;
-    background-color: rgb(245, 46, 46);
-    border-radius: 5px;
+  
+  .event-registration-info {
+    font-size: 0.9em;
+    text-align: center;
+    margin  :2% 0 0 0;
   }
-  .event-reg-submit-button {
-    height: 4.5vh;
-    width: 25vw;
-    font-size: 1.3em;
-    margin: 7% auto 0 0%;
-    color: whitesmoke;
-    background-color: rgb(245, 46, 46);
-    border-radius: 5px;
+  .queries-header {
+    background-color: navy;
+    color : whitesmoke;
+    margin : 5% 0 0 0 ;
+    padding : 1%; 
+    width: 100%;
+    border-radius: 0.3em;
   }
-  .eventregistrationcontent {
-    margin: 20% 15% 60% 10%;
+  .querie-coordinator-details {
+    font-size: 0.9em;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin : 4% 0 0 0 ;
+    padding :  0 0 0 5%;
   }
-
   /* ===========================  */
 
   /*  Schedule Content Section  */
@@ -1578,7 +1622,7 @@ body {
     border-radius: 25em;
   } 
   .landingregister {
-    margin: 2.6% 4% 0% 0;
+    margin: 2.3% 4% 0% 0;
     height: 5vh;
     width : 7vw;
     font-size: 1.3em;
@@ -1682,7 +1726,7 @@ body {
   /* Each Event Content  */
   
   .event-container {
-    margin: 5%;
+    padding : 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1704,17 +1748,22 @@ body {
     width: 80vw;
     border-radius: 2em;
   }
-  .container2 {
-    margin: 0 auto 2% 4%;
+  .each-event-details-container {
+    margin: 0 auto 0% 0%;
     display: flex;
     flex-direction: column;
+    width : 100%;
+    padding : 1%;
   }
-  .event-details {
+  .event-details-header {
     font-size: 2em;
-    font-weight: 700;
+    width : 100%;
+    padding : 0 0 0 5%;
+    margin : 0% 0 0 0 ;
+    font-weight: 500;
   }
   .event-timings-info {
-    margin: 2% 0 0 3%;
+    margin: 1% 0 0 6%;
     line-height: 250%;
     font-weight: 500;
     font-size: 1.2em;
@@ -1722,51 +1771,108 @@ body {
   .event-header {
     margin: 0 auto 3% 0%;
     font-weight: 700;
+    padding : 0 0 0 5%;
     font: bold;
     color: black;
     font-size: 2em;
     font-family: serif;
+    width : 100%;
   }
-  .event-register-info {
-    margin: 2% 0 0 0%;
-    font-weight: 500;
-    line-height: 1.8em;
-    font-size: 1.2em;
-  }
-  .register-button {
+  
+  .event-register-button {
     height: 7vh;
     width: 25vw;
     font-size: 2em;
-    margin: 10% auto 0 0;
+    margin: 2% auto 0 3%;
     color: whitesmoke;
     background-color: rgb(245, 46, 46);
     border-radius: 0.5em;
   }
 
+  /* ==================================== */
+
   /* Event Registration Content */
  
+  .event-registration-container {
+    padding : 5%;
+  }
+  .event-registration-header {
+    font-size : 1.5em;
+    font-family: serif;
+    font-weight: 500;
+    border-radius: 0.3em;
+    color : whitesmoke;
+    text-align: center;
+    padding : 1%;
+    scroll-behavior: smooth;
+    background-color: rgb(30, 235, 40);
+  }
+  event-registration-queries {
+    background-color: blue;
+  }
+  .event-registration-input-fileds-container {
+    display: flex;
+    min-height: 80dvh;
+    flex-direction: column;
+    padding : 3% 0 0 10%;
+  }
+  .signupinput-assign-coor {
+    font-size: 1.5em;
+    font-family: serif;
+    margin  : 0 0 0 0%;
+  }
+  .event-registration-input-filed {
+    height : 5vh;
+    margin : 1% 1% 1% 0;
+    font-size: 1.5em;
+    font-weight: 500;
+    opacity: 0.9;
+    width : 50%;
+    padding : 2% 0 2% 2%;
+  }
+  .event-registration-submit-button {
+    width :50%;
+    height : 6vh;
+    font-size: 2em;
+    background-color: red;
+    border-radius: 0.3em;
+    margin  :1% 0 0 0 ;
+    color : whitesmoke;
+  }
+  .registration-container {
+    min-height : 70vh;
+    width : 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 0 0 0 2%;
+  }
   
-  /* ============================== */
-
-  
-
-  /* ======================================= */
-
-  /*  Schedule Content Section  */
-
-  /* ======================================= */
-
-  /*  Gallery Content Section  */
-
-  /* ======================================= */
-
-  /*  Leaderboard Content Section  */
+  .event-registration-info {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 3%;
+  }
+  .queries-header {
+    border : 2px solid gray;
+    background-color: navy;
+    color : whitesmoke;
+    padding : 1%; 
+    border-radius: 0.3em;
+  }
+  .querie-coordinator-details {
+    font-size: 1.2em;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin : 1% 0 0 0 ;
+    padding :  0 0 0 5%;
+  }
 
   /* ======================================= */
 
   /*  Register Content Section  */
 
-  
   .registercontent {
     display: flex;
     height: 100vh;

@@ -16,8 +16,8 @@ export function BannerLaunchContent() {
             Voluptatem id error velit nobis nesciunt laborum! Dignissimos eos maxime doloribus molestias, dolor eum similique ducimus praesentium deserunt, voluptatum distinctio labore numquam aliquam ratione suscipit explicabo culpa, dolorem harum placeat!
 
              </div>
-         <div className="container2">
-              <p className="event-details">Event Details </p>
+         <div className="each-event-details-container">
+              <p className="event-details-header">Event Details </p>
               <div className="event-timings-info">
                 <p>Event Date : </p>
                 <p>Event Start Time : </p>
