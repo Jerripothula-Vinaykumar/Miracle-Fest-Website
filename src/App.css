@@ -207,10 +207,13 @@ body {
   .landingpagecontent {
     background: rgb(30, 182, 81);
     min-width: 100vw;
+    min-height: 85dvh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding :15% 5% 5% 5%;
+
   }
   .landingregister {
     margin: 9% 4% 0% 0;
@@ -229,80 +232,14 @@ body {
     text-align: center;
     padding: 1%;
   }
-  .landingpagescrollitemscontainer {
-    height : 60vh;
-    width : 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  .landingpagescrollitem1  {
-    flex : 0 0 90vw;
-    height : 50vh;
-    background-color: #3498db;
-    color : white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin : 0% 2% 0% 2%;
-  }
-  .landingpagescrollitem2 {
-    flex : 0 0 90vw;
-    height : 50vh;
-    background-color: #3498db;
-    color : white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin : 0% 2% 0% 2%;
-  }
-  .landingpagescrollitem3 {
-    flex : 0 0 90vw;
-    height : 50vh;
-    background-color: #3498db;
-    color : white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin : 0% 2% 0% 2%;
-  }
-  .landingpagescrollitem4 {
-    flex : 0 0 90vw;
-    height : 50vh;
-    background-color: #3498db;
-    color : white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin : 0% 2% 0% 2%;
-  }
-  .landingpagescrollitem5 {
-    flex : 0 0 90vw;
-    height : 50vh;
-    background-color: #3498db;
-    color : white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin : 0% 2% 0% 2%;
-  }
   .countdowncontainer {
-    height : 25vh;
-    width : 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border : 2px solid skyblue;
+    justify-content: center;
+    height : 30vh;
+    width: 100%;
+    border: 2px solid #3498db;
   }
 
   /* ============================== */
@@ -1057,7 +994,66 @@ body {
   /* Post Fest */
 
   /*  Feedback Form Content Section  */
-
+  
+  .feedbackformcontent {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 6%;
+  }
+  .feedbackcontainer {
+    height  :75vh ;
+    width : 100%;
+    border-top: 5px solid black;
+    box-shadow: 0 5px 5px  black;
+    border-radius: 0.5em;
+  }
+  .feebackformheader {
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: serif;
+    text-align: center;
+    margin : 15% 0 2% 0;
+    padding : 1%;
+  }
+  .feedbackforminputscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin  :5% 0 0 0 ;
+  }
+  .feedbackforminputfields {
+    padding : 1% 1% 1% 3%; 
+    font-size: 0.9em;
+    font-weight: 400;
+    margin  :4%;
+    width : 60%;
+    border : 2px solid black;
+    border-radius: 0.7em;
+  }
+  .feedbackformtextarea {
+    width  :60%;
+    height: 25vh;
+    resize: horizontal;
+    padding : 2%;
+    margin : 2% 0 0 0;
+    font-size: 0.9em;
+    border : 2px solid #0d0707;
+    border-radius: 0.4em;
+  }
+  .feedbackformbutton {
+    height : 4vh;
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin : 7% 0 7% 0 ;
+    width : 60%;
+    border-radius: 0.4em;
+    background-color: rgb(9, 213, 101);
+    color : whitesmoke;
+  }
   /* ======================================= */
 
   /*  Results & Winners Display Content Section  */
@@ -1723,6 +1719,8 @@ body {
 
   .header {
     height: 15vh;
+    padding :0 1% 0 0; 
+    min-width: 100vw;
     background-color: rgb(18, 17, 17);
   }
   .header-nav {
@@ -1742,6 +1740,15 @@ body {
     font-size: 3em;
     font-family: serif;
     margin: 1% auto 0 0;
+  }
+  .defaultheaderlogo:hover {
+      color : rgba(211, 8, 79, 0.978);
+      animation : spin 1.5s linear infinite;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
   }
 
   .header .header-ul .nav-li {
@@ -1787,16 +1794,13 @@ body {
   .landingpagecontent {
     background: rgb(54, 190, 142);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 100vw;
     min-height: 80vh;
   }
-  .landingpagepic {
-    min-height: 30vh;
-    min-width: 40vw;
-    border-radius: 25em;
-  } 
+  
   .landingregister {
     margin: 2.3% 4% 0% 0;
     height: 5vh;
@@ -1815,6 +1819,16 @@ body {
     font-size: 2px;
     font-family: serif;
   }
+  .countdowncontainer {
+    height : 25vh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid red;
+  }
+
 
   /* =================================== */
 
@@ -2415,20 +2429,6 @@ body {
   }
   /* ======================================= */
 
-  /* Gamification and Funfeatures     */
-
-  /*  Classical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Technical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Cultural Events Content Section  */
-
-  /* ======================================= */
-
   /* Sponsors and Gallery */
 
   /*  Sponsor Logos and Offers Content Section  */
@@ -2501,6 +2501,7 @@ body {
   /* ======================================= */
 
   /*  About Fest Content Section  */
+
   .aboutfestcontent {
     padding : 5%;
   }
@@ -2512,6 +2513,7 @@ body {
     margin : 1% 0 0 0;
     text-align: justify;
   }
+
   /* ======================================= */
 
   /* Suport & Accessbility */
@@ -2577,6 +2579,66 @@ body {
   /* Post Fest */
 
   /*  Feedback Form Content Section  */
+
+  .feedbackformcontent {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 3% 5% 5% 5%;
+  }
+  .feedbackcontainer {
+    height  :95vh ;
+    width : 50%;
+    border-top: 5px solid black;
+    box-shadow: 0 5px 5px  black;
+    border-radius: 0.5em;
+  }
+  .feebackformheader {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: serif;
+    text-align: center;
+    margin : 5% 0 2% 0;
+    padding : 1%;
+  }
+  .feedbackforminputscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin  :5% 0 0 0 ;
+  }
+  .feedbackforminputfields {
+    padding : 1.5% 1.5% 1.5% 4%; 
+    font-size: 1.5em;
+    font-weight: 400;
+    margin  :2%;
+    width : 50%;
+    border : 2px solid black;
+    border-radius: 0.7em;
+  }
+  .feedbackformtextarea {
+    width  :50%;
+    height: 25vh;
+    resize: horizontal;
+    padding : 2%;
+    margin : 2% 0 0 0;
+    font-size: 1.3em;
+    border : 2px solid #0d0707;
+    border-radius: 0.4em;
+  }
+  .feedbackformbutton {
+    height : 6dvh;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin : 7% 0 7% 0 ;
+    width : 50%;
+    border-radius: 0.4em;
+    background-color: rgb(9, 213, 101);
+    color : whitesmoke;
+  }
 
   /* ======================================= */
 
@@ -2694,10 +2756,6 @@ body {
     height: 4vh;
     margin: 1em 0 0 0;
   }
-
-
-
-
   
   /* ======================================= */
 

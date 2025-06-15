@@ -129,7 +129,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="logo"><h1><Link to="/HomeContent">MIRACLE</Link></h1></li>
+                        <li className="logo"><h1 className="defaultheaderlogo"><Link to="/HomeContent">MIRACLE</Link></h1></li>
                         <li className="nav-li"><Link to="/HomeContent">Home</Link></li>
                         <li className="nav-li"><Link to="/EventContent">Events</Link></li>
                         <li className="nav-li"><Link to="/AboutusContent">About us</Link></li>

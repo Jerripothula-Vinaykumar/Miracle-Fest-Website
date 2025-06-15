@@ -76,7 +76,14 @@ export function FaqSectionContent() {
                    <span className="qn">How can I Contact Fest Organizers  ? </span>
           </summary>
           <p className="faqanswer"> Visit the Support&QA Page or Contact the listed Event Coordinators under Each Event For any Queries . </p>
-        </details >       
+        </details >
+        
+         <details className="faqquestioncontainer">
+          <summary className="faqquestion">
+                   <span className="qn">Want to add any usefull FAQ`s  ? </span>
+          </summary>
+          <p className="faqanswer"> You can Find Contact of Author of this Application with provided info in Contact us Page , And share Your FAQ</p>
+        </details >   
             
             </div>
 
