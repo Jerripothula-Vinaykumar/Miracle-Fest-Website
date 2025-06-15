@@ -415,7 +415,7 @@ body {
     border-radius: 0.3em;
     color : whitesmoke;
     text-align: center;
-    padding : 1%;
+    padding : 2%;
     background-color: rgb(30, 235, 40);
   }
   event-registration-queries {
@@ -443,7 +443,7 @@ body {
   }
   .event-registration-submit-button {
     width :100%;
-    height : 3vh;
+    padding: 1.3%;
     font-size: 1em;
     background-color: red;
     border-radius: 0.3em;
@@ -469,7 +469,7 @@ body {
     background-color: navy;
     color : whitesmoke;
     margin : 5% 0 0 0 ;
-    padding : 1%; 
+    padding : 2.2%; 
     width: 100%;
     border-radius: 0.3em;
   }
