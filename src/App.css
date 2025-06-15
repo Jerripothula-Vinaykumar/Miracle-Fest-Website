@@ -933,6 +933,51 @@ body {
 
   /*  FAQ Section Content Section  */
 
+  .faqsectioncontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 5%;
+  }
+  .faqsectioncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    justify-content: center;
+  }
+  .faqheader {
+    width : 100%;
+    font-size: 1.1em;
+    font-weight: 900;
+    padding : 2%;
+    text-align: center;
+    margin :3% 0% 5% 0%;
+  }
+  .faqquestioncontainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width  :90%;
+    margin : 2% 2% 2% 2%;
+    padding : 3%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+    transition : background-color 0.3s ease;
+  }
+  .faqquestioncontainer:hover {
+    background-color: skyblue;
+  }
+  .qn {
+    margin : 0 0 0 5%;
+  }
+  .faqquestion {
+    padding: 1%;
+  }
+  .faqanswer {
+    margin : 2%;
+    word-spacing: 2px;
+  }
+
   /* ======================================= */
 
   /*  Emergency Contacts Content Section  */
@@ -2402,6 +2447,56 @@ body {
   /* Suport & Accessbility */
 
   /*  FAQ Section Content Section  */
+  
+  .faqsectioncontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 3%;
+  }
+  .faqsectioncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    justify-content: center;
+  }
+  .faqheader {
+    width : 100%;
+    font-size: 2em;
+    font-weight: 500;
+    padding : 1%;
+    text-align: center;
+    margin :1% 0% 3% 0%;
+
+  }
+  .faqquestioncontainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width  :90%;
+    margin : 2%;
+    padding : 1%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
+    transition : background-color 0.3s ease;
+  }
+  .faqquestioncontainer:hover {
+    background-color: skyblue;
+
+  }
+  .qn {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times;
+    margin : 0 0 0 3%;
+  }
+  .faqquestion {
+    padding: 1%;
+  }
+  .faqanswer {
+    margin : 2% 0 0 5%;
+    font-size: 1.4em;
+    word-spacing: 2px;
+  }
 
   /* ======================================= */
 
