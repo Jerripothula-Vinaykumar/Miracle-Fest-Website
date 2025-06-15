@@ -205,18 +205,13 @@ body {
   /* Landing Page Content */
  
   .landingpagecontent {
-    background: rgb(54, 190, 142);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgb(30, 182, 81);
     min-width: 100vw;
-    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding :15% 5% 5% 5%;
   }
-  .landingpagepic {
-    min-height: 30vh;
-    min-width: 40vw;
-    border-radius: 25em;
-  } 
   .landingregister {
     margin: 9% 4% 0% 0;
     height: 3.5vh;
@@ -233,6 +228,81 @@ body {
     font-size: 1em;
     text-align: center;
     padding: 1%;
+  }
+  .landingpagescrollitemscontainer {
+    height : 60vh;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  .landingpagescrollitem1  {
+    flex : 0 0 90vw;
+    height : 50vh;
+    background-color: #3498db;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0% 2% 0% 2%;
+  }
+  .landingpagescrollitem2 {
+    flex : 0 0 90vw;
+    height : 50vh;
+    background-color: #3498db;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0% 2% 0% 2%;
+  }
+  .landingpagescrollitem3 {
+    flex : 0 0 90vw;
+    height : 50vh;
+    background-color: #3498db;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0% 2% 0% 2%;
+  }
+  .landingpagescrollitem4 {
+    flex : 0 0 90vw;
+    height : 50vh;
+    background-color: #3498db;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0% 2% 0% 2%;
+  }
+  .landingpagescrollitem5 {
+    flex : 0 0 90vw;
+    height : 50vh;
+    background-color: #3498db;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0% 2% 0% 2%;
+  }
+  .countdowncontainer {
+    height : 25vh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : 2px solid skyblue;
   }
 
   /* ============================== */
@@ -937,7 +1007,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding : 5%;
+    padding : 1%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -949,7 +1019,7 @@ body {
   .faqheader {
     width : 100%;
     font-size: 1.1em;
-    font-weight: 900;
+    font-weight: 500;
     padding : 2%;
     text-align: center;
     margin :3% 0% 5% 0%;
@@ -2452,7 +2522,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding : 3%;
+    padding : 2%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -2632,6 +2702,7 @@ body {
   /* ======================================= */
 
   /*  Contact us Content Section  */
+
    .contactuscontent {
     min-height: 100dvh;
     min-width: 100vw;
