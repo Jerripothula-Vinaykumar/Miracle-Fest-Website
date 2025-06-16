@@ -988,6 +988,41 @@ body {
   /* ======================================= */
 
   /*  Emergency Contacts Content Section  */
+   
+  .emergencycontactcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 15% 5% 10% 5%;
+  }
+   .emergencycontactcontainer {
+    height  :60vh;
+    width : 100%;
+    padding : 1%;
+    border-top: 5px solid black;
+    box-shadow: 0 5px 5px  black;
+    border-radius: 0.5em;
+  }
+  .emergencycontactsheader {
+    text-align: center;
+    font-size: 1.1em;
+    margin : 2% 0 0 0 ;
+    padding: 2%;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .emergencycontact {
+    margin : 2% 3%  0 3%;
+    padding: 2%;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-size: 0.8em;
+    border-radius: 0.4em;
+    box-shadow: 0 2px 3px black;
+  }
 
   /* ======================================= */
 
@@ -2572,6 +2607,39 @@ body {
   /* ======================================= */
 
   /*  Emergency Contacts Content Section  */
+  
+  .emergencycontactcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+  }
+   .emergencycontactcontainer {
+    width : 50%;
+    padding : 1%;
+    border-top: 5px solid black;
+    box-shadow: 0 5px 5px  black;
+    border-radius: 0.5em;
+  }
+  .emergencycontactsheader {
+    text-align: center;
+    font-size: 2em;
+    margin : 2% 0 0 0 ;
+    padding: 2%;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .emergencycontact {
+    margin : 2%;
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-size: 1.8em;
+    border : 0.4em;
+    box-shadow: 0 2px 3px black;
+  }
 
   /* ======================================= */
 
