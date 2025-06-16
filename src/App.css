@@ -1758,8 +1758,10 @@ body {
     background-color: rgb(18, 17, 17);
   }
   .header-nav {
-    padding-top: 1em;
-    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
   }
   .header-ul {
     display: flex;
@@ -1786,7 +1788,8 @@ body {
   }
 
   .header .header-ul .nav-li {
-    font-size: 1em;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: whitesmoke;
   }
@@ -1836,7 +1839,7 @@ body {
   }
   
   .landingregister {
-    margin: 2.3% 4% 0% 0;
+    margin: 2.3% 2% 0% 0;
     height: 5vh;
     width : 7vw;
     font-size: 1.3em;
@@ -1886,6 +1889,7 @@ body {
 
   .eventcontent {
     display: flex;
+    width: 100dvw;
     background: whitesmoke;
     flex-direction: column;
     gap: 1em;
@@ -2098,8 +2102,8 @@ body {
 
   .registercontent {
     display: flex;
-    height: 100vh;
-    width: 100%;
+    height: 100dvh;
+    width: 100dvw;
     /*   background-image: url("https://tse1.mm.bing.net/th?id=OIP.p0n9sJKo_yDbytLdAyeb9gHaE6&pid=Api&P=0&h=180");
        */
     background-color: rgb(11, 123, 154);
@@ -2112,7 +2116,7 @@ body {
     padding : 10%;
   }
   .register-container {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2123,7 +2127,9 @@ body {
     margin: 1%;
     font-size: 1em;
     width: 30%;
-    padding: 1% 0% 1% 3% ;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 0.8% 0% 0.8% 3% ;
     border: 3px solid black;
     border-radius: 0.5em;
   }
@@ -2135,35 +2141,42 @@ body {
     padding: 1% 0% 1% 1.5% ;
     justify-content: start;
     width: 30%;
-    border: 2px solid black;
+    border-radius: 0.4em;
+    border: 3px solid black;
   }
   .checkbox {
     margin: 2%;
   }
   .verify {
     margin: 2% 0 2% 10%;
-    font-size: 1em;
+    font-size: 1.3em;
+    font-weight: 550;
     font-family: serif;
   }
   .signupinputbutton {
     margin: 1%;
     width: 30%;
     padding : 1%;
+    color : whitesmoke;
     border-radius: 1em;
+    font-size: 1.4em;
     border : 1px solid black; 
     background-color: rgba(3, 63, 103, 0.888);
-
+  }
+  .signupinputbutton:hover {
+    background-color: green;
+    color : black;
   }
   .haveanacc {
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1.3em;
     width: 100%;
     color: black;
     margin: 10% 0% 0 0%;
   }
   .signinwith {
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2em;
     opacity: 0.8;
     width: 100%;
     margin: 5% 0 0 0%;
@@ -2174,8 +2187,8 @@ body {
     margin: 13% 0 0 25%;
   }
   .signupicon {
-    height: 1.5em;
-    padding-right: 6%;
+    height: 3.2vh;
+    padding-right: 9%;
   }
   .signupinputcontainer {
     display: flex;
@@ -2184,13 +2197,13 @@ body {
     justify-content: center;
     align-items: center;
   }
- .clglogoinregisterpageli {
-  margin  : 2% auto 0 3% ;
+  .clglogoinregisterpageli {
+    margin  : 2% auto 0 3% ;
   }
   .clglogoinregisterpage {
     font-size: 1.5em;
     font-family: serif;
-  } 
+  }   
 
   /* ======================================= */
 
@@ -2198,6 +2211,7 @@ body {
 
   .myprofilecontent {
     display: flex;
+    width: 100dvw;
     background: whitesmoke;
     align-items: center;
     justify-content: center;
@@ -2243,6 +2257,7 @@ body {
 
   .footer {
     height : 42vh;
+    width: 100dvw;
     background-color: gray;
   }
 
@@ -2284,13 +2299,17 @@ body {
   }
   .footerbottom-div2 {
     height: 10vh;
-    background-color: rgb(217, 201, 201);
+    width : 100vw;
+    background-color: rgb(111, 111, 111);
     display: flex;
+    color : black;
+    font-weight: 500;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
-    font-size: 0.8em;
+    font-size: 1.3em;
+    font-family: serif;
     list-style-type: none;
   } 
 
@@ -2353,8 +2372,6 @@ body {
   .assign-event-details-container {
     width : 80%;
   }
-
-
   .assign-event-details-header-container {
     height: 6vh;
     width: 60%;
@@ -2366,7 +2383,7 @@ body {
     margin : 0% 0 0% 0;
   }
   .assign-event-details-header {
-     color : whitesmoke ;
+    color : whitesmoke ;
     text-align: center;
     margin :  0 0 0 8%;
   }
@@ -2408,6 +2425,75 @@ body {
   /* ======================================= */
 
   /*  Volunteer`s Assignment Content Section  */
+  
+  .volunteersassignmentcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding  : 5%;
+  }
+  .volunteersassignmentcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 0 5px 5px  black;
+    border-top: 6px solid black;
+    border-radius: 0.5em;
+  }
+  .volunteerpageheadercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding : 2% 2% 2% 2%;
+    margin : 1% 0 2% 0;
+    border-top: 4px solid #000;
+    box-shadow: 0 5px 5px black;
+  }
+  .vpeventname {
+    font-size: 2em;
+    font-weight: 600;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .vpeventcoordinator {
+    font-size: 2em;
+    font-weight: 600;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;   
+  }
+  .vpeventcoordinatorcontact {
+    font-size: 2em;
+    font-weight: 600;
+    margin : 0 5% 0 10% ;
+    font-family: 'Times New Roman', Times, serif;   
+ 
+  }
+  .volunteercontact {
+    margin : 1%;
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-size: 1.8em;
+    border : 0.4em;
+    width : 100%;
+    box-shadow: 0 2px 5px  black;
+  }
+
+ /* .emergencycontactcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+  }
+   
+  
+  */
 
   /* ======================================= */
 
@@ -2478,12 +2564,20 @@ body {
   .logoflexitems {
     height : 60dvh;
     width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin : 0 0 2% 0;  
-    border : 2px solid red;
   }
   .logosflexcontainer {
-    display: flex;
+    
     flex:1;
+    margin : 0 0 4% 0 ;
+    border-top: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0 5px 5px black;
+
   }
   .logosgridcontainer {
     display: grid;
@@ -2493,8 +2587,14 @@ body {
   .logogriditems {
     height : 50dvh;
     width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 5%;
-    border :2px solid black;
+    border-radius: 0.4em;
+    border-top: 3px solid #000;
+    box-shadow: 0 5px 5px black;
   }
 
   /* ======================================= */
@@ -2506,6 +2606,7 @@ body {
     background: whitesmoke;
     flex-direction: column;
     gap: 1em;
+    width: 100dvw;
     align-items: center;
     justify-content: center;
     padding : 2%;
