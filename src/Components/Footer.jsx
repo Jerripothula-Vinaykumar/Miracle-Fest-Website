@@ -126,7 +126,7 @@ export function Footer() {
               </li>
               <li>
                 <Link to="/CertificateDownloadContent">
-                  Certificate Download
+                  Album Download
                 </Link>
               </li>
               </div>
