@@ -8,18 +8,17 @@ export  function MyProfileContent() {
             Profile Picture
          </div>
           <div className="myprofileinfo">
-            <p className="user">Name : </p>
-            <p className="user">Year : </p>
-            <p className="user">Branch : </p>
-            <p className="user">Section : </p>
-            <p className="user">Mobile no : </p>
-            <p className="user">Linked IN : </p>
-            <p className="user">Insta I`D : </p>
-            <p className="user">Father : </p>
-            <p className="user">Mother  : </p>
-            <p className="user">Village : </p>
-            <p className="user">District : </p>
-            <p className="user">State : </p>
+            <p className="festuserinfocon"> <span className="festuserkey">Name</span> <span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Year</span> <span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Branch</span> <span className="myprofileinfocolon">:</span><input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Section</span> <span className="myprofileinfocolon">:</span><input className="festuservalue"></input> </p>
+            <p className="festuserinfocon"> <span className="festuserkey"> Mobile no</span><span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Linked IN</span>  <span className="myprofileinfocolon">:</span><input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Insta I`D</span>  <span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">Village</span> <span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <p className="festuserinfocon"> <span className="festuserkey">District</span> <span className="myprofileinfocolon">:</span><input className="festuservalue"></input> </p>
+            <p className="festuserinfocon"> <span className="festuserkey"> State </span><span className="myprofileinfocolon">:</span> <input className="festuservalue"></input></p>
+            <button className="editprofile">Edit Profile</button>
           </div>
         </div>
         
