@@ -108,11 +108,7 @@ export function Footer() {
               <li>
                 <Link to="/FacultyDashboardContent">Faculty Dashboard</Link>
               </li>
-              <li>
-                <Link to="/CoordinatorDashboardContent">
-                  Coordinator Dashboard
-                </Link>
-              </li>
+
               <li>
                 <Link to="/EventCoordinatorsContent">Event Coordinators</Link>
               </li>
@@ -121,9 +117,7 @@ export function Footer() {
                   Volunteer`s Assignment
                 </Link>
               </li>
-              <li>
-                <Link to="/SupportQAContent">Support&QA</Link>
-              </li>
+            
               <li>
                 <Link to="/CertificateDownloadContent">
                   Album Download

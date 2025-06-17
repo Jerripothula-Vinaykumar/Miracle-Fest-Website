@@ -54,8 +54,6 @@ import { ResultsandWinnersDisplayContent } from "./Pages/FooterPages/ResultsWinn
 import { FeedbackformContent } from "./Pages/FooterPages/Feedbackform";
 import { ContactusContent } from "./Pages/FooterPages/Contactus";
 import { ArchiveofPastEventsandWinnersContent } from "./Pages/FooterPages/ArchiveContent";
-import { SupportQAContent } from "./Pages/FooterPages/SupportQA";
-import { CoordinatorDashboardContent } from "./Pages/FooterPages/CoordinatorDashboard";
 import { VolunteersAssignmentContent } from "./Pages/FooterPages/VolunteersAssignment";
 import { EventCoordinatorsContent } from "./Pages/FooterPages/EventCoordinators";
 import { FacultyDashboardContent } from "./Pages/FooterPages/FacultyDashBoard";
@@ -229,12 +227,7 @@ function App() {
         >
          
         </Route>
-        <Route
-          path="/CoordinatorDashboardContent"
-          element={<CoordinatorDashboardContent />}
-        >
-         
-        </Route>
+
         <Route
           path="/EventCoordinatorsContent"
           element={<EventCoordinatorsContent />}
@@ -247,9 +240,7 @@ function App() {
         >
          
         </Route>
-        <Route path="/SupportQAContent" element={<SupportQAContent />}>
-         
-        </Route>
+        
         <Route
           path="/CertificateDownloadContent"
           element={<CertificateDownloadContent />}
