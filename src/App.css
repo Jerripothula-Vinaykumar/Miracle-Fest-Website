@@ -479,18 +479,7 @@ body {
     margin : 4% 0 0 0 ;
     padding :  0 0 0 5%;
   }
-  /* ===========================  */
-
-  /*  Schedule Content Section  */
-
-  /* ====================================== */
-
-  /*  Gallery Content Section  */
-
-  /* ======================================= */
-
-  /*  Leaderboard Content Section  */
-
+  
   /* ======================================= */
 
   /*  Register Content Section  */
@@ -775,6 +764,7 @@ body {
   /* ======================================= */
 
   /*  Event Coordinators Content Section  */
+
   .eventcoordinatorscontent {
     margin: 10%;
   }
@@ -792,14 +782,93 @@ body {
   /*  Volunteer`s Assignment Content Section  */
 
   
-  .volunteersassignment-container {
-    height: 80vh;
-    width: 80vw;
+    .volunteersassignmentcontent {
     display: flex;
-    margin: 10%;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    justify-content: center;
+    padding  : 12% 7% 7%  7%;
+  }
+  .volunteerassignmentheader {
+    margin : 2% 2% 5% 2%;
+    font-size: 1em;
+    font-family: serif;
+    font-weight: 600;
+    width: 100%;
+  }
+  .volunteersassignmentcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    box-shadow: 0 5px 5px  black;
+    border-top: 6px solid black;
+    border-radius: 0.5em;
+  }
+  .volunteerpageheadercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding : 2%;
+    margin : 1% 0 2% 0;
+    border-top: 4px solid #000;
+    box-shadow: 0 5px 5px black;
+  }
+  .vpeventnameheader {
+    font-size: 0.9em;
+    font-weight: 600;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .vpeventnameli {
+    font-size: 0.4em;
+    font-weight: 600;
+    width :30%;
+    margin : 0 0 0 1.8%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .vpeventcoordinatorname {
+    text-align: left;
+    width : 45%;
+    font-size: 0.4em;
+    padding : 0 0 0 3%;
+    margin: 0 2% 0 0;
+  }
+  .vpeventcoordinatorcontact {
+    width : 25%;
+    font-size: 0.4em;
+    padding:  0 0 0 1%;
+  }
+  .vpeventcoordinatorheader {
+    font-size: 0.8em;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;   
+  }
+  .vpeventcoordinatorcontactheader {
+    font-size: 0.9em;
+    font-weight: 600;
+    width: 100%;
+    padding: 0 3% 0 0;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;   
+ 
+  }
+  .volunteerbox {
+    margin : 1%;
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-size: 1.8em;
+    border : 0.4em;
+    width : 100%;
+    padding: 2%;
+    border-radius: 0.2em;
+    box-shadow: 0 2px 5px  black;
   }
 
   /* ======================================= */
@@ -847,6 +916,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 40dvh;
+    border-top: 3px solid #000;
+    border-radius: 0.4em;
     width : 100%;
     margin : 3% 0 0 0;
     box-shadow: 0 1px 5px black;
@@ -864,23 +935,53 @@ body {
 
   /* ======================================= */
 
-  /* Gamification and Funfeatures     */
-
-  /*  Classical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Technical Events Content Section  */
-
-  /* ======================================= */
-
-  /*  Cultural Events Content Section  */
-
-  /* ======================================= */
-
   /* Sponsors and Gallery */
 
   /*  Sponsor Logos and Offers Content Section  */
+   .sponsorslogosandofferscontent {
+    padding: 8%;
+  }
+  .sponserlogoheader {
+    margin : 0 0 5% 0 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight: 600;
+    width : 100%;
+  }
+  .logoflexitems {
+    height : 30dvh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 0 0 15% 0;  
+  }
+  .logosflexcontainer {
+    flex:1;
+    margin : 0 0 4% 0 ;
+    border-top: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0 5px 5px black;
+
+  }
+  .logosgridcontainer {
+    display: flex;
+    flex-direction: column;
+    gap : 3em;
+  }
+  .logogriditems {
+    height : 30dvh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    border-radius: 0.4em;
+    border-top: 3px solid #000;
+    box-shadow: 0 5px 5px black;
+  }
 
   /* ======================================= */
 
@@ -1148,7 +1249,7 @@ body {
   .authphoto {
     height: 30vh;
     width: 60vw;
-    border: 2px solid rgb(162, 162, 171);
+    border: 1.5px solid rgb(16, 16, 16);
     margin: 10% 0 0 15%;
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
@@ -1157,39 +1258,65 @@ body {
     border-radius: 25em;
   }
   .reachmeatp {
-    height: 4vh;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 0.9rem;
-    padding: 2% 2% 2% 0;
-    margin: 5% 0 0 0%;
-    width: 50vw; 
+    padding: 2% 2% 2% 2%;
+    margin-top: 5%;
+    width: 100%;
   }
   .smicons {
     display: flex;
+    padding-left: 2%;
     gap : 0.5em;
   }
   .smimg {
     height: 3vh;
-    margin: 4% 0 0 0%;
+    margin: 2% 0 0 0%;
   }
   .hellothere {
     width : 100%;
     font-size: 0.9em;
+    font-weight: 600;
     margin : 2% 0 0% 0% ;
     display: flex;
-    padding : 5%;
+    padding : 3%;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
   }
   .authinfo {
-    width : 100%;
-    padding :  0 0 0  0;
+    width : 90%;
+    padding : 5%;
+    border-top: 3px solid #000;
+    border-radius: 0.4em;
+    box-shadow: 0 5px 5px black;
   }
   .info {
     width: 100%;
-    padding :  0 0 0 10%;
-    margin  :  0 5% 0 0;
+  }
+  .user {
+    width : 100%;
+    padding : 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+    border-radius: 0.4em;
+    font-weight: 600;
+    font-family: serif;
+    box-shadow: 0 5px 5px black;
+  }
+  .infoname {
+    width: 25%;
+    padding: 0 0 0 2%;
+  }
+  .colon {
+    width: 5%;
+    margin  : 0 0% 0 0%;
+  }
+  .infovalue {
+    width : 70%;
+    margin  : 0 0% 0 3%;
   }
   
   /* ======================================= */
@@ -2431,7 +2558,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding  : 5%;
+    padding  : 2% 5% 5% 5%;
+  }
+  .volunteerassignmentheader {
+    margin : 2%;
+    font-size: 2em;
+    font-family: serif;
+    font-weight: 600;
+    width: 100%;
   }
   .volunteersassignmentcontainer {
     display: flex;
@@ -2451,29 +2585,50 @@ body {
     width: 100%;
     padding : 2% 2% 2% 2%;
     margin : 1% 0 2% 0;
+    border-radius: 0.4em;
     border-top: 4px solid #000;
     box-shadow: 0 5px 5px black;
   }
-  .vpeventname {
+  .vpeventnameheader {
     font-size: 2em;
     font-weight: 600;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
   }
-  .vpeventcoordinator {
+  .vpeventnameli {
+    font-size: 1.1em;
+    font-weight: 500;
+    width :30%;
+    margin : 0 0 0 1.8%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .vpeventcoordinatorname {
+    text-align: left;
+    width : 30%;
+    padding : 0 0 0 3%;
+    margin: 0 10% 0 0;
+  }
+  .vpeventcoordinatorcontact {
+    width : 15%;
+    padding:  0 0 0 2%;
+  }
+  .vpeventcoordinatorheader {
     font-size: 2em;
     font-weight: 600;
     width: 100%;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;   
   }
-  .vpeventcoordinatorcontact {
+  .vpeventcoordinatorcontactheader {
     font-size: 2em;
     font-weight: 600;
-    margin : 0 5% 0 10% ;
+    width: 100%;
+    padding: 0 3% 0 0;
+    text-align: right;
     font-family: 'Times New Roman', Times, serif;   
  
   }
-  .volunteercontact {
+  .volunteerbox {
     margin : 1%;
     display: flex;
     justify-content: space-between;
@@ -2481,19 +2636,9 @@ body {
     font-size: 1.8em;
     border : 0.4em;
     width : 100%;
+    border-radius: 0.2em;
     box-shadow: 0 2px 5px  black;
   }
-
- /* .emergencycontactcontent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding : 5%;
-  }
-   
-  
-  */
 
   /* ======================================= */
 
@@ -2874,6 +3019,8 @@ body {
     height: 70%;
     width : 90%;
     padding: 2%;
+    font-weight: 550;
+    font-family: serif;
     margin :  13% 0 0 0;
     display: flex;
     flex-direction: column;
@@ -2898,19 +3045,45 @@ body {
     align-items: center;
   }
   .info {
-    height:70vh;
     font-family: serif;
+    width : 50%;
     font-size: 1.2em;
-    margin : 0% 0 0 0;
-    padding: 2% 10% 0 0 ;
-
+    padding: 2% ;
+    border-top: 3px solid #000;
+    border-radius: 0.4em;
+    box-shadow: 0 5px 5px black;
+  }
+  .user {
+    width : 100%;
+    padding : 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    border-radius: 0.4em;
+    font-weight: 550;
+    font-family: serif;
+    box-shadow: 0 5px 5px black;
+  }
+  .infoname {
+    width: 30%;
+    padding: 0 0 0 2%;
+  }
+  .colon {
+    width: 5%;
+    margin  : 0 0% 0 0%;
+  }
+  .infovalue {
+    width : 65%;
+    margin  : 0 0 0 0%;
   }
   .reachmeat {
     margin: 1% 0 0 0%;
   }
   .reachmeatp {
     font-size: 1.1em;
-    margin: 5%  0 0 0%; 
+    font-weight: 550;
+    margin: 6%  0 0 0%; 
     width: 20vw;
   } 
    .smicons {

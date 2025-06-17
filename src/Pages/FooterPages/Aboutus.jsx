@@ -13,14 +13,14 @@ export function AboutusContent() {
         <div className="authinfo">
 
           <div className="info">
-          <p className="user">Name : Vinay Kumar Jerripothula </p>
-          <p className="user">Year : 4 Yr</p>
-          <p className="user">Branch : Computer Science</p>
-          <p className="user">Section : A</p>
-          <p className="user">Mobile : 6304787895 </p>
-          <p className="user">Village : Venkatapuram</p>
-          <p className="user">District : Anakapalli </p>
-          <p className="user">State : Andhra Pradesh</p>
+          <p className="user"><span className="infoname"> Name </span> <span className="colon"> : </span> <span className="infovalue"> Vinay Kumar Jerripothula</span> </p>
+          <p className="user"> <span className="infoname"> Year </span> <span className="colon">:</span> <span className="infovalue"> 4 Yr</span></p>
+          <p className="user"><span className="infoname"> Branch </span> <span className="colon">:</span> <span className="infovalue"> Computer Science </span></p>
+          <p className="user"><span className="infoname"> Section </span> <span className="colon">:</span> <span className="infovalue"> A </span></p>
+          <p className="user"><span className="infoname"> Mobile </span> <span className="colon">:</span> <span className="infovalue"> 6304787895</span> </p>
+          <p className="user"><span className="infoname"> Village </span> <span className="colon">:</span> <span className="infovalue"> Venkatapuram</span></p>
+          <p className="user"><span className="infoname"> District </span> <span className="colon">:</span> <span className="infovalue"> Anakapalli</span> </p>
+          <p className="user"><span className="infoname"> State </span> <span className="colon">:</span> <span className="infovalue"> Andhra Pradesh</span></p>
            <p className="reachmeatp">You can also reach me at ,</p>
               <div className="reachmeat">
          <div className="smicons">
