@@ -1076,12 +1076,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 15%  5% 5% 5% ;
+    padding : 25% 10% ;
   }
   .certificatedownloadheader {
     margin : 1%;
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
   }
@@ -1209,8 +1209,7 @@ body {
     box-shadow: 0 2px 5px black;
   }
   .foodstallinfokey { 
-    width  : 25%;
-    
+    width  : 25%; 
   }
   .foodstallinfocolon {
     width  : 5%;
@@ -2303,8 +2302,20 @@ body {
   .eventstartdate {
     margin: 2% auto 4.5% 4%;
     font-size: 1.2em;
+    font-weight: 800;
+    display: flex;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    opacity: 0.5;
+  }
+  .eventkey { 
+    width  : 28%;
+  }
+  .eventcolon {
+    width  : 5%;
+    text-align: center;
+  }
+  .eventvalue {
+    padding : 0 0 0 3%;
+    width: 67%;
   }
   .eventname {
     font-size: 1.5em;
@@ -2674,7 +2685,6 @@ body {
   /* Footer Section  */
 
   .footer {
-    height : 42vh;
     width: 100dvw;
     background-color: gray;
   }
@@ -2710,7 +2720,7 @@ body {
     align-items: center;
     gap : 2em;
     justify-content: center;
-    margin : 1%;
+    padding: 0 0 1% 0;
   }
   .footerbottom-div li {
     list-style-type: none;
@@ -2895,7 +2905,7 @@ body {
   }
   .facultyinfo {
     width : 100%;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: serif;
     display: flex;
     font-weight: 600;
@@ -2911,8 +2921,9 @@ body {
   }
   .facultyvalue {
     width : 80%;
-    padding-left: 8%;
+    padding-left: 3%;
   }
+
   /* ======================================= */
 
   /*  Event Coordinators Content Section  */
@@ -3171,7 +3182,51 @@ body {
     border: 3px solid black;
     box-shadow: 0 5px 5px black;
   }
-  
+  .foodstallinfokey { 
+    width  : 20%; 
+  }
+  .foodstallinfocolon {
+    width  : 5%;
+    text-align: center;
+  }
+  .foodstallinfovalue {
+    padding : 0 0 0 3%;
+    width: 75%;
+  }
+  .foodstallinfomobilevalue {
+    padding : 0 0 0 3%;
+    width: 30%;
+  }
+  .ordernow {
+    width  : 40%;
+    font-weight: 700;
+    padding  : 0 0 0 5%;
+    background: linear-gradient(90deg , #f61010 , #ff1616 , #ffad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulseGlow 1s ease-in-out infinite , shine 2.5s infinite;
+    position: relative;
+  }
+  @keyframes pulseGlow {
+    0%,100% {
+      text-shadow: 0 0 8px #e02707 0 0 18px #f30404;
+      transform: scale(1);
+    }
+    50% {
+      text-shadow: 0 0 2px #e01503 0 0 30px #f14005 ;
+      transform: scale(1.15);
+    }
+    
+  }
+  @keyframes shine {
+      0% {
+        background-position: 200% center;
+      }
+      100% {
+        background-position: 0% center;
+      }    
+  }
+
   /* ======================================= */
 
   /*  About Fest Content Section  */
@@ -3400,7 +3455,7 @@ body {
   }
 
   .authphoto {
-    height: 60dvh;
+    height: 40dvh;
     width: 75%;
     border: 2px solid rgb(162, 162, 171);
     margin: 3% 0 0 2%;
