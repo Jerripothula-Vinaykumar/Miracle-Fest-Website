@@ -17,12 +17,10 @@ export function RegisterContent() {
 
           navigate("/HomeContent");
    
-    } , 3000);
-
-
-    console.log("after : " + loading );
+    } , 1300);
     
     }
+    
   return (
     <>
     {loading ? <LoadingSpinner /> :

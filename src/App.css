@@ -690,7 +690,7 @@ body {
   /* Footer Section */
 
   .footer {
-    padding : 4%;
+    padding : 4% 0%;
     background-color: gray;
   }
   .footernav {
@@ -701,10 +701,11 @@ body {
   }
   .footernav > * {
     margin : 1%;
+    width : 100%;
   }
   .navdiv h1 {
     font-size: 1.2em;
-    color:green;
+    color: green;
     text-align: center;
   }
   .navdiv li{
@@ -727,9 +728,10 @@ body {
   }
  .footerbottom-div2 {
     height: 10vh;
-    background-color: rgb(184, 176, 176);
+    background-color: rgb(77, 75, 75);
     display: flex;
-    opacity: 0.5;
+    font-family: serif;
+    color: whitesmoke;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -737,7 +739,10 @@ body {
     font-size: 0.8em;
     list-style-type: none;
   } 
-
+  .footerhr {
+    width: 100% ;
+  }
+ 
   /* ======================================= */
 
   /*  Admin Panel */
@@ -1563,10 +1568,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10%;
+    padding : 30% 10%;
   }
   .contactuscontainer {
-    height: 60vh;
+    
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -1575,58 +1580,58 @@ body {
     border-radius: 20em 20em 0 0;
     border: 2px solid black;
   }
+  .contactusdiv {
+    width : 100%;
+  }
   .contactus {
     font-weight: 600;
-    font-size: 2em;
-    width: 50vw;
-    margin: 11% 0% 0 13%;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+    margin  :10% 0 0 0;
+  }
+  .contactusmainimagecontainer {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin  :15% 0 3% 0;
   }
   .contactusimg {
     height: 7vh;
     width: 20vw;
-    margin: 60% 0 0 0;
   }
-  .contacticons {
-    height: 3vh;
+  
+  .contactinfocontainer {
     display: flex;
     flex-direction: column;
-    margin: 5% auto 0 4%;
-    justify-content: flex-start;
-    gap: 1em;
+    width : 100%;
   }
-  .contacticonsdiv {
+  .contactusinfoitem{
     display: flex;
-    flex-direction: row;
+    width  :100%;
+    padding : 1%;
+    margin-top: 10%;
   }
-  .contactusdetails1 {
+  .contactusimgcon {
+    padding  : 0 0 0 11% ;
+    width : 30%;
+  }
+  .contactusvalue {
+    width : 70%;
     font-size: 0.9em;
-    text-align: center;
-    margin: 6% 45% 0 8%;
-    height: 6vh;
-    width: 40vw;
+    font-weight: 800;
+    padding : 0 0 0 3%;
   }
-  .contactusdetails2 {
-    font-size: 0.9em;
-    text-align: center;
-    margin: 6% 52% 0 8%;
-    height: 5vh;
-    width: 50vw;
+  .contactussocialimg {
+    height: 2.5vh;
   }
-  .contactusdetails3 {
-    font-size: 0.8em;
-    text-align: center;
-    margin: 4% 40% 0 8%;
-    height: 5vh;
-    width: 50vw;
-  }
-  .contactusdetails4 {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 0.8em;
-    margin: 6% auto 0 9%;
-    height: 3vh;
-    width: 50vw;
-  }
+
+
+
+ 
   /* =======================================*/
 
   /*  Archive of Past Events and Winner`s Content Section  */

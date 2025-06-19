@@ -182,19 +182,15 @@ export function Footer() {
               <li>
                 <Link to="/ContactusContent">Contact us</Link>
               </li>
-              <li>
-                <Link to="/ArchiveofPastEventsandWinnersContent">
-                  Archive of Past Events and Winner`s
-                </Link>
-              </li>
+              
             </div>
         </nav>
               <div className="footerbottom-div">
+
                 <li className="footer-bottom">Copyright &copy; 2025 </li>
-                
-                
-               
+      
               </div>
+              
             
         
           

@@ -53,7 +53,6 @@ import { LiveChatSupportContent } from "./Pages/FooterPages/LiveChatSupport";
 import { ResultsandWinnersDisplayContent } from "./Pages/FooterPages/ResultsWinnersContent";
 import { FeedbackformContent } from "./Pages/FooterPages/Feedbackform";
 import { ContactusContent } from "./Pages/FooterPages/Contactus";
-import { ArchiveofPastEventsandWinnersContent } from "./Pages/FooterPages/ArchiveContent";
 import { VolunteersAssignmentContent } from "./Pages/FooterPages/VolunteersAssignment";
 import { EventCoordinatorsContent } from "./Pages/FooterPages/EventCoordinators";
 import { FacultyDashboardContent } from "./Pages/FooterPages/FacultyDashBoard";
@@ -329,12 +328,7 @@ function App() {
         <Route path="/ContactusContent" element={<ContactusContent />}>
          
         </Route>
-        <Route
-          path="/ArchiveofPastEventsandWinnersContent"
-          element={<ArchiveofPastEventsandWinnersContent />}
-        >
-         
-        </Route>
+        
       </Routes>
       <Footer />
     </BrowserRouter>
