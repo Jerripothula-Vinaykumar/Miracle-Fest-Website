@@ -331,7 +331,19 @@ body {
   .eventstartdate {
     margin: 3.5% 0 0 3%;
     font-size: 0.8em;
-    opacity: 0.5;
+    display: flex;
+    flex-direction: row;
+  }
+  .eventkey { 
+    width  : 35%;
+  }
+  .eventcolon {
+    width  : 5%;
+    text-align: center;
+  }
+  .eventvalue {
+    padding : 0 0 0 3%;
+    width: 60%;
   }
   .eventname {
     margin: 5% 0 0 5%;
@@ -361,6 +373,7 @@ body {
   .event-img {
     height: 30vh;
     width: 80vw;
+    border-radius: 0.2em;
   }
   .event-header {
     margin: 0 auto 4% 0%;
@@ -384,6 +397,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.8em;
+    padding : 0 0 0 2.5%;
+  }
+  .event-timings-info-item {
+    display: flex;
+  }
+  .event-details-key {
+    width : 34%;
+  }
+  .event-details-colon {
+    width: 5%;
+  }
+  .event-details-value {
+    width: 61%;
+    padding: 0 0 0 3%;
   }
   .event-register-button {
     background-color: red;
@@ -591,7 +618,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border : 2px solid black;
+    border-top: 3px solid #000;
+    box-shadow: 0 5px 5px black;
     width: 60%;
     margin: 10% 0 0 0%;
     height: 20dvh;
@@ -635,6 +663,13 @@ body {
   .festuservalue {
     width: 65%;
     padding: 1% 1% 1% 2%;
+  }
+  .festusereditvalue {
+    width: 65%;
+    padding: 1% 1% 1% 2%;
+    border: 2px solid rgb(16, 14, 14);
+    margin : 0.5% 0.9% 0.6% 0 ;
+    border-radius: 0.5em;
   }
   .editprofile {
     margin: 6% 0 0 auto;
@@ -800,7 +835,6 @@ body {
   }
 
   /* Except HOD */
-   /* Except HOD */
 
   .facultydashboardforotherscontent {
     display: flex;
@@ -865,7 +899,8 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 0.5em;
-    border : 2px solid black;
+    border-top: 3px solid #338d06e9;
+    box-shadow: 0 2px 2px black;
   }
   .facultydashboradgriditemprofilebio {
     height : 20vh;
@@ -898,35 +933,31 @@ body {
 
   /* ======================================= */
 
-  /*  Coordinator Dashboard Content Section  */
-
-  .coordinatordashboardcontent {
-    margin: 10%;
-  }
-  .coordinatordashboard-container {
-    height: 80vh;
-    width: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-  }
-
-  /* ======================================= */
-
   /*  Event Coordinators Content Section  */
 
+ 
   .eventcoordinatorscontent {
-    margin: 10%;
-  }
-  .eventcoordinatordashboard-container {
-    height: 80vh;
-    width: 80vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    justify-content: center;
+    padding : 6%;
   }
+  .eventcoordinatordashboardcontainer {
+    width : 100%;
+  }
+  .eventcoordinatorsheader {
+    font-size: 1em;
+    font-family: serif;
+    font-weight: 560;
+  }
+  .eventcoordinatorgridcontainer {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    padding : 2% 4%;
+  }
+  
 
   /* ======================================= */
 
@@ -1089,7 +1120,8 @@ body {
   /* Sponsors and Gallery */
 
   /*  Sponsor Logos and Offers Content Section  */
-   .sponsorslogosandofferscontent {
+
+  .sponsorslogosandofferscontent {
     padding: 8%;
   }
   .sponserlogoheader {
@@ -1098,6 +1130,15 @@ body {
     font-size: 1em;
     font-weight: 600;
     width : 100%;
+  }
+  .sponsorslogossselect {
+    padding : 1%;
+    font-size: 0.7em;
+    border-radius: 0.4em;
+    font-weight: 900;
+    font-family: serif;
+    border : 2px solid black;
+    margin  : 2% 0 0 83%;
   }
   .logoflexitems {
     height : 30dvh;
@@ -1119,7 +1160,6 @@ body {
   .logosgridcontainer {
     display: flex;
     flex-direction: column;
-    gap : 3em;
   }
   .logogriditems {
     height : 30dvh;
@@ -1167,9 +1207,53 @@ body {
     background-color: rgb(9, 197, 87);
     border: 1.8px solid black;
     box-shadow: 0 2px 5px black;
-
   }
-  
+  .foodstallinfokey { 
+    width  : 25%;
+    
+  }
+  .foodstallinfocolon {
+    width  : 5%;
+    text-align: center;
+  }
+  .foodstallinfovalue {
+    padding : 0 0 0 3%;
+    width: 70%;
+  }
+  .foodstallinfomobilevalue {
+    padding : 0 0 0 3%;
+    width: 35%;
+  }
+  .ordernow {
+    width  : 35%;
+    font-weight: 700;
+    padding  : 0 0 0 2%;
+    background: linear-gradient(90deg , #e40505 , #ff0000 , #ffad00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: pulseGlow 1s ease-in-out infinite , shine 2.5s infinite;
+    position: relative;
+  }
+  @keyframes pulseGlow {
+    0%,100% {
+      text-shadow: 0 0 8px #e02707 0 0 18px #f30404;
+      transform: scale(1);
+    }
+    50% {
+      text-shadow: 0 0 2px #e01503 0 0 30px #f14005 ;
+      transform: scale(1.15);
+    }
+    
+  }
+  @keyframes shine {
+      0% {
+        background-position: 200% center;
+      }
+      100% {
+        background-position: 0% center;
+      }    
+  }
+
   /* ======================================= */
 
   /*  About Fest Content Section  */
@@ -1402,7 +1486,8 @@ body {
     width: 60vw;
     border: 1.5px solid rgb(16, 16, 16);
     margin: 10% 0 0 15%;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180"); 
+  /* background: url("./images/Jvinaykumar.jpeg"); */ 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2232,14 +2317,14 @@ body {
   /* Each Event Content  */
   
   .event-container {
-    padding : 5%;
+    padding : 3% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .event-info {
-    margin: 5%;
+    margin: 3% 5%;
     text-indent: 5%;
     word-spacing: 0.5em;
     text-align: justify;
@@ -2265,7 +2350,6 @@ body {
     font-size: 2em;
     width : 100%;
     padding : 0 0 0 5%;
-    margin : 0% 0 0 0 ;
     font-weight: 500;
   }
   .event-timings-info {
@@ -2273,6 +2357,19 @@ body {
     line-height: 250%;
     font-weight: 500;
     font-size: 1.2em;
+  }
+   .event-timings-info-item {
+    display: flex;
+  }
+  .event-details-key {
+    width : 15%;
+  }
+  .event-details-colon {
+    width: 5%;
+  }
+  .event-details-value {
+    width: 80%;
+    padding: 0 0 0 2%;
   }
   .event-header {
     margin: 0 auto 3% 0%;
@@ -2286,8 +2383,8 @@ body {
   }
   
   .event-register-button {
-    height: 7vh;
-    width: 25vw;
+    padding: 0.4%;
+    width: 20%;
     font-size: 2em;
     margin: 2% auto 0 3%;
     color: whitesmoke;
@@ -2551,6 +2648,14 @@ body {
   .festuservalue {
     width: 65%;
     padding: 1% 1% 1% 2%;
+   
+  }
+  .festusereditvalue {
+    width: 65%;
+    padding: 1% 1% 1% 2%;
+    border: 2px solid rgb(16, 14, 14);
+    margin : 0.5% 0.9% 0.6% 0 ;
+    border-radius: 0.5em;
   }
   .editprofile {
     margin: 3% 0 0 auto;
@@ -2810,11 +2915,29 @@ body {
   }
   /* ======================================= */
 
-  /*  Coordinator Dashboard Content Section  */
-
-  /* ======================================= */
-
   /*  Event Coordinators Content Section  */
+
+  .eventcoordinatorscontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 4%;
+  }
+  .eventcoordinatordashboardcontainer {
+    width : 100%;
+  }
+  .eventcoordinatorsheader {
+    font-size: 2em;
+    font-family: serif;
+    font-weight: 560;
+  }
+  .eventcoordinatorgridcontainer {
+    width : 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding : 2% 4%;
+  }
 
   /* ======================================= */
 
@@ -2909,10 +3032,6 @@ body {
 
   /* ======================================= */
 
-  /*  Support & QA Content Section  */
-
-  /* ======================================= */
-
   /*  Certificate Download Content Section  */
   
   .certificatedownloadcontent {
@@ -2965,13 +3084,22 @@ body {
   /*  Sponsor Logos and Offers Content Section  */
   
   .sponsorslogosandofferscontent {
-    padding: 8%;
+    padding: 2% 6%;
   }
   .sponserlogoheader {
     margin : 0 0 2% 0 ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
     width : 100%;
+  }
+  .sponsorslogossselect {
+    padding : 0.4%;
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    font-weight: 900;
+    font-family: serif;
+    border : 2px solid black;
+    margin  : 0 0 0 95%;
   }
   .logoflexitems {
     height : 60dvh;
@@ -3272,11 +3400,12 @@ body {
   }
 
   .authphoto {
-    height: 40vh;
+    height: 60dvh;
     width: 75%;
     border: 2px solid rgb(162, 162, 171);
     margin: 3% 0 0 2%;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180"); 
+  /*background: url("./images/Jvinaykumar.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

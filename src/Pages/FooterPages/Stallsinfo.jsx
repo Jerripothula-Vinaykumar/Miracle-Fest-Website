@@ -8,25 +8,25 @@ export function StallsinfoandCouponsContent() {
                <div className="stallcard">
                <h1 className="eventname"> Biryani ( Veg & NonVeg )</h1>
                <hr className="chr" />
-               <p  className="eventstartdate">Stall Name :</p>
-               <p  className="eventstartdate">Stall Owner  :</p>
-               <p  className="eventstartdate">Mobile  : </p>    
+               <p  className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p  className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p  className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
                </div>
              <div className="stallcard">
                <h1 className="eventname">Fried Rice ( Veg & NonVeg )</h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name :</p>
-               <p className="eventstartdate">Stall Owner :</p>
-               <p className="eventstartdate">Mobile : </p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
               </div>
              <div className="stallcard">
                <h1 className="eventname">Noodles</h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name :</p>
-               <p className="eventstartdate">Stall Owner :</p>
-               <p className="eventstartdate">Mobile :</p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span></p>    
                <hr className="chr" />
                 </div>
             </div>
@@ -36,33 +36,33 @@ export function StallsinfoandCouponsContent() {
               <div className="stallcard">
                <h1 className="eventname"> Cool Drinks</h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name :</p>
-               <p className="eventstartdate">Stall Owner:</p>
-               <p className="eventstartdate">Mobile : </p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
              </div>
               <div className="stallcard">
                <h1 className="eventname"> Fruits Juices </h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name :</p>
-               <p className="eventstartdate">Stall Owner :</p>
-               <p className="eventstartdate">Mobile : </p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
               </div>
               <div className="stallcard">
                <h1 className="eventname">Fruit Salaads</h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name:</p>
-               <p className="eventstartdate">Stall Owner:</p>
-               <p className="eventstartdate">Mobile : </p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
            </div>
               <div className="stallcard">
                <h1 className="eventname"> Snacks</h1>
                <hr className="chr" />
-               <p className="eventstartdate">Stall Name :</p>
-               <p className="eventstartdate">Stall Owner :</p>
-               <p className="eventstartdate">Mobile : </p>    
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Name</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Stall Owner</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfovalue"></span></p>
+               <p className="eventstartdate"><span className="foodstallinfokey">Mobile</span> <span className="foodstallinfocolon"> : </span> <span className="foodstallinfomobilevalue">00000-00000</span> <span className="ordernow"> {"<-"} Order Now</span> </p>    
                <hr className="chr" />
             
    

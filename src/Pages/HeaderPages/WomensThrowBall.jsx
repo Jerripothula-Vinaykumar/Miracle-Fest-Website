@@ -15,10 +15,11 @@ export function WomensThrowBallContent() {
          <div className="each-event-details-container">
            <p className="event-details-header">Event Details </p>
             <div className="event-timings-info">
-              <p>Event Date : </p>
-              <p>Event Start Time : </p>
-              <p>Event Venue  :</p>
-              <p>Event End Time : </p>
+               <p className="event-timings-info-item"><span className="event-details-key">Event Date</span><span className="event-details-column">:</span><span className="event-details-value"></span> </p>
+              <p className="event-timings-info-item"><span className="event-details-key">Event Start time</span><span className="event-details-column">:</span><span className="event-details-value"></span> </p>
+              <p className="event-timings-info-item"><span className="event-details-key">Event Venue</span><span className="event-details-column">:</span><span className="event-details-value"></span></p>
+              <p className="event-timings-info-item"><span className="event-details-key">Event End time</span><span className="event-details-column">:</span><span className="event-details-value">8 : 00 PM</span> </p>
+           
             </div>
           
             <button className="event-register-button"><Link to="/WomesThrowBallRegistrationContent">Register</Link></button>

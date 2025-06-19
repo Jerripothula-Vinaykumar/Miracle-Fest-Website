@@ -97,7 +97,7 @@ export function FacultyDashboardContent() {
                   <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> HOD Name </span></div>
                   <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> ECE HOD</span></div>
                   <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
-                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electrical</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electronics</span></div>
                 
                 </div>
               </div>
@@ -107,7 +107,7 @@ export function FacultyDashboardContent() {
                   <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name </span></div>
                   <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> ECE Faculty</span></div>
                   <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
-                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electrical</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electronics</span></div>
                 
                 </div>
               </div>
@@ -117,7 +117,7 @@ export function FacultyDashboardContent() {
                   <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name </span></div>
                   <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> ECE Faculty</span></div>
                   <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
-                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electrical</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electronics</span></div>
                 
                 </div>
               </div>
@@ -127,7 +127,7 @@ export function FacultyDashboardContent() {
                   <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name </span></div>
                   <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> ECE Faculty</span></div>
                   <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
-                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electrical</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electronics</span></div>
                 
                 </div>
               </div>
@@ -137,7 +137,7 @@ export function FacultyDashboardContent() {
                   <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name </span></div>
                   <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> ECE Faculty</span></div>
                   <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
-                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electrical</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Electronics</span></div>
                 
                 </div>
               </div>
