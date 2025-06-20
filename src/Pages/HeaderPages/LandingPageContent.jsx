@@ -8,75 +8,67 @@ export default function LandingPageContent() {
           <div className="landingpagecontainer">
             <div className="landingpageflexcontainer">
                 <div className="landingpagegriditem1">
-                  <h1 className="landingpagegriditem1header">
+                  <h1 className="landingpagegriditem1headerforlaptop">
                     WELCOME ,  <br />TO THE MIRACLE FEST
                     </h1>
+                     <h1 className="landingpagegriditem1headerformobile">
+                    WELCOME TO THE MIRACLE FEST
+                    </h1>
                   <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn"> What is our fest about  </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
-                    </p>
-                     
+                         Our college fest is an annual celebration of talent, creativity, and innovation where students from various departments showcase their skills. It features cultural performances, tech events, sports competitions, and exciting guest appearances. The event fosters collaboration and offers a platform for holistic development. Participants gain exposure, confidence, and unforgettable experiences. It's a fusion of fun, learning, and vibrant energy. </p>
+                         <hr className="landingpagedetailsqnhr" />     
                     </details>
                   
                     <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn"> Who can participate in events  </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
+                        Students from our college as well as from other invited institutions can participate in the fest events. Some events may be open to the public, while others might require prior registration or be limited to college members only. Each event will have specific eligibility rules listed on the event registration page. Everyone is welcome to join the celebration in some capacity. Spectators can also attend and enjoy the experience.
                     </p>
-                     
+                      <hr className="landingpagedetailsqnhr" /> 
                     </details>
                     <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn"> How to register for events  </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
+                        You can register for events by visiting the Events section of this website and clicking on the event you're interested in. There you’ll find a detailed description and a “Register Now” button. You’ll be redirected to a form where you need to enter your details and make any necessary payment. Upon successful registration, a confirmation email or message will be sent to you. Make sure to read event-specific rules before registering.
                     </p>
-                     
+                      <hr className="landingpagedetailsqnhr" /> 
                     </details>
                     <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn">  Is there any registration fee </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
+                       Yes, most events have a nominal registration fee which varies depending on the type of event. Technical and solo events may have lower fees, while team or cultural events may charge slightly more. The collected fee helps cover event costs, guest arrangements, and prizes. All fees and payment details are clearly mentioned on the registration page. Early registration may offer discounts or priority access.
                     </p>
-                     
+                      <hr className="landingpagedetailsqnhr" /> 
                     </details>
                     <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn">  What are the event categories  </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
+                       Our fest features a diverse range of categories including Cultural, Technical, Sports, Classical, and Informal events. Cultural events highlight music, dance, and drama; Technical ones include coding, robotics, and quizzes. Sports events range from cricket to indoor games, and Classical events focus on tradition and arts. Informal events add fun with activities like treasure hunts and open mics. There’s something for everyone!
                     </p>
-                     
+                      <hr className="landingpagedetailsqnhr" /> 
                     </details>
                     <details className="landingpagedetailscontainer">
-                    <summary className="landingpagedetailsqn">
-                            Question no 1 . jdddddddddddajda davvvvvvvvv  {">"}
+                    <summary className="landingpagedetailsqncon">
+                            <span className="landingpagedetailsqn"> Can outsiders attend the fest  </span>
                     </summary>
                     <p className="landingpagedetailsanswer">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fuga cum ab ducimus voluptate reiciendis veritatis sit harum aut officia, dolorum inventore nam quo adipisci dolores molestiae aperiam quam sint.
-                         Sed laboriosam aliquid vel sint natus, exercitationem quia vero eligendi, iste, molestiae nostrum atque error nam aliquam itaque quibusdam. Quasi tempora libero illo ad reiciendis excepturi perferendis, aliquam quod voluptatem?
-                         Cupiditate veniam quidem animi illo ullam, quae, nisi ratione eveniet incidunt, perspiciatis corrupti natus deserunt alias. Earum alias nam neque autem suscipit laboriosam, rem cupiditate veniam quod doloribus mollitia vero!
+                       Outsiders can attend the fest only if they are invited or have registered for open-to-all events. Entry to certain areas may be restricted based on ID verification and passes. We encourage guests to pre-register or accompany someone from our college. Visitors should adhere to campus rules and maintain decorum. Security personnel will monitor entry points to ensure safety.
+
+
                     </p>
-                     
+                      <hr className="landingpagedetailsqnhr" /> 
                     </details>
 
 
@@ -88,7 +80,7 @@ export default function LandingPageContent() {
                 </div>
                 </div>
                 <div className="landingpageloginbuttonitem">
-                    <h1 className="landingpageloginbuttonincontent">Want to Raom Around the Fest ,  </h1>
+                    <h1 className="landingpageloginbuttonincontent">Want to Roam Around the Fest ,  </h1>
                      <button className="landingregisterincontent"><Link to="/RegisterContent">Login</Link></button>
                 </div>
                 
