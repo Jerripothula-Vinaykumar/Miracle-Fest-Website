@@ -1,168 +1,168 @@
 @import "tailwindcss";
-/* ======================================= */
-
-/*  Universal Selector  */
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-/* ======================================= */
-
-/*  Body Section */
-body {
-  min-height: 100vh;
-}
-/* ======================================= */
-
-/* Header Section */
-
-/* ===========================  */
-
-/* Home Content Section */
-
-/*  ==============================  */
-
-/* Event Content Section */
-
-/*  Schedule Content Section  */
-
-/* ======================================= */
-
-/*  Gallery Content Section  */
-
-/* ======================================= */
-
-/*  Leaderboard Content Section  */
-
-/* ======================================= */
-
-/*  Register Content Section  */
-
-/* ======================================= */
-
-/*  My Profie Content Section  */
-
-/* ======================================= */
-
-/* Footer Section */
-
-/*  Admin Panel */
-
-/*  Faculty Dashboard Content Section  */
-
-/* ======================================= */
-
-/*  Coordinator Dashboard Content Section  */
-
-/* ======================================= */
-
-/*  Event Coordinators Content Section  */
-
-/* ======================================= */
-
-/*  Volunteer`s Assignment Content Section  */
-
-/* ======================================= */
-
-/*  Support & QA Content Section  */
-
-/* ======================================= */
-
-/*  Certificate Download Content Section  */
-
-/* ======================================= */
-
-/* Gamification and Funfeatures     */
-
-/*  Classical Events Content Section  */
-
-/* ======================================= */
-
-/*  Technical Events Content Section  */
-
-/* ======================================= */
-
-/*  Cultural Events Content Section  */
-
-/* ======================================= */
-
-/* Sponsors and Gallery */
-
-/*  Sponsor Logos and Offers Content Section  */
-
-/* ======================================= */
-
-/*  Stalls Info and Coupons Content Section  */
-
-/* ======================================= */
-
-/*  About Fest Content Section  */
-
-/* ======================================= */
-
-/* Suport & Accessbility */
-
-/*  FAQ Section Content Section  */
-
-/* ======================================= */
-
-/*  Emergency Contacts Content Section  */
-
-/* ======================================= */
-
-/* Post Fest */
-
-/*  Feedback Form Content Section  */
-
-/* ======================================= */
-
-/*  Results & Winners Display Content Section  */
-
-/* ======================================= */
-
-/*  Export Data (Excel/PDF) Content Section  */
-
-/* =======================================*/
-
-/* Terms & Conditions Content Section  */
-
-/* ======================================= */
-
-/*  Privacy Policy Content Section  */
-
-/* =======================================*/
-
-/*  About us Content Section  */
-
-/* ======================================= */
-
-/*  Contact us Content Section  */
-
-/* =======================================*/
-
-/*  Archive of Past Events and Winner`s Content Section  */
-
-/* =======================================*/
-
-/* Media Queries  */
-
-/* For Small Devices ( Mobiles )  */
-
-@media (min-width: 475px) {
+  /* ======================================= */
+  
+  /*  Universal Selector  */
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* ======================================= */
+  
+  /*  Body Section */
+  body {
+    min-height: 100vh;
+  }
+  /* ======================================= */
+  
+  /* Header Section */
+  
+  /* ===========================  */
+  
+  /* Home Content Section */
+  
+  /*  ==============================  */
+  
+  /* Event Content Section */
+  
+  /*  Schedule Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Gallery Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Leaderboard Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Register Content Section  */
+  
+  /* ======================================= */
+  
+  /*  My Profie Content Section  */
+  
+  /* ======================================= */
+  
+  /* Footer Section */
+  
+  /*  Admin Panel */
+  
+  /*  Faculty Dashboard Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Coordinator Dashboard Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Event Coordinators Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Volunteer`s Assignment Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Support & QA Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Certificate Download Content Section  */
+  
+  /* ======================================= */
+  
+  /* Gamification and Funfeatures     */
+  
+  /*  Classical Events Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Technical Events Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Cultural Events Content Section  */
+  
+  /* ======================================= */
+  
+  /* Sponsors and Gallery */
+  
+  /*  Sponsor Logos and Offers Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Stalls Info and Coupons Content Section  */
+  
+  /* ======================================= */
+  
+  /*  About Fest Content Section  */
+  
+  /* ======================================= */
+  
+  /* Suport & Accessbility */
+  
+  /*  FAQ Section Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Emergency Contacts Content Section  */
+  
+  /* ======================================= */
+  
+  /* Post Fest */
+  
+  /*  Feedback Form Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Results & Winners Display Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Export Data (Excel/PDF) Content Section  */
+  
+  /* =======================================*/
+  
+  /* Terms & Conditions Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Privacy Policy Content Section  */
+  
+  /* =======================================*/
+  
+  /*  About us Content Section  */
+  
+  /* ======================================= */
+  
+  /*  Contact us Content Section  */
+  
+  /* =======================================*/
+  
+  /*  Archive of Past Events and Winner`s Content Section  */
+  
+  /* =======================================*/
+  
+  /* Media Queries  */
+  
+  /* For Small Devices ( Mobiles )  */
  
-}
+  @media (min-width: 475px) {
+ 
+  }
 
-/* For Medium Devices ( Tablets ) */
+  /* For Medium Devices ( Tablets ) */
 
-@media (max-width: 640px) {
-}
-/* ======================================  */
+  @media (max-width: 640px) {
+  }
+  /* ======================================  */
 
-/* For Laptops  Devices*/
+  /* For Laptops  Devices*/
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
 
   /* Header Section */
 
@@ -246,10 +246,10 @@ body {
     width : 100%;
   }
   .landingpagegriditem1headerformobile {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-family: serif;
     font-weight: 800;
-    padding: 4% 0 4% 5%;
+    padding: 4% 0 4% 2%;
     word-spacing: 0.2em;
     color : whitesmoke;
   }
@@ -308,34 +308,27 @@ body {
    .landingpageloginbuttonitem {
     display: flex;
     width: 100%;
-    margin  : 0% 0 5% 0;
+    margin  : 10% 0 5% 0;
     flex-direction: row;
     align-items: center;
+    gap : 1em;
     justify-content: flex-start;
   }
   .landingregisterincontent {
-    padding : 0.4%;
-    width : 7vw;
-    font-size: 1.3em;
+    padding: 0 3%;
+    font-size: 0.9em;
     font-family: serif;
     text-align: center;
     background-color: rgba(255 , 0,0 , 0.7);
-    color : whitesmoke;
+    color : rgb(239, 234, 234);
     border : 2px solid red;
     border-radius: 0.5em;
   }
    .landingpageloginbuttonincontent {
     font-size: 0.9em;
-    font-family: serif;
-    width: 57%;
-    margin : 6% 1% 0 5%;
+    padding: 0 0 0 4%;
    }
-   .landingregisterincontent {
-    font-size: 0.8em;
-    padding  : 0.1%;
-    margin  : 6% 0 0 0 ;
-    width  : 15%;
-   }
+   
 
   /* ============================== */
   
@@ -1530,10 +1523,6 @@ body {
 
   /* ======================================= */
 
-  /*  Export Data (Excel/PDF) Content Section  */
-
-  /* =======================================*/
-
   /* Terms & Conditions Content Section  */
 
   .termsandconditionsheading {
@@ -1733,9 +1722,12 @@ body {
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-}
-@media (min-width : 769px) {
-      /* Header Section */
+
+  }
+  
+  @media (min-width : 769px) {
+  
+  /* Header Section */
 
   .header {
     height: 15vh;
@@ -1770,11 +1762,11 @@ body {
     color: whitesmoke;
   }
 
-}
+  }
 
-/* For Desktps  */
+  /* For Desktps  */
 
-@media (min-width: 1024px)  {
+  @media (min-width: 1024px)  {
   
   /* Header Section */
 
@@ -1942,11 +1934,12 @@ body {
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-}
+  
+  }
 
-/* ======================================  */
+  /* ======================================  */
 
-@media (min-width: 1366px) {
+  @media (min-width: 1366px) {
 
   /* Header Section */
 
@@ -2207,11 +2200,12 @@ body {
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-}
+  
+  }
 
-/* ======================================  */
+  /* ======================================  */
 
-@media (min-width: 1535px) {
+  @media (min-width: 1535px) {
   
   /* Header Section */
 
@@ -2242,7 +2236,7 @@ body {
     margin: 1.5% auto 0 1%;
   }
   .defaultheaderlogo:hover {
-      color : rgba(211, 8, 79, 0.978);
+      color : blue;
       animation : spin 1.5s linear infinite;
   }
   @keyframes spin {
@@ -2328,9 +2322,6 @@ body {
     display: flex;
     
   }
- /*  .landingpageflexcontainer > * {
-    border: 3px solid #000;
-  } */
   .landingpagegriditem1 {
     width : 40%;
   }
@@ -2415,6 +2406,48 @@ body {
     font-size: 2.5em;
     font-family: serif;
     margin : 0 2% 0 5%;
+  }
+  .landingpagegallerygridcontainer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height : 200vh;
+    grid-auto-flow: dense;
+    padding  :2%;
+    gap  : 2em;
+  }
+  .landingpagegallerygridcontainer > * {
+    border-top: 2px solid skyblue;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 10px rgba(7, 224, 244, 0.578);
+  }
+  .landingpagegallerygridcontainer > *:hover {
+      box-shadow: 0 20px 20px skyblue;
+  }
+  .landingpagegallerygriditem1 {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+  .landingpagegallerygriditem2 {
+    grid-column: span 1;
+    grid-row: span 2;
+   
+  }
+  .landingpagegallerygriditem3 {
+    grid-column: span 2;
+    grid-row: span 2;
+    border-radius: 2em;
+  }
+  .landingpagegallerygriditem4 {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  .landingpagegallerygriditem5 {
+    grid-column: span 3;
+    grid-row: span 0;
+  }
+  .landingpagegallerygriditem6 {
+    grid-column: span 0;
+    grid-row: span 0;
   }
 
   /* =================================== */
@@ -3276,6 +3309,7 @@ body {
     font-family: serif;
     border : 2px solid black;
   }
+  
   /* ======================================= */
 
   /* Sponsors and Gallery */
@@ -3389,7 +3423,7 @@ body {
     width  : 40%;
     font-weight: 700;
     padding  : 0 0 0 5%;
-    background: linear-gradient(90deg , #f61010 , #ff1616 , #ffad00);
+    background: linear-gradient(90deg , red , red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: pulseGlow 1s ease-in-out infinite , shine 2.5s infinite;
@@ -3397,11 +3431,11 @@ body {
   }
   @keyframes pulseGlow {
     0%,100% {
-      text-shadow: 0 0 8px #e02707 0 0 18px #f30404;
+      text-shadow: 0 0 8px red 0 0 18px red;
       transform: scale(1);
     }
     50% {
-      text-shadow: 0 0 2px #e01503 0 0 30px #f14005 ;
+      text-shadow: 0 0 2px red 0 0 30px red ;
       transform: scale(1.15);
     }
     
@@ -3749,20 +3783,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 5%;
+    padding : 3% 3%;
   }
   .contactuscontainer {
-    height: 90dvh;
-    width: 40%;
+    height: 70dvh;
+    width: 27%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding: 5% 2%;
     border-radius: 20em 20em 0 0;
     border: 5px solid black;
   }
   .contactusdiv {
     width  :100%;
+    text-align: center;
   }
   .contactus {
     font-weight: 600;
@@ -3770,14 +3805,21 @@ body {
     font-family: serif;
     text-align: center;
     width: 100%;
-    margin:10% 0 3% 0 ;
+    margin: 5% 0 3% 0 ;
     
   }
+  .contactusmainimagecontainer {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin  : 0% 0 3% 0;
+  }
   .contactusimg {
-    height: 15dvh;
-    width: 10vw;
-    margin: 6% 0 0 0;
-   
+    height: 10dvh;
+    width: 8vw;
+    margin: 0% 0 0 0;
   }
   .contacticons {
     height: 4vh;
@@ -3793,47 +3835,52 @@ body {
     width : 60%;
     flex-direction: row;
   }
-  .contactusdetails1 {
-    font-size: 1.5em;
-    text-align: left;
-    margin: 2% auto 0 0%;
-    height: 6vh;
-    font-weight: 500;
-    width  :70%;
+  .contactinfocontainer {
+    display: flex;
+    flex-direction: column;
+    width : 100%;
   }
-  .contactusdetails2 {
-    font-size: 1.5em;
-    font-weight: 500;
-    text-align: left;
-    margin: 2% auto 0 0%;
-    height: 5vh;
-    width: 70%;
-    
-  }
-  .contactusdetails3 {
-    font-size: 1.5em;
-    text-align: left;
-    font-weight: 500;
-    margin: 2% auto 0 0%;
-    height: 5vh;
-    width: 70%;
+   .contactusinfoitem{
+    display: flex;
+    width  :100%;
+    padding : 1%;
+    margin-top: 10%;
    
   }
-  .contactusdetails4 {
-    display: flex;
-    font-size: 1.5em;
-    flex-wrap: nowrap;
-    font-weight: 500;
-    margin: 3% auto 0 11%;
-    height: 3vh;
-    width: 50vw;
-    
+  .contactusimgcon {
+    width : 20%;
+    padding: 0 0 0 4%;
   }
+  .contactussocialimg {
+    height: 3vh;
+  }
+   .contactusvalue {
+    width : 80%;
+    padding : 0 0 0 5%;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  /* 
+  
+  
+ 
+  
+ 
+  */
+
+
+
+
+
+
+  
   /* =======================================*/
 
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-}
+  
+  }
 
-/* ======================================  */
+  /* ======================================  */

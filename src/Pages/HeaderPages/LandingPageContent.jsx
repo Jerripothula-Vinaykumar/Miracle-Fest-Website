@@ -79,14 +79,22 @@ export default function LandingPageContent() {
 
                 </div>
                 </div>
-                <div className="landingpageloginbuttonitem">
-                    <h1 className="landingpageloginbuttonincontent">Want to Roam Around the Fest ,  </h1>
+
+              <div className="landingpagegallerygridcontainer">
+                <div className="landingpagegallerygriditem1"></div>
+                <div className="landingpagegallerygriditem2"></div>
+                <div className="landingpagegallerygriditem3"></div>
+                <div className="landingpagegallerygriditem4"></div>
+                <div className="landingpagegallerygriditem5"></div>
+                <div className="landingpagegallerygriditem6"></div>
+              </div>
+
+                <div className="landingpageloginbuttonitem"> 
+                    <h1 className="landingpageloginbuttonincontent">Want to Know More ,  </h1>
                      <button className="landingregisterincontent"><Link to="/RegisterContent">Login</Link></button>
                 </div>
                 
           </div>
-       
-         
 
         </main>
     )

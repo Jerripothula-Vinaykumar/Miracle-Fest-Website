@@ -44,7 +44,7 @@ export function ContactusContent() {
             />  </div>
              <p className="contactusvalue">jvkmar2003@gmail.com</p>
             </div>
-        </div>
+        
 
          <div className="contactusinfoitem">  
               <div className="contactusimgcon">
@@ -55,7 +55,7 @@ export function ContactusContent() {
             />  </div>
              <p className="contactusvalue">Miracle City , Bhogapuram</p>
             </div>
-
+          </div>
       </div>
     </main>
   );
