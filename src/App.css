@@ -230,62 +230,61 @@
     text-align: center;
     padding: 1%;
   }
-  .landingpagecontainer {
+   .landingpagecontainer {
+    height : 300dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
-  .landingpageflexcontainer {
+  .landingpagefirstgrid {
     display: flex;
-    width  :100%;
-    flex-direction: column-reverse;
-  }
-  
-  .landingpagegriditem1 {
+    flex-direction: column;
+    padding: 0.5% 0.5%;
     width : 100%;
   }
-  .landingpagegriditem1headerformobile {
-    font-size: 0.9em;
-    font-family: serif;
-    font-weight: 800;
-    padding: 4% 0 4% 2%;
-    word-spacing: 0.2em;
-    color : whitesmoke;
+  .landingpagefirstgriditem1 { 
+    padding: 4% 0 0 0%;
   }
-  .landingpagegriditem1headerforlaptop {
-    display: none;
+  .landingpagefirstgriditem2 {
+    padding : 4%;
+    grid-column: span 2;
+    grid-row: span 2;
+    order : 3;
   }
-   .landingpagegriditem2 {
-    width : 100%;
-    padding  :  2%;
-  }
-  .landingpageclgimg {
-    height : 30dvh;
-    width : 100%;
-    border-radius: 0.7em;
+  .landingpagefirstgriditem3 {
+    height: 40dvh;
+    grid-column: span 3;
+    grid-row: span 2;
+    margin : 5% 0%;
+    width: 100%;
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 1em;
+    order : 2;
   }
-  .landingpagedetailscontainer {
-    margin : 0 5%;
-    width: 80%;
-    padding : 2% 5% 2% 2%;
+  .landingpagegriditem1headerforlaptop {
+    display: none;
+  }
+  .landingpagegriditem1headerformobile {
+    font-size: 1em;
+    font-weight: 700;
+    font-family: serif;
+    color : whitesmoke;
+  }
+   .landingpagedetailscontainer {
+    margin : 2% 1%;
     transform: box-shadow 1s ease-in;
     border  :1px solid transparent;
   }
-   .landingpagedetailsqncon {
-    margin: 1% 2%;
-    font-size: 0.9em;
+  .landingpagedetailsqncon {
+    margin: 3% 2%;
+    font-size: 0.8em;
+    padding: 0 0 0 2%;
     font-weight: 600;
-  }
-   .landingpagedetailscontainer:hover {
-      color  :whitesmoke;
-      border-radius: 0.5em;
-      border-top: 4px solid #f6f3f3;
-      box-shadow: 0 10px 5px whitesmoke;
   }
   .landingpagedetailsqn {
     padding : 0 0 0 2.5%;
@@ -293,42 +292,74 @@
   .landingpagedetailsanswer {
     margin : 0 2%;
     width : 100%;
+    padding : 0% 7% 1% 2%;
     font-size: 0.7em;
     font-weight: 500;
     font-family: serif;
     text-align: justify;
   }
   .landingpagedetailsqnhr {
-    width : 100%;
-    margin : 4% 0 1% 0;
+    width : 95%;
+    margin : 1% 3%;
     font-weight: 900;
     color : rgb(233, 230, 230);
     height : 0.5vh;
   }
-   .landingpageloginbuttonitem {
+  .landingpagedetailscontainer:hover {
+      color  :whitesmoke;
+      border-radius: 0.5em;
+      border-top: 4px solid #f6f3f3;
+      box-shadow: 0 15px 10px whitesmoke;
+  }
+  .landingpageloginbuttonitem {
+    padding : 2%;
     display: flex;
-    width: 100%;
-    margin  : 10% 0 5% 0;
+    width : 100%;
+    margin-bottom: 2%;
+    font-size: 0.9em;
     flex-direction: row;
     align-items: center;
-    gap : 1em;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .landingregisterincontent {
-    padding: 0 3%;
-    font-size: 0.9em;
+    padding : 0.5% 2%;
+    font-size: 0.7em;
     font-family: serif;
     text-align: center;
     background-color: rgba(255 , 0,0 , 0.7);
-    color : rgb(239, 234, 234);
+    color : whitesmoke;
     border : 2px solid red;
     border-radius: 0.5em;
   }
-   .landingpageloginbuttonincontent {
-    font-size: 0.9em;
-    padding: 0 0 0 4%;
-   }
-   
+  .landingregisterincontent:hover {
+    background-color: navy;
+    border : none;
+  }
+  .landingpageloginbuttonincontent {
+    font-size: 0.8em;
+    word-spacing: 0.4em;
+    font-family: serif;
+    margin : 0 4% 0 0%;
+  }
+  .landingpagegallerygridcontainer {
+    display: flex;
+    flex-direction: column;
+    width  : 100%;
+    height : 200vh;
+    grid-auto-flow: dense;
+    padding  : 4%;
+    gap  : 2em;
+  }
+  .landingpagegallerygridcontainer > * {
+    border-top: 3px solid rgb(223, 223, 227);
+    border-radius: 0.5em;
+    height : 40dvh;
+    box-shadow: 0 10px 10px rgb(224, 224, 228);
+  }
+  .landingpagegallerygridcontainer > *:hover {
+      box-shadow: 0 20px 20px black ;
+      border-top: 4px solid black;
+  }
 
   /* ============================== */
   
@@ -2291,6 +2322,8 @@
     display: flex;
     color : black;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding  :3% 3%;
     min-width: 100vw;
     min-height: 80vh;
@@ -2315,39 +2348,54 @@
     font-family: serif;
   }
   .landingpagecontainer {
+    height : 295dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
   }
-  .landingpageflexcontainer {
-    display: flex;
-    
-  }
-  .landingpagegriditem1 {
-    width : 40%;
-  }
-  .landingpagegriditem1headerforlaptop {
-    font-size: 2.5em;
-    font-family: serif;
-    font-weight: 800;
-    padding: 3% 0;
-  }
-  .landingpagegriditem1headerformobile {
-    display: none;
-  }
-  .landingpagegriditem2 {
-    width : 60%;
-    padding  :  2%;
-  }
-  .landingpageclgimg {
-    height : 60dvh;
+  .landingpagefirstgrid {
+    display: grid;
+    padding: 0.5% 0.5%;
     width : 100%;
-    border-radius: 0.5em;
+    grid-template-columns: repeat(5,1fr);
+
+  }
+  .landingpagefirstgrid > * {
+    /* border : 3px solid navy; */
+  }
+  .landingpagefirstgriditem1 {
+    height : 10vh;
+    grid-column: span 5 ;
+    padding: 0 0 0 2%;
+  }
+  .landingpagefirstgriditem2 {
+    height : 83dvh;
+    padding : 4% 2% 2% 2% ;
+    grid-column: span 2;
+    grid-row: span 2;
+   
+  }
+  .landingpagefirstgriditem3 {
+    height: 60dvh;
+    grid-column: span 3;
+    grid-row: span 2;
+    margin : 2%;
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 1em;
   }
-  .landingpagedetailscontainer {
+   .landingpagegriditem1headerforlaptop {
+    font-size: 2.5em;
+    font-family: serif;
+    font-weight: 800;
+    padding: 0;
+  }
+   .landingpagedetailscontainer {
     margin : 2% 1%;
     transform: box-shadow 1s ease-in;
     border  :1px solid transparent;
@@ -2358,15 +2406,8 @@
     padding: 0 0 0 2%;
     font-weight: 600;
   }
-  .landingpagedetailscontainer:hover {
-      color  :whitesmoke;
-      border-radius: 0.5em;
-      border-top: 4px solid #f6f3f3;
-      box-shadow: 0 15px 10px whitesmoke;
-  }
   .landingpagedetailsqn {
     padding : 0 0 0 2.5%;
-   
   }
   .landingpagedetailsanswer {
     margin : 0 2%;
@@ -2378,18 +2419,27 @@
     text-align: justify;
   }
   .landingpagedetailsqnhr {
-    width : 90.4%;
+    width : 95%;
     margin : 1% 3%;
     font-weight: 900;
     color : rgb(233, 230, 230);
     height : 0.5vh;
   }
+  .landingpagedetailscontainer:hover {
+      color  :whitesmoke;
+      border-radius: 0.5em;
+      border-top: 4px solid #f6f3f3;
+      box-shadow: 0 15px 10px whitesmoke;
+  }
   .landingpageloginbuttonitem {
-    height  :20vh;
+    height  :10vh;
     display: flex;
+    width : 100%;
+    margin-bottom: 2%;
+    font-size: 0.9em;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   .landingregisterincontent {
     padding : 0.4%;
@@ -2402,53 +2452,69 @@
     border : 2px solid red;
     border-radius: 0.5em;
   }
+  .landingregisterincontent:hover {
+    background-color: navy;
+    border : none;
+  }
   .landingpageloginbuttonincontent {
-    font-size: 2.5em;
+    font-size: 1.5em;
+    word-spacing: 0.4em;
     font-family: serif;
     margin : 0 2% 0 5%;
   }
   .landingpagegallerygridcontainer {
     display: grid;
+    width  : 100%;
     grid-template-columns: repeat(4,1fr);
     height : 200vh;
     grid-auto-flow: dense;
-    padding  :2%;
+    padding  : 0 4% 4% 4%;
     gap  : 2em;
   }
   .landingpagegallerygridcontainer > * {
-    border-top: 2px solid skyblue;
+    border-top: 3px solid rgb(223, 223, 227);
     border-radius: 0.5em;
-    box-shadow: 0 10px 10px rgba(7, 224, 244, 0.578);
+    box-shadow: 0 10px 10px rgb(224, 224, 228);
   }
   .landingpagegallerygridcontainer > *:hover {
-      box-shadow: 0 20px 20px skyblue;
+      box-shadow: 0 20px 20px black ;
+      border-top: 4px solid black;
+  }
+  .landingpagegriditem1headerformobile {
+    display: none;
   }
   .landingpagegallerygriditem1 {
+    height: 80dvh;
     grid-column: span 4;
     grid-row: span 2;
   }
   .landingpagegallerygriditem2 {
+    height : 60dvh;
     grid-column: span 1;
     grid-row: span 2;
-   
   }
   .landingpagegallerygriditem3 {
+    height : 60dvh;
     grid-column: span 2;
     grid-row: span 2;
     border-radius: 2em;
   }
   .landingpagegallerygriditem4 {
+    height : 60dvh;    
     grid-column: span 1;
     grid-row: span 2;
   }
   .landingpagegallerygriditem5 {
+    height: 40dvh;
     grid-column: span 3;
     grid-row: span 0;
   }
   .landingpagegallerygriditem6 {
+    height : 40dvh;
     grid-column: span 0;
     grid-row: span 0;
   }
+   
 
   /* =================================== */
 
