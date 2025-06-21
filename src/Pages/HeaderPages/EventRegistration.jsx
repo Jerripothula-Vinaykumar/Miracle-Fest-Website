@@ -400,7 +400,7 @@ export function WomesThrowBallRegistrationContent() {
             </div>
             </div>
            <div className="event-registration-info">
-              <p className="queries-header">For any Queries Contact className="querie-coordinator-details" Coordinator 
+              <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
               <p className="querie-coordinator-details">Coordinator Name : </p>
               <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
