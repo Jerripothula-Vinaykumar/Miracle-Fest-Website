@@ -4,15 +4,15 @@ export function EmergencyContactContent() {
     <main className="emergencycontactcontent">
       <div className="emergencycontactcontainer">
         <h1 className="emergencycontactsheader">Emergency Contacts</h1>
-        <div className="emergencycontact"> 1 . k . Srinivasa Rao [ DEAN ] <span>00000-00000</span></div>
-        <div className="emergencycontact"> 2 . A . Arjuna Rao [ PRINCIPAL ] <span>00000-00000</span></div>
-        <div className="emergencycontact"> 3 . CSE HOD <span>00000-00000</span></div>
-        <div className="emergencycontact"> 4 . ECE HOD <span>00000-00000</span></div>
-        <div className="emergencycontact"> 5 . EEE HOD <span>00000-00000</span></div>
-        <div className="emergencycontact"> 6 . Mechanical HOD <span>00000-00000</span></div>
-        <div className="emergencycontact"> 7 . Fest Committe Head <span>00000-00000</span></div>
-        <div className="emergencycontact"> 8 . Disciplane Committe Head <span>00000-00000</span></div>
-        <div className="emergencycontact"> 9 . Main Coordinator <span>00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">1 . k . Srinivasa Rao [ DEAN ]</span>  <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">2 . A . Arjuna Rao [ PRINCIPAL ]</span>  <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">3 . CSE HOD</span>  <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey"> 4 . ECE HOD </span><span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">  5 . EEE HOD</span><span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">6 . Mechanical HOD</span>  <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">7 . Fest Committe Head</span>  <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey"> 8 . Disciplane Committe Head</span> <span className="emergencycontactvalue">00000-00000</span></div>
+        <div className="emergencycontact"><span className="emergencycontactkey">9 . Main Coordinator</span>  <span className="emergencycontactvalue">00000-00000</span></div>
       
       </div>
     </main>

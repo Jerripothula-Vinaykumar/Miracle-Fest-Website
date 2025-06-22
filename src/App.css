@@ -248,16 +248,12 @@
   }
   .landingpagefirstgriditem2 {
     padding : 4%;
-    grid-column: span 2;
-    grid-row: span 2;
     order : 3;
   }
   .landingpagefirstgriditem3 {
-    height: 40dvh;
-    grid-column: span 3;
-    grid-row: span 2;
-    margin : 5% 0%;
-    width: 100%;
+    height: 35dvh;
+    margin : 5%;
+    width: 90%;
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180"); 
     background-repeat: no-repeat;
     background-position: center;
@@ -269,7 +265,7 @@
     display: none;
   }
   .landingpagegriditem1headerformobile {
-    font-size: 1em;
+    font-size: clamp(0.9em ,3.5vw ,1em);
     font-weight: 700;
     font-family: serif;
     color : whitesmoke;
@@ -419,14 +415,14 @@
   }
 
   .eventheader {
-    margin: 10% auto 0 1%;
-    font-size: 1.4em;
+    margin: 6% auto 0 1%;
+    font-size: 1.1em;
     font-style: bold;
     color: rgb(2, 21, 6);
   }
   .culturalheader {
     margin: 4% auto 0 8%;
-    font-size: 1.1em;
+    font-size: 1em;
     font-style: bold;
     color: rgb(27, 10, 179);
   }
@@ -437,7 +433,6 @@
     background-color: rgb(43, 252, 245);
     border: 1.8px solid black;
     box-shadow: 0 2px 5px black;
-
   }
   .chr {
     margin-top: 2%;
@@ -449,7 +444,7 @@
   }
   .eventstartdate {
     margin: 3.5% 0 0 3%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     display: flex;
     flex-direction: row;
   }
@@ -473,25 +468,25 @@
   /* Each Event Content  */
 
   .event-container {
-    padding : 5%;
+    padding : 7%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .event-info {
-    margin: 9%;
+    margin: 5% 0;
+    padding: 3% 0;
     text-indent: 1.5em;
-    font-size: 1.1em;
+    font-size: clamp(0.8em ,3.5vw ,1em);
     text-align: justify;
     line-height: 1.8em;
-    font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80vw;
+    width: 100%;
   }
   .event-img {
     height: 30vh;
-    width: 80vw;
+    width: 100%;
     border-radius: 0.2em;
   }
   .event-header {
@@ -501,16 +496,16 @@
     padding : 0 0  0 4%;
     width  : 100%;
     font-family: serif;
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .each-event-details-container {
     width : 100%;
-    padding : 0 0 0 6%;
+    
   }
   .event-details-header {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: 500;
-    margin : 0 0 2% 0 ;
+    margin : 0 0 3% 0 ;
   }
   .event-timings-info {
     display: flex;
@@ -520,16 +515,18 @@
   }
   .event-timings-info-item {
     display: flex;
+    font-size: 0.8em;
   }
   .event-details-key {
-    width : 34%;
+    width : 35%;
+
   }
   .event-details-colon {
     width: 5%;
   }
   .event-details-value {
-    width: 61%;
-    padding: 0 0 0 3%;
+    width: 60%;
+    padding: 0 0 0 3%; 
   }
   .event-register-button {
     background-color: red;
@@ -554,14 +551,14 @@
     padding: 5%;
   }
   .event-registration-header {
-    font-size : 1em;
+    font-size : 0.9em;
     font-family: serif;
     font-weight: 500;
     border-radius: 0.3em;
     color : whitesmoke;
     text-align: center;
     padding : 2%;
-    background-color: rgb(30, 235, 40);
+    background-color: rgb(79, 81, 79);
   }
   event-registration-queries {
     background-color: blue;
@@ -792,8 +789,8 @@
   }
   .editprofile {
     margin: 6% 0 0 auto;
-    padding: 1.3%;
-    font-size: 0.9em;
+    padding: 1% 2.5%;
+    font-size: 0.8em;
     font-family: serif;
     font-weight: 800;
     width : 25%;
@@ -846,7 +843,7 @@
     margin : 2%;
   }
  .footerbottom-div2 {
-    height: 10vh;
+    height: 9vh;
     background-color: rgb(77, 75, 75);
     display: flex;
     font-family: serif;
@@ -975,12 +972,13 @@
     justify-content: center;
   }
   .facultydashboardforotherscontainer {
-    height : 40dvh;
-    width : 90%;
+    width : 90%;border : 2px solid red;
   }
   .facultydashboardforothersselectcontainer {
     padding: 1% 1% 1% 2%;
     width : 100%;
+    display: flex;
+    justify-content: flex-end;
   }
   .facultydashboardforothersselect {
     padding : 1%;
@@ -989,7 +987,6 @@
     font-weight: 900;
     font-family: serif;
     border : 2px solid black;
-    margin  : 2% 0 0 49%;
   }
   .facultydashboardgridcontainer {
     display: flex;
@@ -1036,23 +1033,21 @@
   }
   .facultyinfo {
     width : 100%;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-family: serif;
     display: flex;
     font-weight: 600;
     margin-top: 2%;
   }
   .facultykey {
-    width : 40%;
+    width : 35%;
     padding-left: 1%;
   }
   .facultycolon {
     width : 5%;
-    padding-left: 1%;
   }
   .facultyvalue {
-    width : 59%;
-    padding-left: 8%;
+    width : 60%;
   }
 
   /* ======================================= */
@@ -1124,7 +1119,7 @@
     box-shadow: 0 5px 5px black;
   }
   .vpeventnameheader {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 600;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
@@ -1145,7 +1140,7 @@
   }
   .vpeventcoordinatorcontact {
     width : 25%;
-    font-size: 0.4em;
+    font-size: 0.38em;
     padding:  0 0 0 1%;
   }
   .vpeventcoordinatorheader {
@@ -1312,19 +1307,13 @@
     padding : 5%;
   }
   .stallsheader {
-    font-size: 1.1em;
-    font-family: Helvetica;
+    font-size: 1em;
+    font-family: serif;
     font-weight: 500;
     margin : 5% auto 0 3% ;
   }
-  .fastfoodstallsheader {
-    font-size: 1.7em;
-    width: 100%;
-    margin : 1% auto 0 1% ;
-    color :rgb(17, 16, 16) ;
-  }
   .stallcard {
-    height:20vh;
+    padding: 1% 0 8% 0;
     width: 100%;
     margin-top: 4%;
     border-radius: 20px;
@@ -1333,13 +1322,15 @@
     box-shadow: 0 2px 5px black;
   }
   .foodstallinfokey { 
-    width  : 25%; 
+    font-size: 0.9em;
+    width  : 35%; 
   }
   .foodstallinfocolon {
     width  : 5%;
     text-align: center;
   }
   .foodstallinfovalue {
+    font-size: 0.9em;
     padding : 0 0 0 3%;
     width: 70%;
   }
@@ -1351,6 +1342,7 @@
     width  : 35%;
     font-weight: 700;
     padding  : 0 0 0 2%;
+    color: rgb(246, 4, 4);
     background: linear-gradient(90deg , #e40505 , #ff0000 , #ffad00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1402,7 +1394,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding : 1%;
+    padding : 3%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -1413,9 +1405,9 @@
   }
   .faqheader {
     width : 100%;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
-    padding : 2%;
+    padding : 2% 0;
     text-align: center;
     margin :3% 0% 5% 0%;
   }
@@ -1433,6 +1425,7 @@
     background-color: skyblue;
   }
   .qn {
+    font-size: 0.9em;
     margin : 0 0 0 5%;
   }
   .faqquestion {
@@ -1440,6 +1433,7 @@
   }
   .faqanswer {
     margin : 2%;
+    font-size: 0.8em;
     word-spacing: 2px;
   }
 
@@ -1481,6 +1475,13 @@
     border-radius: 0.4em;
     box-shadow: 0 2px 3px black;
   }
+  .emergencycontactkey {
+    width  :70%;
+  }
+  .emergencycontactvalue {
+    width : 30%;
+    padding : 0 0 0 4%;
+  }
 
   /* ======================================= */
 
@@ -1497,14 +1498,13 @@
     padding : 6%;
   }
   .feedbackcontainer {
-    height  :75vh ;
     width : 100%;
     border-top: 5px solid black;
     box-shadow: 0 5px 5px  black;
     border-radius: 0.5em;
   }
   .feebackformheader {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
     font-family: serif;
     text-align: center;
@@ -1519,8 +1519,8 @@
     margin  :5% 0 0 0 ;
   }
   .feedbackforminputfields {
-    padding : 1% 1% 1% 3%; 
-    font-size: 0.9em;
+    padding : 1.5% 1% 1.5% 3%; 
+    font-size: clamp(0.8em , 5vw , 0.9em);
     font-weight: 400;
     margin  :4%;
     width : 60%;
@@ -1533,16 +1533,16 @@
     resize: horizontal;
     padding : 2%;
     margin : 2% 0 0 0;
-    font-size: 0.9em;
+    font-size: clamp(0.8em , 5vw , 0.9em);
     border : 2px solid #0d0707;
     border-radius: 0.4em;
   }
   .feedbackformbutton {
-    height : 4vh;
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin : 7% 0 7% 0 ;
     width : 60%;
+    padding : 1% 0;
     border-radius: 0.4em;
     background-color: rgb(9, 213, 101);
     color : whitesmoke;
@@ -1630,8 +1630,8 @@
   }
   .hellothere {
     width : 100%;
-    font-size: 0.9em;
-    font-weight: 600;
+    font-size: 0.8em;
+    font-weight: 300;
     margin : 2% 0 0% 0% ;
     display: flex;
     padding : 3%;
@@ -1656,7 +1656,7 @@
     margin-top: 2%;
     flex-direction: row;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     border-radius: 0.4em;
     font-weight: 600;
     font-family: serif;
@@ -1668,11 +1668,9 @@
   }
   .colon {
     width: 5%;
-    margin  : 0 0% 0 0%;
   }
   .infovalue {
     width : 70%;
-    margin  : 0 0% 0 3%;
   }
   
   /* ======================================= */
@@ -1700,7 +1698,7 @@
   }
   .contactus {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.2em;
     width: 100%;
     text-align: center;
     font-family: serif;
@@ -1732,11 +1730,11 @@
   }
   .contactusimgcon {
     padding  : 0 0 0 11% ;
-    width : 30%;
+    width : 25%;
   }
   .contactusvalue {
     width : 70%;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 800;
     padding : 0 0 0 3%;
   }
