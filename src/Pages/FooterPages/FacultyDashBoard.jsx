@@ -3,6 +3,7 @@ import { useState } from "react";
 
 export function FacultyDashboardContent() {
   const role = "";
+  
   const [Branch , setBranch] = useState("CSE");
 
   switch (Branch) {
@@ -17,6 +18,7 @@ export function FacultyDashboardContent() {
                 <option value="CSE">Computer Science</option>
                 <option value="ECE">Electronics & Communication</option>
                 <option value="EEE">Electrical & Electronics</option>
+                <option value="Civil">Civil</option>
                 <option value="Mech">Mechanical</option>
               </select>
             </div>
@@ -87,6 +89,7 @@ export function FacultyDashboardContent() {
                 <option value="CSE">Computer Science</option>
                 <option value="ECE">Electronics & Communication</option>
                 <option value="EEE">Electrical & Electronics</option>
+                <option value="Civil">Civil</option>
                 <option value="Mech">Mechanical</option>
               </select>
             </div>
@@ -156,6 +159,7 @@ export function FacultyDashboardContent() {
                 <option value="CSE">Computer Science</option>
                 <option value="ECE">Electronics & Communication</option>
                 <option value="EEE">Electrical & Electronics</option>
+                <option value="Civil">Civil</option>
                 <option value="Mech">Mechanical</option>
               </select>
             </div>
@@ -216,6 +220,79 @@ export function FacultyDashboardContent() {
       )
     break;
 
+    case "Civil" :
+      return(
+         <main className="facultydashboardforotherscontent">
+         
+         <div className="facultydashboardforotherscontentcontainer">
+             <div className="facultydashboardforothersselectcontainer">
+              <select onChange = {(e) => setBranch(e.target.value)} className="facultydashboardforothersselect">
+                <option value="CSE">Computer Science</option>
+                <option value="ECE">Electronics & Communication</option>
+                <option value="EEE">Electrical & Electronics</option>
+                <option value="Civil">Civil</option>
+                <option value="Mech">Mechanical</option>
+              </select>
+            </div>
+            <div className="facultydashboardgridcontainer">
+              <div className="facultydashboardgriditems">
+                <div className="facultydashboradgriditemprofilepic">Teacher Photo</div>
+                <div className="facultydashboradgriditemprofilebio">
+                  <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> HOD Name </span></div>
+                  <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> Civil HOD</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Civil</span></div>
+                
+                </div>
+              </div>
+              <div className="facultydashboardgriditems">
+                <div className="facultydashboradgriditemprofilepic">Teacher Photo</div>
+                <div className="facultydashboradgriditemprofilebio">
+                  <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue"> Civil Faculty</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue">Civil</span></div>
+                
+                </div>
+              </div>
+              <div className="facultydashboardgriditems">
+                <div className="facultydashboradgriditemprofilepic">Teacher Photo</div>
+                <div className="facultydashboradgriditemprofilebio">
+                  <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue">  Civil Faculty</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue"> Civil</span></div>
+                
+                </div>
+              </div>
+              <div className="facultydashboardgriditems">
+                <div className="facultydashboradgriditemprofilepic">Teacher Photo</div>
+                <div className="facultydashboradgriditemprofilebio">
+                  <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue">  Civil Faculty</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue"> Civil</span></div>
+                
+                </div>
+              </div>
+              <div className="facultydashboardgriditems">
+                <div className="facultydashboradgriditemprofilepic">Teacher Photo</div>
+                <div className="facultydashboradgriditemprofilebio">
+                  <div className="facultyinfo"><span className="facultykey">Name</span><span className="facultycolon">:</span><span className="facultyvalue"> Faculty Name</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Designation</span><span className="facultycolon">:</span><span className="facultyvalue">   Civil Faculty</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Bus</span><span className="facultycolon">:</span><span className="facultyvalue">Emo</span></div>
+                  <div className="facultyinfo"><span className="facultykey">Department</span><span className="facultycolon">:</span><span className="facultyvalue"> Civil</span></div>
+                
+                </div>
+              </div>
+            </div>
+         </div>
+         
+        </main>
+      )
+    break;
+
+
     case "Mech" :
       return(
          <main className="facultydashboardforotherscontent">
@@ -225,6 +302,7 @@ export function FacultyDashboardContent() {
                 <option value="CSE">Computer Science</option>
                 <option value="ECE">Electronics & Communication</option>
                 <option value="EEE">Electrical & Electronics</option>
+                <option value="Civil">Civil</option>
                 <option value="Mech">Mechanical</option>
               </select>
             </div>

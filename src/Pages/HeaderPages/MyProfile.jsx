@@ -52,7 +52,7 @@ export  function MyProfileContent() {
             <p className="festuserinfocon"> <span className="festuserkey">Village</span> <span className="myprofileinfocolon">:</span>   <span className="festuservalue"></span></p>
             <p className="festuserinfocon"> <span className="festuserkey">District</span> <span className="myprofileinfocolon">:</span>  <span className="festuservalue"></span> </p>
             <p className="festuserinfocon"> <span className="festuserkey"> State </span><span className="myprofileinfocolon">:</span>    <span className="festuservalue"></span></p>
-            <button onClick={()=>{setOption("editprofile")}} className="editprofile">Edit Profile</button>
+            <button onClick={()=>{setOption("editprofile")}} className="editprofile">Edit</button>
           </div>
         </div>
         

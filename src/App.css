@@ -214,9 +214,8 @@
     min-height: 80vh;
   }
   .landingregister {
-    margin: 9% 4% 0% 0;
-    height: 3.5vh;
-    width : 15vw;
+    margin: 10% 4% 0% 0;
+    padding: 0.5% 3.2%;
     font-size: 0.8em;
     text-align: center;
     background-color: rgba(255 , 0,0 , 0.7);
@@ -675,14 +674,14 @@
     background-color: rgba(62, 164, 7, 0.888);
   }
   .haveanacc {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 0.8em;
     color: black;
     word-spacing: 0.2em;
     margin: 10% 0 0 15%;
   }
   .signinwith {
-    font-weight: 700;
+    font-weight: 300;
     font-size: 0.8em;
     opacity: 0.8;
     word-spacing: 0.1em;
@@ -698,10 +697,10 @@
     padding-right: 6%;
   }
   .clglogoinregisterpageli {
-  margin  : 8% auto 0 5% ;
+    margin  : 8% auto 0 5% ;
   }
   .clglogoinregisterpage {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: serif;
   }
 
@@ -711,7 +710,6 @@
   /*  My Profie Content Section  */
 
   .myprofilecontent {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1550,6 +1548,83 @@
   /* ======================================= */
 
   /*  Results & Winners Display Content Section  */
+   .resultsandwinnersdisplaycontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+  }
+ 
+  .resultsandwinnersdisplayselectcontainer {
+    padding: 1% 2% 1% 2%;
+    width  :100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .resultsandwinnerssselect {
+    padding : 1.5% 1%;
+    font-size: 0.9em;
+    background-color: aliceblue;
+    border-radius: 0.4em;
+    font-weight: 600;
+    border : 2px solid black;
+  }
+  
+  .resultsandwinnersdisplaygridcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width : 100%;
+    padding : 0 0 2% 2%;
+    gap: 1em;
+  }
+  .resultsandwinnersdisplaygridcontainer > * {
+    height : 51vh;
+    width : 95%;
+    padding: 1% 0 4% 0;
+    padding : 1%;
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    justify-content: flex-start;
+    border-top: 3px solid #000;
+    box-shadow: 0 5px 5px black;
+
+  }
+  .resultsandwinnersdisplaygridinneritem1squadimg {
+    width : 80%;
+    height : 25vh;
+    margin  : 2% 5% 6% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid blue;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 5px blue;
+  }
+  .resultsandwinnersdisplayeventname {
+    width : 100%;
+    text-align: center;
+    margin : 1% 0;
+    font-family: serif;
+    font-weight: 800;
+  }
+  .resultsandwinnersdisplaygridinneritem2squadinfo {
+    height : 16vh;
+    width : 90%;
+    padding  :5%;
+    font-size: 0.9em;
+    font-family: serif;
+    font-weight: 800;
+    text-align: justify;
+    border-top: 3px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 5px black;
+  }
 
   /* ======================================= */
 
@@ -1741,13 +1816,6 @@
   .contactussocialimg {
     height: 2.5vh;
   }
-
-
-
- 
-  /* =======================================*/
-
-  /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
 
@@ -3691,11 +3759,83 @@
 
   /*  Results & Winners Display Content Section  */
 
+  .resultsandwinnersdisplaycontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5%;
+  }
+ 
+  .resultsandwinnersdisplayselectcontainer {
+    padding: 1% 2% 1% 2%;
+    width  :100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .resultsandwinnerssselect {
+    padding : 0.3%;
+    font-size: 1.2em;
+    border-radius: 0.4em;
+    font-weight: 600;
+    border : 2px solid black;
+  }
+  
+  .resultsandwinnersdisplaygridcontainer {
+    display: grid;
+    width : 100%;
+    padding : 0 0 2% 2%;
+    gap: 3em;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .resultsandwinnersdisplaygridcontainer > * {
+    height : 70vh;
+    width : 95%;
+    padding : 1%;
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    justify-content: flex-start;
+    border-top: 3px solid #000;
+    box-shadow: 0 5px 5px black;
+
+  }
+  .resultsandwinnersdisplaygridinneritem1squadimg {
+    width : 80%;
+    height : 40vh;
+    margin  : 2% 5% 4% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid blue;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 5px blue;
+  }
+  .resultsandwinnersdisplayeventname {
+    width : 100%;
+    text-align: center;
+    margin : 0.5% 0;
+    font-size: 1.4em;
+    font-family: serif;
+    font-weight: 800;
+    border : 1px solid red;
+  }
+  .resultsandwinnersdisplaygridinneritem2squadinfo {
+    height : 15vh;
+    text-align: justify;
+    width : 90%;
+    padding: 3%;
+    font-family: serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-top: 3px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 5px black;
+  }
+
   /* ======================================= */
-
-  /*  Export Data (Excel/PDF) Content Section  */
-
-  /* =======================================*/
 
   /* Terms & Conditions Content Section  */
 
@@ -3923,24 +4063,6 @@
     font-size: 1.1em;
     font-weight: 500;
   }
-
-  /* 
-  
-  
- 
-  
- 
-  */
-
-
-
-
-
-
-  
-  /* =======================================*/
-
-  /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
   
