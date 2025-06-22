@@ -35,7 +35,7 @@ export function MensCricketContent() {
           barefoot play allowed. It’s not just about winning — it's about team
           bonding, fair play, and true sportsmanship. So get your game face on,
           bring the heat, and take your team all the way to glory! Let the
-          Cricket Tournament begin — may the best squad lift the cup! F
+          Cricket Tournament begin — may the best squad lift the cup! 
         </div>
         <div className="each-event-details-container">
           <p className="event-details-header">Event Details </p>

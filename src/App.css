@@ -1321,7 +1321,7 @@
   }
   .foodstallinfokey { 
     font-size: 0.9em;
-    width  : 35%; 
+    width  : 30%; 
   }
   .foodstallinfocolon {
     width  : 5%;
@@ -1330,14 +1330,14 @@
   .foodstallinfovalue {
     font-size: 0.9em;
     padding : 0 0 0 3%;
-    width: 70%;
+    width: 75%;
   }
   .foodstallinfomobilevalue {
     padding : 0 0 0 3%;
-    width: 35%;
+    width: 37.5%;
   }
   .ordernow {
-    width  : 35%;
+    width  : 37.5%;
     font-weight: 700;
     padding  : 0 0 0 2%;
     color: rgb(246, 4, 4);
@@ -1469,15 +1469,15 @@
     display: flex;
     justify-content: space-between;
     font-family: serif;
-    font-size: 0.8em;
+    font-size: 0.7em;
     border-radius: 0.4em;
     box-shadow: 0 2px 3px black;
   }
   .emergencycontactkey {
-    width  :70%;
+    width  : 75%;
   }
   .emergencycontactvalue {
-    width : 30%;
+    width : 25%;
     padding : 0 0 0 4%;
   }
 
@@ -3665,7 +3665,7 @@
   }
    .emergencycontactcontainer {
     width : 50%;
-    padding : 1%;
+    padding : 1% 1% 3% 1%;
     border-top: 5px solid black;
     box-shadow: 0 5px 5px  black;
     border-radius: 0.5em;
@@ -3680,12 +3680,12 @@
   }
   .emergencycontact {
     margin : 2%;
-    padding: 1.5%;
+    padding: 0.5%;
     display: flex;
     justify-content: space-between;
     font-family: serif;
     font-size: 1.8em;
-    border : 0.4em;
+    border-radius : 0.2em;
     box-shadow: 0 2px 3px black;
   }
 
@@ -3848,6 +3848,12 @@
     font-weight: 500;
   }
   .termsandconditionsinfo {
+    font-size: 1.2em;
+    text-indent: 2em;
+    line-height: 2em;
+    word-spacing: 0.4em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
     margin : 1% 0 0 0;
     text-align: justify;
   }
