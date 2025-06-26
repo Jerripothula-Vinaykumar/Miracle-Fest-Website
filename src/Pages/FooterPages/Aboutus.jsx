@@ -7,13 +7,13 @@ export function AboutusContent() {
           <div className="authphoto"></div>
         <div className="hellothere">
           <p >
-          Hello there , I am M . Yodhi Babu {"\u{1F44B}"}</p>
+          Hello there , I am J Vinay Kumar {"\u{1F44B}"}</p>
           <p >Author of this Application</p>
       </div></div>
         <div className="authinfo">
 
           <div className="info">
-          <p className="user"><span className="infoname"> Name </span> <span className="colon"> : </span> <span className="infovalue"> Yogendhra Meegada</span> </p>
+          <p className="user"><span className="infoname"> Name </span> <span className="colon"> : </span> <span className="infovalue"> Jerripothula Vinay Kumar</span> </p>
           <p className="user"> <span className="infoname"> Year </span> <span className="colon">:</span> <span className="infovalue"> 4 Yr</span></p>
           <p className="user"><span className="infoname"> Branch </span> <span className="colon">:</span> <span className="infovalue"> Computer Science </span></p>
           <p className="user"><span className="infoname"> Section </span> <span className="colon">:</span> <span className="infovalue"> A </span></p>

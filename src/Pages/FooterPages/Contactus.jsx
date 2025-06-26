@@ -42,7 +42,7 @@ export function ContactusContent() {
               src="https://cdn-icons-png.flaticon.com/128/831/831357.png"
               alt=""
             />  </div>
-             <p className="contactusvalue">jvkmar2003@gmail.com</p>
+             <p className="contactusvalue">jvkumar2003@gmail.com</p>
             </div>
         
 
