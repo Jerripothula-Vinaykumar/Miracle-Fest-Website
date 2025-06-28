@@ -90,7 +90,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="logo"><h1><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><h1 ><Link to="/">MIRACLE</Link></h1></li>
 
                  </ul>
                 </nav>
@@ -110,7 +110,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="logo"><h1><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
                           
                  </ul>
                 </nav>
