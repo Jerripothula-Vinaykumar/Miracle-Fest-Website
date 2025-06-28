@@ -26,8 +26,8 @@ export function ProcoderRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -60,8 +60,8 @@ export function GuessTheOutputRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -94,8 +94,8 @@ export function QuizRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -128,8 +128,8 @@ export function EssayWritingRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -165,8 +165,8 @@ export function MensCricketRegistrationContent() {
          
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -199,8 +199,8 @@ export function MensKabaddiRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -233,8 +233,8 @@ export function MensVolleyBallRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -266,8 +266,8 @@ export function MensKhoKhoRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -300,8 +300,8 @@ export function CarromsRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -334,8 +334,8 @@ export function FreeFireRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -368,8 +368,8 @@ export function PubgRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span> </p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>
@@ -402,8 +402,8 @@ export function WomesThrowBallRegistrationContent() {
            <div className="event-registration-info">
               <p className="queries-header">For any Queries Contact  Coordinator 
               </p>
-              <p className="querie-coordinator-details">Coordinator Name : </p>
-              <p className="querie-coordinator-details">Coordinator Mobile : 00000-00000</p>
+              <p className="querie-coordinator-details"> <span className="queriecoor-key">Coordinator Name</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">Coordinator Name</span></p>
+              <p className="querie-coordinator-details"><span className="queriecoor-key">Coordinator Mobile</span>  <span className="queriecoor-colon">:</span> <span className="queriecoor-value">00000-00000</span></p>
             </div>
             </div>
         </main>

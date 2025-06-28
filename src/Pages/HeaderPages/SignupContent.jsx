@@ -6,9 +6,10 @@ export  function SignupContent() {
         const [email , setEmail ] = useState("");
         const [password , setPassword] = useState("");
 
-        const handleSubmit = (e) => {
+        const handleSubmit = async (e) => {
+            e.preventDefault();
             try{
-                const response = axios.post("http://localhost:8080/api/auth/signup" , { 
+                const response = await axios.post("https://miracle-fest-website-backend.onrender.com/api/auth/login" , { 
                     email , 
                     password
                 });
