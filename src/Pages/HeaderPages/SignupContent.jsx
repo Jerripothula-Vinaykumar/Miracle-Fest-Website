@@ -47,6 +47,7 @@ export function SignupContent() {
                     setEmail(e.target.value);
                   }}
                   className="signupinput"
+                  required
                   placeholder="  E-mail address"
                 />
                 <input
@@ -55,6 +56,7 @@ export function SignupContent() {
                     setPassword(e.target.value);
                   }}
                   className="signupinput"
+                  required
                   placeholder="  Password"
                 />
 

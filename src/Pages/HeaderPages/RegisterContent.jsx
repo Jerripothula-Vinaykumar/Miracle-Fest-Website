@@ -9,8 +9,14 @@ export function RegisterContent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const validate = () => {
+
+    }
+
     try {
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
@@ -49,6 +55,7 @@ export function RegisterContent() {
                   onChange={(e) => {
                     setUsername(e.target.value);
                   }}
+                  required
                   placeholder="  Username"
                 />
                 <input
@@ -57,6 +64,7 @@ export function RegisterContent() {
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
+                  required
                   placeholder="  E-mail address"
                 />
                 <input
@@ -70,6 +78,7 @@ export function RegisterContent() {
                 <input
                   type="password"
                   className="signupinput"
+                  required
                   placeholder="  Confirm password"
                 />
 
