@@ -47,7 +47,7 @@ export function SignupContent() {
                     setEmail(e.target.value);
                   }}
                   className="signupinput"
-                  required
+                  
                   placeholder="  E-mail address"
                 />
                 <input
@@ -56,12 +56,12 @@ export function SignupContent() {
                     setPassword(e.target.value);
                   }}
                   className="signupinput"
-                  required
+                
                   placeholder="  Password"
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" className="checkbox" required />
+                  <input type="checkbox" className="checkbox"  />
                   <p className="verify">Verify if you are a human</p>
                 </div>
                 <button type="submit" className="signupinputbutton">
