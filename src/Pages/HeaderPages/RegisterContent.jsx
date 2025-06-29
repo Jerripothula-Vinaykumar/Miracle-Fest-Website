@@ -4,20 +4,39 @@ import LoadingSpinner from "./LoadingSpinner";
 
 export function RegisterContent() {
     const [loading , setLoading ]  = useState(false);
+    const [username , setUsername]  = useState("");
+    const [email , setEmail ] = useState("");
+    const [password , setPassword] = useState("");
+    
     const navigate = useNavigate();
     
 
-    const navigateto = () => {
+    const navigateto = async (e) => {
+      
+      e.preventDefault();
 
-      setLoading(true);
+      try {
+               const response = await axios.post("https://miracle-fest-website-backend.onrender.com/api/auth/login" , { 
+                    username ,
+                    email , 
+                    password
+                });
 
-      setTimeout(()=>{
+                if (response.status === 200) {
+                   setLoading(true);
 
-      setLoading(false);
+                  setTimeout( () => {
 
-          navigate("/HomeContent");
+                  setLoading(false);
+
+                  navigate("/HomeContent");
    
-    } , 1300);
+                  } , 1300);
+                }
+      }
+      catch(error) {
+          console.log("Error : " + error);
+      }
     
     }
     
@@ -27,6 +46,7 @@ export function RegisterContent() {
 
       <main className="registercontent">
       <section className="register-container">
+       <form onSubmit={navigateto}>
         <input
           type="text"
           className="signupinput"
@@ -52,8 +72,10 @@ export function RegisterContent() {
           <input type="checkbox" className="checkbox" />{" "}
           <p className="verify">Verify if you are a human</p>
         </div>
-        <button onClick={navigateto} className="signupinputbutton">Sign up</button>
+        <button type="submit" className="signupinputbutton">Sign up</button>
+         </form>
         <div>
+         
           <p className="haveanacc">
             Have an account ? <Link to="/SignupContent">Sign in</Link>
           </p>
