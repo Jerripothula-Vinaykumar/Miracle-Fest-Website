@@ -61,7 +61,7 @@ export function SignupContent() {
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" className="checkbox" />{" "}
+                  <input type="checkbox" className="checkbox" required />
                   <p className="verify">Verify if you are a human</p>
                 </div>
                 <button type="submit" className="signupinputbutton">
