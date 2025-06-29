@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import LoadingSpinner from "./LoadingSpinner";
+import axios from "axios";
 
 export function RegisterContent() {
   const [loading, setLoading] = useState(false);
@@ -16,7 +17,7 @@ export function RegisterContent() {
         {
           username,
           email,
-          password,
+          password
         }
       );
       if (response.status === 200) {

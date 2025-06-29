@@ -16,7 +16,7 @@ export function SignupContent() {
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
         {
           email,
-          password,
+          password
         }
       );
       if (response.status === 200) {
