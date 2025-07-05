@@ -11,6 +11,8 @@ export function SignupContent() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log("Submit button clicked");
+
     try {
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
@@ -43,6 +45,8 @@ export function SignupContent() {
               <div className="signupinputcontainer">
                 <input
                   type="email"
+                  required
+                  value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
                   }}
@@ -52,6 +56,8 @@ export function SignupContent() {
                 />
                 <input
                   type="password"
+                  required
+                  value={password}
                   onChange={(e) => {
                     setPassword(e.target.value);
                   }}
@@ -61,10 +67,10 @@ export function SignupContent() {
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" className="checkbox"  />
+                  <input type="checkbox" className="checkbox" required  />
                   <p className="verify">Verify if you are a human</p>
                 </div>
-                <button type="submit" className="signupinputbutton">
+                <button disabled={loading} type="submit" className="signupinputbutton">
                   Sign up
                 </button>
               </div>

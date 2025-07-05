@@ -2451,9 +2451,7 @@
     grid-template-columns: repeat(5,1fr);
 
   }
-  .landingpagefirstgrid > * {
-    /* border : 3px solid navy; */
-  }
+  
   .landingpagefirstgriditem1 {
     height : 10vh;
     grid-column: span 5 ;
