@@ -9,13 +9,11 @@ export function RegisterContent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const validate = () => {
-
-    }
+    const validate = () => {};
     setLoading(true);
     try {
       const response = await axios.post(
@@ -23,12 +21,11 @@ export function RegisterContent() {
         {
           username,
           email,
-          password
+          password,
         }
       );
+      
       if (response.status === 200) {
-        
-
         setTimeout(() => {
           setLoading(false);
 
@@ -87,7 +84,12 @@ export function RegisterContent() {
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" name="captcha" className="checkbox" required/>
+                  <input
+                    type="checkbox"
+                    name="captcha"
+                    className="checkbox"
+                    required
+                  />
                   <p className="verify">Verify if you are a human</p>
                 </div>
                 <button type="submit" className="signupinputbutton">

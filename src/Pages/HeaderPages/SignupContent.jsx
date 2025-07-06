@@ -25,9 +25,9 @@ export function SignupContent() {
         
       );
      /*  console.log(" Status code :" + response.status); */
+     /* console.log("Response : " + response); */
       if (response.status === 200) {
         /* console.log("Submit button clicked at in if under try"); */
-        
 
         setTimeout(() => {
           setLoading(false);
