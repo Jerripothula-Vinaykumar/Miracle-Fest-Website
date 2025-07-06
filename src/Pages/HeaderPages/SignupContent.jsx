@@ -51,6 +51,7 @@ export function SignupContent() {
                 <input
                   type="email"
                   required
+                  name="email"
                   value={email}
                   onChange={(e) => {
                     setEmail(e.target.value);
@@ -62,12 +63,12 @@ export function SignupContent() {
                 <input
                   type="password"
                   required
+                  name="password"
                   value={password}
                   onChange={(e) => {
                     setPassword(e.target.value);
                   }}
                   className="signupinput"
-                
                   placeholder="  Password"
                 />
 

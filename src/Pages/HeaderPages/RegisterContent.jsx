@@ -16,7 +16,7 @@ export function RegisterContent() {
     const validate = () => {
 
     }
-
+    setLoading(true);
     try {
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
@@ -27,13 +27,13 @@ export function RegisterContent() {
         }
       );
       if (response.status === 200) {
-        setLoading(true);
+        
 
         setTimeout(() => {
           setLoading(false);
 
           navigate("/HomeContent");
-        }, 1300);
+        }, 1500);
       }
     } catch (error) {
       console.log("Error : " + error);
@@ -56,10 +56,12 @@ export function RegisterContent() {
                     setUsername(e.target.value);
                   }}
                   required
+                  name="name"
                   placeholder="  Username"
                 />
                 <input
                   type="email"
+                  name="email"
                   className="signupinput"
                   onChange={(e) => {
                     setEmail(e.target.value);
@@ -69,6 +71,7 @@ export function RegisterContent() {
                 />
                 <input
                   type="password"
+                  name="password"
                   className="signupinput"
                   onChange={(e) => {
                     setPassword(e.target.value);
@@ -77,13 +80,14 @@ export function RegisterContent() {
                 />
                 <input
                   type="password"
+                  name="confirm password"
                   className="signupinput"
                   required
                   placeholder="  Confirm password"
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" className="checkbox" required/>
+                  <input type="checkbox" name="captcha" className="checkbox" required/>
                   <p className="verify">Verify if you are a human</p>
                 </div>
                 <button type="submit" className="signupinputbutton">
