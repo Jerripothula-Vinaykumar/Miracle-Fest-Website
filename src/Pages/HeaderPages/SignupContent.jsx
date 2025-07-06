@@ -11,24 +11,29 @@ export function SignupContent() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Submit button clicked");
-
+   /*  console.log("Submit button clicked at outer"); */
+    setLoading(true);
     try {
+
+      /* console.log("Submit button clicked at in try"); */
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
         {
           email,
           password
         }
+        
       );
+     /*  console.log(" Status code :" + response.status); */
       if (response.status === 200) {
-        setLoading(true);
+        /* console.log("Submit button clicked at in if under try"); */
+        
 
         setTimeout(() => {
           setLoading(false);
 
           navigate("/HomeContent");
-        }, 1300);
+        }, 1500);
       }
     } catch (error) {
       console.log("Error : " + error);
