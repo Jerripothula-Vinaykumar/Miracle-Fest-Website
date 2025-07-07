@@ -17,11 +17,13 @@ export function RegisterContent() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://miracle-fest-website-backend.onrender.com/api/auth/login",
+        "https://miracle-fest-website-backend.onrender.com/api/auth/signup",
         {
           username,
           email,
           password,
+        } , {
+          withCredentials : true
         }
       );
       

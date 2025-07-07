@@ -15,7 +15,7 @@ export function SignupContent() {
     setLoading(true);
     try {
 
-      /* console.log("Submit button clicked at in try"); */
+      console.log("Submit button clicked at in try");
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
         {
@@ -24,7 +24,7 @@ export function SignupContent() {
         }
         
       );
-     /*  console.log(" Status code :" + response.status); */
+      console.log(" Status code :" + response.status);
      /* console.log("Response : " + response); */
       if (response.status === 200) {
         /* console.log("Submit button clicked at in if under try"); */
@@ -36,6 +36,7 @@ export function SignupContent() {
         }, 1500);
       }
     } catch (error) {
+      /* console.log("Response : " + response); */
       console.log("Error : " + error);
     }
   };
