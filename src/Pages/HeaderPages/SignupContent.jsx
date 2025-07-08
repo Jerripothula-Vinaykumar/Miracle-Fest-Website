@@ -42,6 +42,8 @@ export function SignupContent() {
        setLoading(false);
         console.log("In 401");
         navigate("/SignupContent")
+        console.log("in catch");
+
         alert("Invalid Credentials");
       console.log("Error : " + error);
     }
