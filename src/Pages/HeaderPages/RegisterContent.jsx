@@ -16,6 +16,7 @@ export function RegisterContent() {
     const validate = () => {};
     setLoading(true);
     try {
+      console.log("at top of axios");
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/signup",
         {
@@ -26,11 +27,10 @@ export function RegisterContent() {
           withCredentials : true
         }
       );
-      
+      console.log("after axios , response innertext  : " + response.innerText);
       if (response.status === 200) {
         setTimeout(() => {
           setLoading(false);
-
           navigate("/HomeContent");
         }, 1500);
       }

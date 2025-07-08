@@ -12,7 +12,7 @@ export function SignupContent() {
   const handleSubmit = async (e) => {
     e.preventDefault();
    /*  console.log("Submit button clicked at outer"); */
-    setLoading(true);
+   
     try {
 
       console.log("Submit button clicked at in try");
@@ -25,8 +25,9 @@ export function SignupContent() {
         
       );
       console.log(" Status code :" + response.status);
-     /* console.log("Response : " + response); */
+     console.log("Response : " + response);
       if (response.status === 200) {
+         setLoading(true);
         /* console.log("Submit button clicked at in if under try"); */
 
         setTimeout(() => {
@@ -35,8 +36,13 @@ export function SignupContent() {
           navigate("/HomeContent");
         }, 1500);
       }
+     
     } catch (error) {
       /* console.log("Response : " + response); */
+       setLoading(false);
+        console.log("In 401");
+        navigate("/SignupContent")
+        alert("Invalid Credentials");
       console.log("Error : " + error);
     }
   };
