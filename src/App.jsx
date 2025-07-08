@@ -83,9 +83,7 @@ function App() {
          
         </Route>
           
-        <Route path="/CustomDialog" element={<CustomDialog />}>
-         
-        </Route>
+      
           
          <Route path="/LoadingSpinner" element={<LoadingSpinner />}>
          
