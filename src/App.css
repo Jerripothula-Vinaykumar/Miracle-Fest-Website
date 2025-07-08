@@ -1,169 +1,167 @@
 @import "tailwindcss";
-  /* ======================================= */
-  
-  /*  Universal Selector  */
-  
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  /* ======================================= */
-  
-  /*  Body Section */
-  body {
-    min-height: 100vh;
-  }
-  /* ======================================= */
-  
-  /* Header Section */
-  
-  /* ===========================  */
-  
-  /* Home Content Section */
-  
-  /*  ==============================  */
-  
-  /* Event Content Section */
-  
-  /*  Schedule Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Gallery Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Leaderboard Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Register Content Section  */
-  
-  /* ======================================= */
-  
-  /*  My Profie Content Section  */
-  
-  /* ======================================= */
-  
-  /* Footer Section */
-  
-  /*  Admin Panel */
-  
-  /*  Faculty Dashboard Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Coordinator Dashboard Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Event Coordinators Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Volunteer`s Assignment Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Support & QA Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Certificate Download Content Section  */
-  
-  /* ======================================= */
-  
-  /* Gamification and Funfeatures     */
-  
-  /*  Classical Events Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Technical Events Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Cultural Events Content Section  */
-  
-  /* ======================================= */
-  
-  /* Sponsors and Gallery */
-  
-  /*  Sponsor Logos and Offers Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Stalls Info and Coupons Content Section  */
-  
-  /* ======================================= */
-  
-  /*  About Fest Content Section  */
-  
-  /* ======================================= */
-  
-  /* Suport & Accessbility */
-  
-  /*  FAQ Section Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Emergency Contacts Content Section  */
-  
-  /* ======================================= */
-  
-  /* Post Fest */
-  
-  /*  Feedback Form Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Results & Winners Display Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Export Data (Excel/PDF) Content Section  */
-  
-  /* =======================================*/
-  
-  /* Terms & Conditions Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Privacy Policy Content Section  */
-  
-  /* =======================================*/
-  
-  /*  About us Content Section  */
-  
-  /* ======================================= */
-  
-  /*  Contact us Content Section  */
-  
-  /* =======================================*/
-  
-  /*  Archive of Past Events and Winner`s Content Section  */
-  
-  /* =======================================*/
-  
-  /* Media Queries  */
-  
-  /* For Small Devices ( Mobiles )  */
- 
-  @media (min-width: 475px) {
- 
-  }
+/* ======================================= */
 
-  /* For Medium Devices ( Tablets ) */
+/*  Universal Selector  */
 
-  @media (max-width: 640px) {
-  }
-  /* ======================================  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* ======================================= */
 
-  /* For Laptops  Devices*/
+/*  Body Section */
+body {
+  min-height: 100vh;
+}
+/* ======================================= */
 
-  @media (max-width: 768px) {
+/* Header Section */
 
+/* ===========================  */
+
+/* Home Content Section */
+
+/*  ==============================  */
+
+/* Event Content Section */
+
+/*  Schedule Content Section  */
+
+/* ======================================= */
+
+/*  Gallery Content Section  */
+
+/* ======================================= */
+
+/*  Leaderboard Content Section  */
+
+/* ======================================= */
+
+/*  Register Content Section  */
+
+/* ======================================= */
+
+/*  My Profie Content Section  */
+
+/* ======================================= */
+
+/* Footer Section */
+
+/*  Admin Panel */
+
+/*  Faculty Dashboard Content Section  */
+
+/* ======================================= */
+
+/*  Coordinator Dashboard Content Section  */
+
+/* ======================================= */
+
+/*  Event Coordinators Content Section  */
+
+/* ======================================= */
+
+/*  Volunteer`s Assignment Content Section  */
+
+/* ======================================= */
+
+/*  Support & QA Content Section  */
+
+/* ======================================= */
+
+/*  Certificate Download Content Section  */
+
+/* ======================================= */
+
+/* Gamification and Funfeatures     */
+
+/*  Classical Events Content Section  */
+
+/* ======================================= */
+
+/*  Technical Events Content Section  */
+
+/* ======================================= */
+
+/*  Cultural Events Content Section  */
+
+/* ======================================= */
+
+/* Sponsors and Gallery */
+
+/*  Sponsor Logos and Offers Content Section  */
+
+/* ======================================= */
+
+/*  Stalls Info and Coupons Content Section  */
+
+/* ======================================= */
+
+/*  About Fest Content Section  */
+
+/* ======================================= */
+
+/* Suport & Accessbility */
+
+/*  FAQ Section Content Section  */
+
+/* ======================================= */
+
+/*  Emergency Contacts Content Section  */
+
+/* ======================================= */
+
+/* Post Fest */
+
+/*  Feedback Form Content Section  */
+
+/* ======================================= */
+
+/*  Results & Winners Display Content Section  */
+
+/* ======================================= */
+
+/*  Export Data (Excel/PDF) Content Section  */
+
+/* =======================================*/
+
+/* Terms & Conditions Content Section  */
+
+/* ======================================= */
+
+/*  Privacy Policy Content Section  */
+
+/* =======================================*/
+
+/*  About us Content Section  */
+
+/* ======================================= */
+
+/*  Contact us Content Section  */
+
+/* =======================================*/
+
+/*  Archive of Past Events and Winner`s Content Section  */
+
+/* =======================================*/
+
+/* Media Queries  */
+
+/* For Small Devices ( Mobiles )  */
+
+@media (min-width: 475px) {
+}
+
+/* For Medium Devices ( Tablets ) */
+
+@media (max-width: 640px) {
+}
+/* ======================================  */
+
+/* For Laptops  Devices*/
+
+@media (max-width: 768px) {
   /* Header Section */
 
   .header {
@@ -171,7 +169,7 @@
     width: 100%;
     background-color: rgb(18, 17, 17);
   }
- 
+
   .header-ul {
     display: flex;
     flex-direction: row;
@@ -203,13 +201,13 @@
   /* ===========================  */
 
   /* Landing Page Content */
- 
+
   .landingpagecontent {
     background: gray;
     display: flex;
-    color : black;
+    color: black;
     flex-direction: column;
-    padding  :3% 3%;
+    padding: 3% 3%;
     min-width: 100vw;
     min-height: 80vh;
   }
@@ -218,18 +216,18 @@
     padding: 0.5% 3.2%;
     font-size: 0.8em;
     text-align: center;
-    background-color: rgba(255 , 0,0 , 0.7);
-    color : whitesmoke;
-    border : 2px solid red;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: whitesmoke;
+    border: 2px solid red;
     border-radius: 0.5em;
   }
   .landingaboutfest {
-    margin : 0 4% 0 0 ;
+    margin: 0 4% 0 0;
     font-size: 1em;
     text-align: center;
     padding: 1%;
   }
-   .landingpagecontainer {
+  .landingpagecontainer {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -240,39 +238,39 @@
     display: flex;
     flex-direction: column;
     padding: 0.5% 0.5%;
-    width : 100%;
+    width: 100%;
   }
-  .landingpagefirstgriditem1 { 
+  .landingpagefirstgriditem1 {
     padding: 4% 0 0 0%;
   }
   .landingpagefirstgriditem2 {
-    padding : 4%;
-    order : 3;
+    padding: 4%;
+    order: 3;
   }
   .landingpagefirstgriditem3 {
     height: 35dvh;
-    margin : 5%;
+    margin: 5%;
     width: 90%;
-    background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180"); 
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1em;
-    order : 2;
+    order: 2;
   }
   .landingpagegriditem1headerforlaptop {
     display: none;
   }
   .landingpagegriditem1headerformobile {
-    font-size: clamp(0.9em ,3.5vw ,1em);
+    font-size: clamp(0.9em, 3.5vw, 1em);
     font-weight: 700;
     font-family: serif;
-    color : whitesmoke;
+    color: whitesmoke;
   }
-   .landingpagedetailscontainer {
-    margin : 2% 1%;
+  .landingpagedetailscontainer {
+    margin: 2% 1%;
     transform: box-shadow 1s ease-in;
-    border  :1px solid transparent;
+    border: 1px solid transparent;
   }
   .landingpagedetailsqncon {
     margin: 3% 2%;
@@ -281,34 +279,34 @@
     font-weight: 600;
   }
   .landingpagedetailsqn {
-    padding : 0 0 0 2.5%;
+    padding: 0 0 0 2.5%;
   }
   .landingpagedetailsanswer {
-    margin : 0 2%;
-    width : 100%;
-    padding : 0% 7% 1% 2%;
+    margin: 0 2%;
+    width: 100%;
+    padding: 0% 7% 1% 2%;
     font-size: 0.7em;
     font-weight: 500;
     font-family: serif;
     text-align: justify;
   }
   .landingpagedetailsqnhr {
-    width : 95%;
-    margin : 1% 3%;
+    width: 95%;
+    margin: 1% 3%;
     font-weight: 900;
-    color : rgb(233, 230, 230);
-    height : 0.5vh;
+    color: rgb(233, 230, 230);
+    height: 0.5vh;
   }
   .landingpagedetailscontainer:hover {
-      color  :whitesmoke;
-      border-radius: 0.5em;
-      border-top: 4px solid #f6f3f3;
-      box-shadow: 0 15px 10px whitesmoke;
+    color: whitesmoke;
+    border-radius: 0.5em;
+    border-top: 4px solid #f6f3f3;
+    box-shadow: 0 15px 10px whitesmoke;
   }
   .landingpageloginbuttonitem {
-    padding : 2%;
+    padding: 2%;
     display: flex;
-    width : 100%;
+    width: 100%;
     margin-bottom: 2%;
     font-size: 0.9em;
     flex-direction: row;
@@ -316,47 +314,47 @@
     justify-content: center;
   }
   .landingregisterincontent {
-    padding : 0.5% 2%;
+    padding: 0.5% 2%;
     font-size: 0.7em;
     font-family: serif;
     text-align: center;
-    background-color: rgba(255 , 0,0 , 0.7);
-    color : whitesmoke;
-    border : 2px solid red;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: whitesmoke;
+    border: 2px solid red;
     border-radius: 0.5em;
   }
   .landingregisterincontent:hover {
     background-color: navy;
-    border : none;
+    border: none;
   }
   .landingpageloginbuttonincontent {
     font-size: 0.8em;
     word-spacing: 0.4em;
     font-family: serif;
-    margin : 0 4% 0 0%;
+    margin: 0 4% 0 0%;
   }
   .landingpagegallerygridcontainer {
     display: flex;
     flex-direction: column;
-    width  : 100%;
-    height : 200vh;
+    width: 100%;
+    height: 200vh;
     grid-auto-flow: dense;
-    padding  : 4%;
-    gap  : 2em;
+    padding: 4%;
+    gap: 2em;
   }
   .landingpagegallerygridcontainer > * {
     border-top: 3px solid rgb(223, 223, 227);
     border-radius: 0.5em;
-    height : 40dvh;
+    height: 40dvh;
     box-shadow: 0 10px 10px rgb(224, 224, 228);
   }
   .landingpagegallerygridcontainer > *:hover {
-      box-shadow: 0 20px 20px black ;
-      border-top: 4px solid black;
+    box-shadow: 0 20px 20px black;
+    border-top: 4px solid black;
   }
 
   /* ============================== */
-  
+
   /* Loading Spinner Content */
 
   .loadingspinnerpagecontent {
@@ -369,12 +367,12 @@
     align-items: center;
   }
   .loadingspinner {
-    width : 60px;
+    width: 60px;
     height: 60px;
-    border : 6dvi solid #3b82f6;
+    border: 6dvi solid #3b82f6;
     border-top-color: #3498db;
     border-radius: 50%;
-    animation : spin 1s linear infinite;
+    animation: spin 1s linear infinite;
   }
   @keyframes spin {
     to {
@@ -447,15 +445,15 @@
     display: flex;
     flex-direction: row;
   }
-  .eventkey { 
-    width  : 35%;
+  .eventkey {
+    width: 35%;
   }
   .eventcolon {
-    width  : 5%;
+    width: 5%;
     text-align: center;
   }
   .eventvalue {
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 60%;
   }
   .eventname {
@@ -467,7 +465,7 @@
   /* Each Event Content  */
 
   .event-container {
-    padding : 7%;
+    padding: 7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,7 +475,7 @@
     margin: 5% 0;
     padding: 3% 0;
     text-indent: 1.5em;
-    font-size: clamp(0.8em ,3.5vw ,1em);
+    font-size: clamp(0.8em, 3.5vw, 1em);
     text-align: justify;
     line-height: 1.8em;
     font-family: Arial, Helvetica, sans-serif;
@@ -492,71 +490,69 @@
     margin: 0 auto 4% 0%;
     font-weight: 900;
     font: bold;
-    padding : 0 0  0 4%;
-    width  : 100%;
+    padding: 0 0 0 4%;
+    width: 100%;
     font-family: serif;
     font-size: 1em;
   }
   .each-event-details-container {
-    width : 100%;
-    
+    width: 100%;
   }
   .event-details-header {
     font-size: 1em;
     font-weight: 500;
-    margin : 0 0 3% 0 ;
+    margin: 0 0 3% 0;
   }
   .event-timings-info {
     display: flex;
     flex-direction: column;
     gap: 0.8em;
-    padding : 0 0 0 2.5%;
+    padding: 0 0 0 2.5%;
   }
   .event-timings-info-item {
     display: flex;
     font-size: 0.8em;
   }
   .event-details-key {
-    width : 35%;
-
+    width: 35%;
   }
   .event-details-colon {
     width: 5%;
   }
   .event-details-value {
     width: 60%;
-    padding: 0 0 0 3%; 
+    padding: 0 0 0 3%;
   }
   .event-register-button {
     background-color: red;
-    color : whitesmoke;
-    width : 30%;
-    padding : 1%;
+    color: whitesmoke;
+    width: 30%;
+    padding: 1%;
     font-size: 1em;
-    margin : 4% 0 2% 0;
+    margin: 4% 0 2% 0;
     border-radius: 0.3rem;
   }
 
   /* ====================================== */
 
   /* Event Registration Form Content */
-   
+
   .eventregistrationcontent {
-    padding : 10% 5%;
+    padding: 10% 5%;
   }
 
   .event-registration-container {
-    width : 100%;
+    width: 100%;
     padding: 5%;
   }
   .event-registration-header {
-    font-size : 0.85em;
+    font-size: 0.85em;
     font-family: serif;
     font-weight: 500;
     border-radius: 0.3em;
-    color : whitesmoke;
+    color: whitesmoke;
     text-align: center;
-    padding : 2%;
+    padding: 2%;
     background-color: rgb(79, 81, 79);
   }
   event-registration-queries {
@@ -565,74 +561,73 @@
   .event-registration-input-fileds-container {
     display: flex;
     flex-direction: column;
-    padding : 3% 0 0 0%;
+    padding: 3% 0 0 0%;
   }
   .signupinput-assign-coor {
     font-size: 0.9em;
     font-family: serif;
-    margin  : 0 0 0 0%;
+    margin: 0 0 0 0%;
   }
   .event-registration-input-filed {
-    height : 3vh;
-    margin : 8% 0% 1% 0;
+    height: 3vh;
+    margin: 8% 0% 1% 0;
     font-size: 1em;
-    border : 2px solid black;
+    border: 2px solid black;
     font-weight: 500;
     opacity: 0.9;
     border-radius: 0.4em;
-    width : 70%;
-    padding : 4% 0 4% 5%;
+    width: 70%;
+    padding: 4% 0 4% 5%;
   }
   .event-registration-submit-button {
-    width :100%;
+    width: 100%;
     padding: 1.3%;
     font-size: 1em;
     background-color: red;
     border-radius: 0.3em;
-    margin  : 5% auto 0 0% ;
-    color : whitesmoke;
+    margin: 5% auto 0 0%;
+    color: whitesmoke;
   }
   .registration-container {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 0 0 0 0%;
+    padding: 0 0 0 0%;
   }
-  
+
   .event-registration-info {
     font-size: 0.9em;
     text-align: center;
-    margin  :2% 0 0 0;
+    margin: 2% 0 0 0;
   }
   .queries-header {
     background-color: navy;
-    color : whitesmoke;
-    margin : 5% 0 0 0 ;
-    padding : 2.2%; 
+    color: whitesmoke;
+    margin: 5% 0 0 0;
+    padding: 2.2%;
     width: 100%;
     border-radius: 0.3em;
   }
   .querie-coordinator-details {
     font-size: 0.9em;
     text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin : 4% 0 0 3% ;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 4% 0 0 3%;
     display: flex;
-   
   }
   .queriecoor-key {
-    width : 38%;
+    width: 38%;
   }
   .queriecoor-colon {
-    width : 2%;
+    width: 2%;
   }
   .queriecoor-value {
-    padding : 0 0 0 2%;
-    width : 60%;
+    padding: 0 0 0 2%;
+    width: 60%;
   }
-  
+
   /* ======================================= */
 
   /*  Register Content Section  */
@@ -652,8 +647,8 @@
     justify-content: center;
   }
   .register-container {
-    width : 70%;
-    padding : 0 4%;
+    width: 70%;
+    padding: 0 4%;
   }
   .signupinput {
     margin: 4% 0 4% 0;
@@ -715,13 +710,83 @@
     padding-right: 6%;
   }
   .clglogoinregisterpageli {
-    margin  : 8% auto 0 5% ;
+    margin: 8% auto 0 5%;
   }
   .clglogoinregisterpage {
     font-size: 1.2em;
     font-family: serif;
   }
+  .invalidcredentials {
+    color: red;
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+    margin: 7% 0 4% 0;
+    font-family: serif;
+  }
 
+  /* Dialog Box Content Section */
+
+  .dialog-overlay {
+   
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border : 2px solid red;
+  }
+
+  .dialog-box {
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease;
+  }
+
+  .dialog-header,
+  .dialog-footer {
+    background-color: #f2f2f2;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dialog-body {
+    padding: 20px;
+  }
+
+  .dialog-close-x {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .dialog-close-btn {
+    background-color: #ff5c5c;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
 
   /* ======================================= */
 
@@ -732,7 +797,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background:  rgb(235, 235, 243);
+    background: rgb(235, 235, 243);
     justify-content: center;
     align-items: center;
     padding: 5%;
@@ -741,7 +806,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     margin: 2% 0 0 0;
   }
@@ -757,14 +822,14 @@
     height: 20dvh;
     border-radius: 1em;
   }
-  
+
   .myprofileinfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 0.8em;
-    width : 85%;
-    padding : 3% ;
+    width: 85%;
+    padding: 3%;
     border-radius: 0.4em;
     border-top: 3px solid #000;
     margin: 13% 0% 0% 0%;
@@ -778,10 +843,9 @@
     align-items: center;
     font-weight: 600;
     padding: 2%;
-    width : 100%;
+    width: 100%;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
-
   }
   .festuserkey {
     width: 30%;
@@ -800,7 +864,7 @@
     width: 65%;
     padding: 1% 1% 1% 2%;
     border: 2px solid rgb(16, 14, 14);
-    margin : 0.5% 0.9% 0.6% 0 ;
+    margin: 0.5% 0.9% 0.6% 0;
     border-radius: 0.5em;
   }
   .editprofile {
@@ -809,20 +873,19 @@
     font-size: 0.8em;
     font-family: serif;
     font-weight: 800;
-    width : 25%;
+    width: 25%;
     border-radius: 0.4em;
     color: black;
     background-color: rgb(3, 237, 54);
     font-weight: 500;
   }
 
-
   /* ======================================= */
 
   /* Footer Section */
 
   .footer {
-    padding : 4% 0%;
+    padding: 4% 0%;
     background-color: gray;
   }
   .footernav {
@@ -832,8 +895,8 @@
     justify-content: center;
   }
   .footernav > * {
-    margin : 1%;
-    width : 100%;
+    margin: 1%;
+    width: 100%;
   }
   .navdiv h1 {
     font-size: 1em;
@@ -841,7 +904,7 @@
     font-family: serif;
     text-align: center;
   }
-  .navdiv li{
+  .navdiv li {
     list-style-type: none;
     font-size: 0.9em;
     line-height: 2em;
@@ -857,9 +920,9 @@
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
-    margin : 2%;
+    margin: 2%;
   }
- .footerbottom-div2 {
+  .footerbottom-div2 {
     height: 9vh;
     background-color: rgb(77, 75, 75);
     display: flex;
@@ -871,11 +934,11 @@
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
-  } 
-  .footerhr {
-    width: 100% ;
   }
- 
+  .footerhr {
+    width: 100%;
+  }
+
   /* ======================================= */
 
   /*  Admin Panel */
@@ -885,17 +948,17 @@
   /* For HOD */
 
   .facultydashboardcontent {
-    padding : 10%;
+    padding: 10%;
   }
   .facultydashboard-container {
     width: 80vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center;
   }
   .assign-coordinators-container {
-    height :60vh ;
-    width : 100% ;
+    height: 60vh;
+    width: 100%;
   }
   .assign-event-coordinator-header-container {
     height: 5vh;
@@ -905,16 +968,15 @@
     background-color: rgb(237, 53, 3);
   }
   .assign-event-coordinator-header {
-    color : whitesmoke ;
+    color: whitesmoke;
     text-align: center;
-    margin :  0 0 0 8%;
-
+    margin: 0 0 0 8%;
   }
   .signupinput-assign-coor {
-    margin  : 5% ;
+    margin: 5%;
     height: 3.5vh;
-    width  : 70% ; 
-    padding : 1% 0 0 4%;
+    width: 70%;
+    padding: 1% 0 0 4%;
   }
   .event-coordinator-assign-submit-button {
     height: 4.5vh;
@@ -926,10 +988,10 @@
     border-radius: 5px;
   }
   .coor-ass-inputs-container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .assign-event-details-header-container {
@@ -940,9 +1002,9 @@
     background-color: rgb(12, 166, 35);
   }
   .assign-event-details-header {
-     color : whitesmoke ;
+    color: whitesmoke;
     text-align: center;
-    margin :  0 0 0 8%;
+    margin: 0 0 0 8%;
   }
   .event-details-assign-submit-button {
     height: 4.5vh;
@@ -954,22 +1016,20 @@
     border-radius: 5px;
   }
   .hodnote-container {
-    margin : 5% 0 5% 0%;
-    height: 10vh ;
+    margin: 5% 0 5% 0%;
+    height: 10vh;
     text-align: center;
     display: flex;
     line-height: 1.5em;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    width : 100% ;
-   
+    width: 100%;
   }
   .hodnotetext {
     font-style: italic;
     font-size: 0.8em;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   /* Except HOD */
@@ -979,47 +1039,48 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding : 5%;
+    padding: 5%;
   }
   .facultydashboardforotherscontentcontainer {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   .facultydashboardforotherscontainer {
-    width : 90%;border : 2px solid red;
+    width: 90%;
+    border: 2px solid red;
   }
   .facultydashboardforothersselectcontainer {
     padding: 1% 1% 1% 2%;
-    width : 100%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
   }
   .facultydashboardforothersselect {
-    padding : 1%;
+    padding: 1%;
     font-size: 0.7em;
     border-radius: 0.4em;
     font-weight: 900;
     font-family: serif;
-    border : 2px solid black;
+    border: 2px solid black;
   }
   .facultydashboardgridcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap :1em;
+    gap: 1em;
     width: 100%;
     justify-content: center;
-    gap : 0.5em;
-    padding : 2% 5% 5% 7%;
-    margin : 0% 0 2% 0 ;
+    gap: 0.5em;
+    padding: 2% 5% 5% 7%;
+    margin: 0% 0 2% 0;
   }
   .facultydashboardgriditems {
-    height : 35vh;
-    width : 95%;
-    padding : 1%;
+    height: 35vh;
+    width: 95%;
+    padding: 1%;
     display: flex;
     margin-top: 5%;
     flex-direction: column;
@@ -1031,8 +1092,8 @@
     box-shadow: 0 5px 5px black;
   }
   .facultydashboradgriditemprofilepic {
-    width : 60%;
-    height : 22vh;
+    width: 60%;
+    height: 22vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1041,15 +1102,14 @@
     box-shadow: 0 2px 2px black;
   }
   .facultydashboradgriditemprofilebio {
-    height : 20vh;
-    width : 80%;
+    height: 20vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    margin : 5% 0 2% 0;
-    
+    margin: 5% 0 2% 0;
   }
   .facultyinfo {
-    width : 100%;
+    width: 100%;
     font-size: 0.7em;
     font-family: serif;
     display: flex;
@@ -1057,30 +1117,29 @@
     margin-top: 2%;
   }
   .facultykey {
-    width : 35%;
+    width: 35%;
     padding-left: 1%;
   }
   .facultycolon {
-    width : 5%;
+    width: 5%;
   }
   .facultyvalue {
-    width : 60%;
+    width: 60%;
   }
 
   /* ======================================= */
 
   /*  Event Coordinators Content Section  */
 
- 
   .eventcoordinatorscontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 6%;
+    padding: 6%;
   }
   .eventcoordinatordashboardcontainer {
-    width : 100%;
+    width: 100%;
   }
   .eventcoordinatorsheader {
     font-size: 1em;
@@ -1088,27 +1147,25 @@
     font-weight: 560;
   }
   .eventcoordinatorgridcontainer {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding : 2% 4%;
+    padding: 2% 4%;
   }
-  
 
   /* ======================================= */
 
   /*  Volunteer`s Assignment Content Section  */
 
-  
-    .volunteersassignmentcontent {
+  .volunteersassignmentcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding  : 12% 7% 7%  7%;
+    padding: 12% 7% 7% 7%;
   }
   .volunteerassignmentheader {
-    margin : 2% 2% 5% 2%;
+    margin: 2% 2% 5% 2%;
     font-size: 1em;
     font-family: serif;
     font-weight: 600;
@@ -1121,7 +1178,7 @@
     justify-content: center;
     width: 100%;
     padding: 2%;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-top: 6px solid black;
     border-radius: 0.5em;
   }
@@ -1130,8 +1187,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding : 2%;
-    margin : 1% 0 2% 0;
+    padding: 2%;
+    margin: 1% 0 2% 0;
     border-top: 4px solid #000;
     box-shadow: 0 5px 5px black;
   }
@@ -1139,33 +1196,33 @@
     font-size: 0.8em;
     font-weight: 600;
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventnameli {
     font-size: 0.4em;
     font-weight: 600;
-    width :30%;
-    margin : 0 0 0 1.8%;
-    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    margin: 0 0 0 1.8%;
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventcoordinatorname {
     text-align: left;
-    width : 45%;
+    width: 45%;
     font-size: 0.4em;
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     margin: 0 2% 0 0;
   }
   .vpeventcoordinatorcontact {
-    width : 25%;
+    width: 25%;
     font-size: 0.38em;
-    padding:  0 0 0 1%;
+    padding: 0 0 0 1%;
   }
   .vpeventcoordinatorheader {
     font-size: 0.8em;
     font-weight: 600;
     width: 100%;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;   
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventcoordinatorcontactheader {
     font-size: 0.9em;
@@ -1173,31 +1230,29 @@
     width: 100%;
     padding: 0 3% 0 0;
     text-align: right;
-    font-family: 'Times New Roman', Times, serif;   
- 
+    font-family: "Times New Roman", Times, serif;
   }
   .volunteerbox {
-    margin : 1%;
+    margin: 1%;
     display: flex;
     justify-content: space-between;
     font-family: serif;
     font-size: 1.8em;
-    border : 0.4em;
-    width : 100%;
+    border: 0.4em;
+    width: 100%;
     padding: 2%;
     border-radius: 0.2em;
-    box-shadow: 0 2px 5px  black;
+    box-shadow: 0 2px 5px black;
   }
 
   /* ======================================= */
 
   /*  Support & QA Content Section  */
 
-
   .supportqa-container {
     height: 80vh;
     width: 80vw;
-     margin: 10%;
+    margin: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1207,23 +1262,23 @@
 
   /*  Certificate Download Content Section  */
 
- .certificatedownloadcontent {
+  .certificatedownloadcontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 25% 10% ;
+    padding: 25% 10%;
   }
   .certificatedownloadheader {
-    margin : 1%;
+    margin: 1%;
     width: 100%;
     font-size: 1em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
   }
   .certificatedownloadbox {
     min-height: 60dvh;
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1236,18 +1291,18 @@
     min-height: 40dvh;
     border-top: 3px solid #000;
     border-radius: 0.4em;
-    width : 100%;
-    margin : 3% 0 0 0;
+    width: 100%;
+    margin: 3% 0 0 0;
     box-shadow: 0 1px 5px black;
   }
   .downloadcertificatebutton {
-    height : 4vh;
-    width : 45%;
-    margin : 9% 1% 0 auto   ;
+    height: 4vh;
+    width: 45%;
+    margin: 9% 1% 0 auto;
     background-color: green;
     color: whitesmoke;
     font-family: serif;
-    border : 2px solid black;
+    border: 2px solid black;
     border-radius: 0.3em;
   }
 
@@ -1261,45 +1316,44 @@
     padding: 8%;
   }
   .sponserlogoheader {
-    margin : 0 0 5% 0 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 5% 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 1em;
     font-weight: 600;
-    width : 100%;
+    width: 100%;
   }
   .sponsorslogossselect {
-    padding : 1%;
+    padding: 1%;
     font-size: 0.7em;
     border-radius: 0.4em;
     font-weight: 900;
     font-family: serif;
-    border : 2px solid black;
-    margin  : 2% 0 0 83%;
+    border: 2px solid black;
+    margin: 2% 0 0 83%;
   }
   .logoflexitems {
-    height : 30dvh;
-    width : 100%;
+    height: 30dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin : 0 0 15% 0;  
+    margin: 0 0 15% 0;
   }
   .logosflexcontainer {
-    flex:1;
-    margin : 0 0 4% 0 ;
+    flex: 1;
+    margin: 0 0 4% 0;
     border-top: 3px solid black;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
-
   }
   .logosgridcontainer {
     display: flex;
     flex-direction: column;
   }
   .logogriditems {
-    height : 30dvh;
-    width : 100%;
+    height: 30dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1321,13 +1375,13 @@
     gap: 1em;
     align-items: center;
     justify-content: center;
-    padding : 5%;
+    padding: 5%;
   }
   .stallsheader {
     font-size: 1em;
     font-family: serif;
     font-weight: 500;
-    margin : 5% auto 0 3% ;
+    margin: 5% auto 0 3%;
   }
   .stallcard {
     padding: 1% 0 8% 0;
@@ -1338,52 +1392,52 @@
     border: 1.8px solid black;
     box-shadow: 0 2px 5px black;
   }
-  .foodstallinfokey { 
+  .foodstallinfokey {
     font-size: 0.9em;
-    width  : 30%; 
+    width: 30%;
   }
   .foodstallinfocolon {
-    width  : 5%;
+    width: 5%;
     text-align: center;
   }
   .foodstallinfovalue {
     font-size: 0.9em;
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 75%;
   }
   .foodstallinfomobilevalue {
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 37.5%;
   }
   .ordernow {
-    width  : 37.5%;
+    width: 37.5%;
     font-weight: 700;
-    padding  : 0 0 0 2%;
+    padding: 0 0 0 2%;
     color: rgb(246, 4, 4);
-    background: linear-gradient(90deg , #e40505 , #ff0000 , #ffad00);
+    background: linear-gradient(90deg, #e40505, #ff0000, #ffad00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: pulseGlow 1s ease-in-out infinite , shine 2.5s infinite;
+    animation: pulseGlow 1s ease-in-out infinite, shine 2.5s infinite;
     position: relative;
   }
   @keyframes pulseGlow {
-    0%,100% {
+    0%,
+    100% {
       text-shadow: 0 0 8px #e02707 0 0 18px #f30404;
       transform: scale(1);
     }
     50% {
-      text-shadow: 0 0 2px #e01503 0 0 30px #f14005 ;
+      text-shadow: 0 0 2px #e01503 0 0 30px #f14005;
       transform: scale(1.15);
     }
-    
   }
   @keyframes shine {
-      0% {
-        background-position: 200% center;
-      }
-      100% {
-        background-position: 0% center;
-      }    
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: 0% center;
+    }
   }
 
   /* ======================================= */
@@ -1411,7 +1465,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding : 3%;
+    padding: 3%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -1421,23 +1475,23 @@
     justify-content: center;
   }
   .faqheader {
-    width : 100%;
+    width: 100%;
     font-size: 1em;
     font-weight: 500;
-    padding : 2% 0;
+    padding: 2% 0;
     text-align: center;
-    margin :3% 0% 5% 0%;
+    margin: 3% 0% 5% 0%;
   }
   .faqquestioncontainer {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width  :100%;
+    width: 100%;
     font-family: serif;
-    margin : 2% 2% 2% 2%;
-    padding : 3%;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
-    transition : background-color 0.3s ease;
+    margin: 2% 2% 2% 2%;
+    padding: 3%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
   }
   .faqquestioncontainer:hover {
     background-color: skyblue;
@@ -1445,13 +1499,13 @@
   .qn {
     font-size: 0.8em;
     font-weight: 600;
-    margin : 0 0 0 5%;
+    margin: 0 0 0 5%;
   }
   .faqquestion {
     padding: 1%;
   }
   .faqanswer {
-    margin : 2%;
+    margin: 2%;
     font-size: 0.8em;
     word-spacing: 2px;
   }
@@ -1459,31 +1513,31 @@
   /* ======================================= */
 
   /*  Emergency Contacts Content Section  */
-   
+
   .emergencycontactcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 15% 5%;
+    padding: 15% 5%;
   }
-   .emergencycontactcontainer {
-    width : 100%;
-    padding : 8% 3%;
+  .emergencycontactcontainer {
+    width: 100%;
+    padding: 8% 3%;
     border-top: 5px solid black;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-radius: 0.5em;
   }
   .emergencycontactsheader {
     text-align: center;
     font-size: 1em;
-    margin : 1% 0 4% 0 ;
+    margin: 1% 0 4% 0;
     padding: 1%;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   .emergencycontact {
-    margin : 2% 0%;
+    margin: 2% 0%;
     padding: 2% 0.5%;
     font-weight: 800;
     display: flex;
@@ -1494,13 +1548,12 @@
     box-shadow: 0 2px 3px black;
   }
   .emergencycontactkey {
-    padding : 0 0 0 2%;
-    width  : 65%;
+    padding: 0 0 0 2%;
+    width: 65%;
   }
   .emergencycontactvalue {
     padding: 0 0 0 5%;
-    width : 35%;
-  
+    width: 35%;
   }
 
   /* ======================================= */
@@ -1508,19 +1561,19 @@
   /* Post Fest */
 
   /*  Feedback Form Content Section  */
-  
+
   .feedbackformcontent {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 6%;
+    padding: 6%;
   }
   .feedbackcontainer {
-    width : 100%;
+    width: 100%;
     border-top: 5px solid black;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-radius: 0.5em;
   }
   .feebackformheader {
@@ -1528,86 +1581,87 @@
     font-weight: 600;
     font-family: serif;
     text-align: center;
-    margin : 15% 0 2% 0;
-    padding : 1%;
+    margin: 15% 0 2% 0;
+    padding: 1%;
   }
   .feedbackforminputscontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin  :5% 0 0 0 ;
+    margin: 5% 0 0 0;
   }
   .feedbackforminputfields {
-    padding : 1.5% 1% 1.5% 3%; 
-    font-size: clamp(0.8em , 5vw , 0.9em);
+    padding: 1.5% 1% 1.5% 3%;
+    font-size: clamp(0.8em, 5vw, 0.9em);
     font-weight: 400;
-    margin  :4%;
-    width : 60%;
-    border : 2px solid black;
+    margin: 4%;
+    width: 60%;
+    border: 2px solid black;
     border-radius: 0.7em;
   }
   .feedbackformtextarea {
-    width  :60%;
+    width: 60%;
     height: 25vh;
     resize: horizontal;
-    padding : 2%;
-    margin : 2% 0 0 0;
-    font-size: clamp(0.8em , 5vw , 0.9em);
-    border : 2px solid #0d0707;
+    padding: 2%;
+    margin: 2% 0 0 0;
+    font-size: clamp(0.8em, 5vw, 0.9em);
+    border: 2px solid #0d0707;
     border-radius: 0.4em;
   }
   .feedbackformbutton {
     font-size: 0.9em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin : 7% 0 7% 0 ;
-    width : 60%;
-    padding : 1% 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 7% 0 7% 0;
+    width: 60%;
+    padding: 1% 0;
     border-radius: 0.4em;
     background-color: rgb(9, 213, 101);
-    color : whitesmoke;
+    color: whitesmoke;
   }
   /* ======================================= */
 
   /*  Results & Winners Display Content Section  */
-  
-   .resultsandwinnersdisplaycontent {
+
+  .resultsandwinnersdisplaycontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 5%;
+    padding: 5%;
   }
- 
+
   .resultsandwinnersdisplayselectcontainer {
     padding: 1% 2% 1% 2%;
-    width  :100%;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
   }
   .resultsandwinnerssselect {
-    padding : 1.5% 1%;
+    padding: 1.5% 1%;
     font-size: 0.9em;
     background-color: aliceblue;
     border-radius: 0.4em;
     font-weight: 600;
-    border : 2px solid black;
+    border: 2px solid black;
   }
-  
+
   .resultsandwinnersdisplaygridcontainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width : 100%;
-    padding : 0 0 2% 2%;
+    width: 100%;
+    padding: 0 0 2% 2%;
     gap: 1em;
   }
   .resultsandwinnersdisplaygridcontainer > * {
-    height : 51vh;
-    width : 95%;
+    height: 51vh;
+    width: 95%;
     padding: 1% 0 4% 0;
-    padding : 1%;
+    padding: 1%;
     display: flex;
     margin-top: 4%;
     flex-direction: column;
@@ -1616,12 +1670,11 @@
     justify-content: flex-start;
     border-top: 3px solid #000;
     box-shadow: 0 5px 5px black;
-
   }
   .resultsandwinnersdisplaygridinneritem1squadimg {
-    width : 80%;
-    height : 25vh;
-    margin  : 2% 5% 6% 5%;
+    width: 80%;
+    height: 25vh;
+    margin: 2% 5% 6% 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1630,16 +1683,16 @@
     box-shadow: 0 5px 5px blue;
   }
   .resultsandwinnersdisplayeventname {
-    width : 100%;
+    width: 100%;
     text-align: center;
-    margin : 1% 0;
+    margin: 1% 0;
     font-family: serif;
     font-weight: 800;
   }
   .resultsandwinnersdisplaygridinneritem2squadinfo {
-    height : 16vh;
-    width : 90%;
-    padding  :5%;
+    height: 16vh;
+    width: 90%;
+    padding: 5%;
     font-size: 0.7em;
     font-family: serif;
     font-weight: 800;
@@ -1696,15 +1749,15 @@
     align-items: center;
   }
   .aboutuscon {
-    width : 100%;
+    width: 100%;
   }
   .authphoto {
     height: 30vh;
     width: 60vw;
     border: 1.5px solid rgb(16, 16, 16);
     margin: 10% 0 0 15%;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180"); 
-  /* background: url("./images/Jvinaykumar.jpeg"); */ 
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+    /* background: url("./images/Jvinaykumar.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1720,26 +1773,26 @@
   .smicons {
     display: flex;
     padding-left: 2%;
-    gap : 0.5em;
+    gap: 0.5em;
   }
   .smimg {
     height: 3vh;
     margin: 2% 0 0 0%;
   }
   .hellothere {
-    width : 100%;
+    width: 100%;
     font-size: 0.8em;
     font-weight: 500;
-    margin : 2% 0 0% 0% ;
+    margin: 2% 0 0% 0%;
     display: flex;
-    padding : 3%;
+    padding: 3%;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
   }
   .authinfo {
-    width : 90%;
-    padding : 5%;
+    width: 90%;
+    padding: 5%;
     border-top: 3px solid #000;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
@@ -1748,8 +1801,8 @@
     width: 100%;
   }
   .user {
-    width : 100%;
-    padding : 2%;
+    width: 100%;
+    padding: 2%;
     display: flex;
     margin-top: 2%;
     flex-direction: row;
@@ -1768,9 +1821,9 @@
     width: 5%;
   }
   .infovalue {
-    width : 70%;
+    width: 70%;
   }
-  
+
   /* ======================================= */
 
   /*  Contact us Content Section  */
@@ -1779,10 +1832,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding : 30% 10%;
+    padding: 30% 10%;
   }
   .contactuscontainer {
-    
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -1792,7 +1844,7 @@
     border: 2px solid black;
   }
   .contactusdiv {
-    width : 100%;
+    width: 100%;
   }
   .contactus {
     font-weight: 600;
@@ -1800,52 +1852,50 @@
     width: 100%;
     text-align: center;
     font-family: serif;
-    margin  :10% 0 0 0;
+    margin: 10% 0 0 0;
   }
   .contactusmainimagecontainer {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin  :15% 0 3% 0;
+    margin: 15% 0 3% 0;
   }
   .contactusimg {
     height: 7vh;
     width: 20vw;
   }
-  
+
   .contactinfocontainer {
     display: flex;
     flex-direction: column;
-    width : 100%;
+    width: 100%;
   }
-  .contactusinfoitem{
+  .contactusinfoitem {
     display: flex;
-    width  :100%;
-    padding : 1%;
+    width: 100%;
+    padding: 1%;
     margin-top: 10%;
   }
   .contactusimgcon {
-    padding  : 0 0 0 11% ;
-    width : 25%;
+    padding: 0 0 0 11%;
+    width: 25%;
   }
   .contactusvalue {
-    width : 70%;
+    width: 70%;
     font-size: 0.8em;
     font-weight: 800;
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
   }
   .contactussocialimg {
     height: 2.5vh;
   }
 
   /* =======================================*/
+}
 
-  }
-  
-  @media (min-width : 769px) {
-  
+@media (min-width: 769px) {
   /* Header Section */
 
   .header {
@@ -1880,13 +1930,11 @@
     text-align: center;
     color: whitesmoke;
   }
+}
 
-  }
+/* For Desktps  */
 
-  /* For Desktps  */
-
-  @media (min-width: 1024px)  {
-  
+@media (min-width: 1024px) {
   /* Header Section */
 
   .header {
@@ -2053,13 +2101,11 @@
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-  
-  }
+}
 
-  /* ======================================  */
+/* ======================================  */
 
-  @media (min-width: 1366px) {
-
+@media (min-width: 1366px) {
   /* Header Section */
 
   .header {
@@ -2319,18 +2365,16 @@
   /*  Archive of Past Events and Winner`s Content Section  */
 
   /* =======================================*/
-  
-  }
+}
 
-  /* ======================================  */
+/* ======================================  */
 
-  @media (min-width: 1535px) {
-  
+@media (min-width: 1535px) {
   /* Header Section */
 
   .header {
     height: 15vh;
-    padding :0 1% 0 0; 
+    padding: 0 1% 0 0;
     min-width: 100vw;
     background-color: rgb(18, 17, 17);
   }
@@ -2338,7 +2382,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
   }
   .header-ul {
     display: flex;
@@ -2355,8 +2399,8 @@
     margin: 1.5% auto 0 1%;
   }
   .defaultheaderlogo:hover {
-      color : blue;
-      animation : spin 1.5s linear infinite;
+    color: blue;
+    animation: spin 1.5s linear infinite;
   }
   @keyframes spin {
     to {
@@ -2371,11 +2415,11 @@
     color: whitesmoke;
   }
   .myprofileicon {
-    height : 3vh;
+    height: 3vh;
   }
 
   /* ======================================= */
-  
+
   /*  Loading Spinner Content*/
 
   .loadingspinnerpagecontent {
@@ -2388,19 +2432,19 @@
     align-items: center;
   }
   .loadingspinner {
-    width : 60px;
+    width: 60px;
     height: 60px;
-    border : 6dvi solid #3b82f6;
+    border: 6dvi solid #3b82f6;
     border-top-color: #3498db;
     border-radius: 50%;
-    animation : spin 1s linear infinite;
+    animation: spin 1s linear infinite;
   }
   @keyframes spin {
     to {
       transform: rotate(360deg);
     }
   }
-  
+
   /* ======================================= */
 
   /* Landing Page Content */
@@ -2408,83 +2452,80 @@
   .landingpagecontent {
     background: gray;
     display: flex;
-    color : black;
+    color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding  :3% 3%;
+    padding: 3% 3%;
     min-width: 100vw;
     min-height: 80vh;
   }
-  
+
   .landingregister {
     margin: 2.3% 2% 0% 0;
     height: 5vh;
-    width : 7vw;
+    width: 7vw;
     font-size: 1.3em;
     font-family: serif;
     text-align: center;
-    background-color: rgba(255 , 0,0 , 0.7);
-    color : whitesmoke;
-    border : 2px solid red;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: whitesmoke;
+    border: 2px solid red;
     border-radius: 0.5em;
   }
   .landingaboutfest {
-    margin : 2.5% 2% 0 0 ;
+    margin: 2.5% 2% 0 0;
     text-align: center;
     font-size: 2px;
     font-family: serif;
   }
   .landingpagecontainer {
-    height : 295dvh;
+    height: 295dvh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-
   }
   .landingpagefirstgrid {
     display: grid;
     padding: 0.5% 0.5%;
-    width : 100%;
-    grid-template-columns: repeat(5,1fr);
-
+    width: 100%;
+    grid-template-columns: repeat(5, 1fr);
   }
-  
+
   .landingpagefirstgriditem1 {
-    height : 10vh;
-    grid-column: span 5 ;
+    height: 10vh;
+    grid-column: span 5;
     padding: 0 0 0 2%;
   }
   .landingpagefirstgriditem2 {
-    height : 83dvh;
-    padding : 4% 2% 2% 2% ;
+    height: 83dvh;
+    padding: 4% 2% 2% 2%;
     grid-column: span 2;
     grid-row: span 2;
-   
   }
   .landingpagefirstgriditem3 {
     height: 60dvh;
     grid-column: span 3;
     grid-row: span 2;
-    margin : 2%;
-    background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180"); 
+    margin: 2%;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 1em;
   }
-   .landingpagegriditem1headerforlaptop {
+  .landingpagegriditem1headerforlaptop {
     font-size: 2.5em;
     font-family: serif;
     font-weight: 800;
     padding: 0;
   }
-   .landingpagedetailscontainer {
-    margin : 2% 1%;
+  .landingpagedetailscontainer {
+    margin: 2% 1%;
     transform: box-shadow 1s ease-in;
-    border  :1px solid transparent;
+    border: 1px solid transparent;
   }
   .landingpagedetailsqncon {
     margin: 3% 2%;
@@ -2493,34 +2534,34 @@
     font-weight: 600;
   }
   .landingpagedetailsqn {
-    padding : 0 0 0 2.5%;
+    padding: 0 0 0 2.5%;
   }
   .landingpagedetailsanswer {
-    margin : 0 2%;
-    width : 34vw;
-    padding : 1%;
+    margin: 0 2%;
+    width: 34vw;
+    padding: 1%;
     font-size: 1.2em;
     font-weight: 500;
     font-family: serif;
     text-align: justify;
   }
   .landingpagedetailsqnhr {
-    width : 95%;
-    margin : 1% 3%;
+    width: 95%;
+    margin: 1% 3%;
     font-weight: 900;
-    color : rgb(233, 230, 230);
-    height : 0.5vh;
+    color: rgb(233, 230, 230);
+    height: 0.5vh;
   }
   .landingpagedetailscontainer:hover {
-      color  :whitesmoke;
-      border-radius: 0.5em;
-      border-top: 4px solid #f6f3f3;
-      box-shadow: 0 15px 10px whitesmoke;
+    color: whitesmoke;
+    border-radius: 0.5em;
+    border-top: 4px solid #f6f3f3;
+    box-shadow: 0 15px 10px whitesmoke;
   }
   .landingpageloginbuttonitem {
-    height  :10vh;
+    height: 10vh;
     display: flex;
-    width : 100%;
+    width: 100%;
     margin-bottom: 2%;
     font-size: 0.9em;
     flex-direction: row;
@@ -2528,34 +2569,34 @@
     justify-content: center;
   }
   .landingregisterincontent {
-    padding : 0.4%;
-    width : 7vw;
+    padding: 0.4%;
+    width: 7vw;
     font-size: 1.3em;
     font-family: serif;
     text-align: center;
-    background-color: rgba(255 , 0,0 , 0.7);
-    color : whitesmoke;
-    border : 2px solid red;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: whitesmoke;
+    border: 2px solid red;
     border-radius: 0.5em;
   }
   .landingregisterincontent:hover {
     background-color: navy;
-    border : none;
+    border: none;
   }
   .landingpageloginbuttonincontent {
     font-size: 1.5em;
     word-spacing: 0.4em;
     font-family: serif;
-    margin : 0 2% 0 5%;
+    margin: 0 2% 0 5%;
   }
   .landingpagegallerygridcontainer {
     display: grid;
-    width  : 100%;
-    grid-template-columns: repeat(4,1fr);
-    height : 200vh;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200vh;
     grid-auto-flow: dense;
-    padding  : 0 4% 4% 4%;
-    gap  : 2em;
+    padding: 0 4% 4% 4%;
+    gap: 2em;
   }
   .landingpagegallerygridcontainer > * {
     border-top: 3px solid rgb(223, 223, 227);
@@ -2563,8 +2604,8 @@
     box-shadow: 0 10px 10px rgb(224, 224, 228);
   }
   .landingpagegallerygridcontainer > *:hover {
-      box-shadow: 0 20px 20px black ;
-      border-top: 4px solid black;
+    box-shadow: 0 20px 20px black;
+    border-top: 4px solid black;
   }
   .landingpagegriditem1headerformobile {
     display: none;
@@ -2575,18 +2616,18 @@
     grid-row: span 2;
   }
   .landingpagegallerygriditem2 {
-    height : 60dvh;
+    height: 60dvh;
     grid-column: span 1;
     grid-row: span 2;
   }
   .landingpagegallerygriditem3 {
-    height : 60dvh;
+    height: 60dvh;
     grid-column: span 2;
     grid-row: span 2;
     border-radius: 2em;
   }
   .landingpagegallerygriditem4 {
-    height : 60dvh;    
+    height: 60dvh;
     grid-column: span 1;
     grid-row: span 2;
   }
@@ -2596,11 +2637,10 @@
     grid-row: span 0;
   }
   .landingpagegallerygriditem6 {
-    height : 40dvh;
+    height: 40dvh;
     grid-column: span 0;
     grid-row: span 0;
   }
-   
 
   /* =================================== */
 
@@ -2637,17 +2677,16 @@
     margin: 1% auto 0% 2%;
     font-size: 2em;
     display: block;
-    width : 30%;
+    width: 30%;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: bold;
     color: rgb(2, 21, 6);
-  
   }
   .culturalevents {
     display: grid;
-    width : 100%;
-    grid-template-columns: repeat(3,1fr);
-    margin : 1%;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1%;
   }
   .culturalheader {
     margin: 2% auto 0 2%;
@@ -2679,15 +2718,15 @@
     display: flex;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
-  .eventkey { 
-    width  : 28%;
+  .eventkey {
+    width: 28%;
   }
   .eventcolon {
-    width  : 5%;
+    width: 5%;
     text-align: center;
   }
   .eventvalue {
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 67%;
   }
   .eventname {
@@ -2699,9 +2738,9 @@
   /* ==================================================== */
 
   /* Each Event Content  */
-  
+
   .event-container {
-    padding : 3% 5%;
+    padding: 3% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2727,13 +2766,13 @@
     margin: 0 auto 0% 0%;
     display: flex;
     flex-direction: column;
-    width : 100%;
-    padding : 1%;
+    width: 100%;
+    padding: 1%;
   }
   .event-details-header {
     font-size: 2em;
-    width : 100%;
-    padding : 0 0 0 5%;
+    width: 100%;
+    padding: 0 0 0 5%;
     font-weight: 500;
   }
   .event-timings-info {
@@ -2742,11 +2781,11 @@
     font-weight: 500;
     font-size: 1.2em;
   }
-   .event-timings-info-item {
+  .event-timings-info-item {
     display: flex;
   }
   .event-details-key {
-    width : 15%;
+    width: 15%;
   }
   .event-details-colon {
     width: 5%;
@@ -2758,14 +2797,14 @@
   .event-header {
     margin: 0 auto 3% 0%;
     font-weight: 700;
-    padding : 0 0 0 5%;
+    padding: 0 0 0 5%;
     font: bold;
     color: black;
     font-size: 2em;
     font-family: serif;
-    width : 100%;
+    width: 100%;
   }
-  
+
   .event-register-button {
     padding: 0.4%;
     width: 20%;
@@ -2779,18 +2818,18 @@
   /* ==================================== */
 
   /* Event Registration Content */
- 
+
   .event-registration-container {
-    padding : 5%;
+    padding: 5%;
   }
   .event-registration-header {
-    font-size : 1.5em;
+    font-size: 1.5em;
     font-family: serif;
     font-weight: 500;
     border-radius: 0.3em;
-    color : whitesmoke;
+    color: whitesmoke;
     text-align: center;
-    padding : 1%;
+    padding: 1%;
     scroll-behavior: smooth;
     background-color: rgb(97, 99, 97);
   }
@@ -2801,71 +2840,71 @@
     display: flex;
     min-height: 80dvh;
     flex-direction: column;
-    padding : 3% 0 0 10%;
+    padding: 3% 0 0 10%;
   }
   .signupinput-assign-coor {
     font-size: 1.5em;
     font-family: serif;
-    margin  : 0 0 0 0%;
+    margin: 0 0 0 0%;
   }
   .event-registration-input-filed {
-    height : 5vh;
-    margin : 1% 1% 1% 0;
+    height: 5vh;
+    margin: 1% 1% 1% 0;
     font-size: 1.5em;
-    border : 2px solid black;
+    border: 2px solid black;
     border-radius: 0.4em;
     font-weight: 500;
     opacity: 0.9;
-    width : 50%;
-    padding : 2% 0 2% 2%;
+    width: 50%;
+    padding: 2% 0 2% 2%;
   }
   .event-registration-submit-button {
-    width :50%;
+    width: 50%;
     padding: 0.4%;
     font-size: 2em;
     background-color: red;
     border-radius: 0.3em;
-    margin  :1% 1% 0 0 ;
-    color : whitesmoke;
+    margin: 1% 1% 0 0;
+    color: whitesmoke;
   }
   .registration-container {
-    min-height : 70vh;
-    width : 90%;
+    min-height: 70vh;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 0 0 0 2%;
+    padding: 0 0 0 2%;
   }
-  
+
   .event-registration-info {
     font-size: 1.3em;
     text-align: center;
     padding: 3%;
   }
   .queries-header {
-    border : 2px solid gray;
+    border: 2px solid gray;
     background-color: navy;
-    color : whitesmoke;
-    padding : 1%; 
+    color: whitesmoke;
+    padding: 1%;
     border-radius: 0.3em;
   }
   .querie-coordinator-details {
     font-size: 1.2em;
     text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin : 1% 0 0 0 ;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 1% 0 0 0;
     display: flex;
-    padding :  0 0 0 5%;
+    padding: 0 0 0 5%;
   }
   .queriecoor-key {
-    width : 15%;
+    width: 15%;
   }
   .queriecoor-colon {
-    width : 1.5%;
+    width: 1.5%;
   }
   .queriecoor-value {
-    width : 84%;
+    width: 84%;
   }
 
   /* ======================================= */
@@ -2885,7 +2924,7 @@
     object-fit: cover; */
     align-items: center;
     justify-content: center;
-    padding : 10%;
+    padding: 10%;
   }
   .register-container {
     height: 100dvh;
@@ -2901,16 +2940,16 @@
     width: 30%;
     font-size: 1.3em;
     font-weight: 500;
-    padding: 0.8% 0% 0.8% 3% ;
+    padding: 0.8% 0% 0.8% 3%;
     border: 3px solid black;
     border-radius: 0.5em;
   }
   .captcha {
-    margin:  1%;
+    margin: 1%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1% 0% 1% 1.5% ;
+    padding: 1% 0% 1% 1.5%;
     justify-content: start;
     width: 30%;
     border-radius: 0.4em;
@@ -2928,16 +2967,16 @@
   .signupinputbutton {
     margin: 1%;
     width: 30%;
-    padding : 1%;
-    color : whitesmoke;
+    padding: 1%;
+    color: whitesmoke;
     border-radius: 1em;
     font-size: 1.4em;
-    border : 1px solid black; 
+    border: 1px solid black;
     background-color: rgba(3, 63, 103, 0.888);
   }
   .signupinputbutton:hover {
     background-color: green;
-    color : black;
+    color: black;
   }
   .haveanacc {
     font-weight: 500;
@@ -2955,7 +2994,7 @@
   }
   .signupcontainer {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     margin: 13% 0 0 25%;
   }
   .signupicon {
@@ -2964,18 +3003,18 @@
   }
   .signupinputcontainer {
     display: flex;
-    width  :70vw;
+    width: 70vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .clglogoinregisterpageli {
-    margin  : 2% auto 0 3% ;
+    margin: 2% auto 0 3%;
   }
   .clglogoinregisterpage {
     font-size: 1.5em;
     font-family: serif;
-  }   
+  }
 
   /* ======================================= */
 
@@ -2990,31 +3029,31 @@
   }
   .myprofilecontainer {
     display: grid;
-    grid-template-columns: repeat(2,1fr) ;
-    width:100%;
-    gap : 5em;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 5em;
     margin: 2%;
   }
- 
+
   .profilepiccon {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20% 0 10% 20%;
     height: 45vh;
-    width : 60%;
-    border-radius: 1em; 
+    width: 60%;
+    border-radius: 1em;
     border-top: 5px solid #000;
     box-shadow: 0 5px 5px black;
   }
-  
+
   .myprofileinfo {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 1em;
-    width : 80%;
-    padding : 2% ;
+    width: 80%;
+    padding: 2%;
     border-radius: 0.6em;
     border-top: 5px solid #000;
     margin: 6% 0% 10% 0%;
@@ -3027,10 +3066,9 @@
     display: flex;
     align-items: center;
     font-weight: 600;
-    width : 100%;
+    width: 100%;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
-
   }
   .festuserkey {
     width: 30%;
@@ -3044,13 +3082,12 @@
   .festuservalue {
     width: 65%;
     padding: 1% 1% 1% 2%;
-   
   }
   .festusereditvalue {
     width: 65%;
     padding: 1% 1% 1% 2%;
     border: 2px solid rgb(16, 14, 14);
-    margin : 0.5% 0.9% 0.6% 0 ;
+    margin: 0.5% 0.9% 0.6% 0;
     border-radius: 0.5em;
   }
   .editprofile {
@@ -3058,7 +3095,7 @@
     padding: 0.6%;
     font-size: 1.2em;
     font-family: serif;
-    width : 20%;
+    width: 20%;
     border-radius: 0.4em;
     color: black;
     background-color: rgb(3, 237, 54);
@@ -3076,7 +3113,7 @@
 
   .footernav {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .navdiv {
@@ -3084,26 +3121,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    gap:0.5em;
-    margin : 8%;
+    gap: 0.5em;
+    margin: 8%;
   }
   .navdiv h1 {
     font-size: 1.5em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color : green;  
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: green;
     text-align: center;
   }
   .navdiv li {
-    list-style-type: none ;
+    list-style-type: none;
     font-family: serif;
     text-align: center;
     font-size: 1.2em;
-    width:100%;
+    width: 100%;
   }
   .footerbottom-div {
     display: flex;
     align-items: center;
-    gap : 2em;
+    gap: 2em;
     justify-content: center;
     padding: 0 0 1% 0;
   }
@@ -3112,10 +3150,10 @@
   }
   .footerbottom-div2 {
     height: 10vh;
-    width : 100vw;
+    width: 100vw;
     background-color: rgb(111, 111, 111);
     display: flex;
-    color : black;
+    color: black;
     font-weight: 500;
     flex-direction: row;
     justify-content: center;
@@ -3124,33 +3162,33 @@
     font-size: 1.3em;
     font-family: serif;
     list-style-type: none;
-  } 
+  }
 
   /*  Admin Panel */
 
   /*  Faculty Dashboard Content Section  */
-  
+
   /* For HOD  */
 
   .facultydashboardcontent {
-    padding : 2%;
+    padding: 2%;
   }
   .facultydashboard-container {
     height: 70vh;
-    padding :3% 0 0 4% ;
+    padding: 3% 0 0 4%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin :  0 0 0% 0;
-    width : 100% ;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 0% 0;
+    width: 100%;
   }
   .assign-coordinators-container {
-   margin : 0 0 0 20%;
-    width : 80%;
+    margin: 0 0 0 20%;
+    width: 80%;
   }
 
   .assign-event-coordinator-header-container {
     height: 6vh;
-    width : 70%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -3158,15 +3196,14 @@
     border-radius: 0.4em;
   }
   .assign-event-coordinator-header {
-    color : whitesmoke ;
+    color: whitesmoke;
     text-align: center;
-    margin :  0 0 0 8%;
+    margin: 0 0 0 8%;
   }
   .signupinput-assign-coor {
-    margin  : 2% ;
-    width  : 50% ; 
-    padding : 1% 0 1% 3%;
-   
+    margin: 2%;
+    width: 50%;
+    padding: 1% 0 1% 3%;
   }
   .event-coordinator-assign-submit-button {
     height: 4.5vh;
@@ -3178,13 +3215,13 @@
     border-radius: 5px;
   }
   .coor-ass-inputs-container {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
   .assign-event-details-container {
-    width : 80%;
+    width: 80%;
   }
   .assign-event-details-header-container {
     height: 6vh;
@@ -3194,12 +3231,12 @@
     justify-content: flex-start;
     background-color: rgb(12, 166, 35);
     border-radius: 0.4em;
-    margin : 0% 0 0% 0;
+    margin: 0% 0 0% 0;
   }
   .assign-event-details-header {
-    color : whitesmoke ;
+    color: whitesmoke;
     text-align: center;
-    margin :  0 0 0 8%;
+    margin: 0 0 0 8%;
   }
   .event-details-assign-submit-button {
     height: 5vh;
@@ -3211,7 +3248,7 @@
     border-radius: 5px;
   }
   .hodnote-container {
-    margin : 1% 0 0% 0%;
+    margin: 1% 0 0% 0%;
     text-align: center;
     font-size: 1.5em;
     display: flex;
@@ -3219,47 +3256,45 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width : 100% ;
+    width: 100%;
     font-family: serif;
   }
   .hodnotetext {
     font-style: italic;
     font-size: 0.8em;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    
+    font-family: Georgia, "Times New Roman", Times, serif;
   }
 
   /* Except HOD */
 
   .facultydashboardforotherscontent {
-    
-    padding : 5%;
+    padding: 5%;
   }
   .facultydashboardforotherscontainer {
-    height : 70dvh;
+    height: 70dvh;
   }
   .facultydashboardforothersselectcontainer {
     padding: 1% 1% 1% 2%;
   }
   .facultydashboardforothersselect {
-    padding : 0.3%;
+    padding: 0.3%;
     font-size: 1.2em;
     border-radius: 0.4em;
     font-weight: 600;
-    border : 2px solid black;
-    margin  : 0 0 0 85%;
+    border: 2px solid black;
+    margin: 0 0 0 85%;
   }
   .facultydashboardgridcontainer {
     display: grid;
-    gap : 0.5em;
-    padding : 2% 5% 2% 7%;
-    grid-template-columns: repeat(3,1fr);
-    margin : 2% 0 2% 0 ;
+    gap: 0.5em;
+    padding: 2% 5% 2% 7%;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2% 0 2% 0;
   }
   .facultydashboardgriditems {
-    height : 50vh;
-    width : 95%;
-    padding : 1%;
+    height: 50vh;
+    width: 95%;
+    padding: 1%;
     display: flex;
     margin-top: 4%;
     flex-direction: column;
@@ -3271,41 +3306,40 @@
     box-shadow: 0 5px 5px black;
   }
   .facultydashboradgriditemprofilepic {
-    width : 70%;
-    height : 22vh;
+    width: 70%;
+    height: 22vh;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.5em;
-    border : 2px solid black;
+    border: 2px solid black;
   }
   .facultydashboradgriditemprofilebio {
-    height : 20vh;
-    width : 80%;
+    height: 20vh;
+    width: 80%;
     display: flex;
-    padding : 3%;
+    padding: 3%;
     flex-direction: column;
-    margin : 5% 0 2% 0;
-    
+    margin: 5% 0 2% 0;
   }
   .facultyinfo {
-    width : 100%;
+    width: 100%;
     font-size: 1.2em;
     font-family: serif;
     display: flex;
     font-weight: 600;
-    padding  :1.2%;
+    padding: 1.2%;
   }
   .facultykey {
-    width : 45%;
+    width: 45%;
     padding-left: 1%;
   }
   .facultycolon {
-    width : 5%;
+    width: 5%;
     padding-left: 4%;
   }
   .facultyvalue {
-    width : 80%;
+    width: 80%;
     padding-left: 3%;
   }
 
@@ -3318,10 +3352,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 4%;
+    padding: 4%;
   }
   .eventcoordinatordashboardcontainer {
-    width : 100%;
+    width: 100%;
   }
   .eventcoordinatorsheader {
     font-size: 2em;
@@ -3329,25 +3363,25 @@
     font-weight: 560;
   }
   .eventcoordinatorgridcontainer {
-    width : 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding : 2% 4%;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2% 4%;
   }
 
   /* ======================================= */
 
   /*  Volunteer`s Assignment Content Section  */
-  
+
   .volunteersassignmentcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding  : 2% 5% 5% 5%;
+    padding: 2% 5% 5% 5%;
   }
   .volunteerassignmentheader {
-    margin : 2%;
+    margin: 2%;
     font-size: 2em;
     font-family: serif;
     font-weight: 600;
@@ -3360,7 +3394,7 @@
     justify-content: center;
     width: 100%;
     padding: 2%;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-top: 6px solid black;
     border-radius: 0.5em;
   }
@@ -3369,8 +3403,8 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding : 2% 2% 2% 2%;
-    margin : 1% 0 2% 0;
+    padding: 2% 2% 2% 2%;
+    margin: 1% 0 2% 0;
     border-radius: 0.4em;
     border-top: 4px solid #000;
     box-shadow: 0 5px 5px black;
@@ -3379,31 +3413,31 @@
     font-size: 2em;
     font-weight: 600;
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventnameli {
     font-size: 1.1em;
     font-weight: 500;
-    width :30%;
-    margin : 0 0 0 1.8%;
-    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    margin: 0 0 0 1.8%;
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventcoordinatorname {
     text-align: left;
-    width : 30%;
-    padding : 0 0 0 3%;
+    width: 30%;
+    padding: 0 0 0 3%;
     margin: 0 10% 0 0;
   }
   .vpeventcoordinatorcontact {
-    width : 15%;
-    padding:  0 0 0 2%;
+    width: 15%;
+    padding: 0 0 0 2%;
   }
   .vpeventcoordinatorheader {
     font-size: 2em;
     font-weight: 600;
     width: 100%;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;   
+    font-family: "Times New Roman", Times, serif;
   }
   .vpeventcoordinatorcontactheader {
     font-size: 2em;
@@ -3411,48 +3445,47 @@
     width: 100%;
     padding: 0 3% 0 0;
     text-align: right;
-    font-family: 'Times New Roman', Times, serif;   
- 
+    font-family: "Times New Roman", Times, serif;
   }
   .volunteerbox {
-    margin : 1%;
+    margin: 1%;
     display: flex;
     justify-content: space-between;
     font-family: serif;
     font-size: 1.8em;
-    border : 0.4em;
-    width : 100%;
+    border: 0.4em;
+    width: 100%;
     border-radius: 0.2em;
-    box-shadow: 0 2px 5px  black;
+    box-shadow: 0 2px 5px black;
   }
 
   /* ======================================= */
 
   /*  Certificate Download Content Section  */
-  
+
   .certificatedownloadcontent {
     display: flex;
-    flex-direction: column  ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 5%;
+    padding: 5%;
     min-height: 50dvh;
   }
   .certificatedownloadheader {
     font-size: 2em;
     font-family: serif;
     width: 100%;
-    margin : 0 auto 4% 0;
+    margin: 0 auto 4% 0;
   }
   .certificatedownloadbox {
     min-height: 70dvh;
-    width : 70%;
+    width: 70%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border : 2px solid red ;
-    border : none;
+    border: 2px solid red;
+    border: none;
     box-shadow: 0 1px 5px black;
   }
   .samplecertificate {
@@ -3460,70 +3493,68 @@
     align-items: center;
     justify-content: center;
     min-height: 50dvh;
-    width : 70%;
-    margin : 3% 0 0 0;
+    width: 70%;
+    margin: 3% 0 0 0;
     box-shadow: 0 1px 5px black;
   }
   .downloadcertificatebutton {
-    height : 5vh;
-    width : 20%;
-    margin : 3% 8% 0 auto   ;
+    height: 5vh;
+    width: 20%;
+    margin: 3% 8% 0 auto;
     background-color: green;
     color: whitesmoke;
     font-family: serif;
-    border : 2px solid black;
+    border: 2px solid black;
   }
-  
+
   /* ======================================= */
 
   /* Sponsors and Gallery */
 
   /*  Sponsor Logos and Offers Content Section  */
-  
+
   .sponsorslogosandofferscontent {
     padding: 2% 6%;
   }
   .sponserlogoheader {
-    margin : 0 0 2% 0 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 2% 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 2em;
-    width : 100%;
+    width: 100%;
   }
   .sponsorslogossselect {
-    padding : 0.4%;
+    padding: 0.4%;
     font-size: 1.1em;
     border-radius: 0.4em;
     font-weight: 900;
     font-family: serif;
-    border : 2px solid black;
-    margin  : 0 0 0 95%;
+    border: 2px solid black;
+    margin: 0 0 0 95%;
   }
   .logoflexitems {
-    height : 60dvh;
-    width : 100%;
+    height: 60dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin : 0 0 2% 0;  
+    margin: 0 0 2% 0;
   }
   .logosflexcontainer {
-    
-    flex:1;
-    margin : 0 0 4% 0 ;
+    flex: 1;
+    margin: 0 0 4% 0;
     border-top: 3px solid black;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
-
   }
   .logosgridcontainer {
     display: grid;
-    gap : 3em;
-    grid-template-columns: repeat(3,1fr);
+    gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
   }
   .logogriditems {
-    height : 50dvh;
-    width : 100%;
+    height: 50dvh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3537,7 +3568,7 @@
   /* ======================================= */
 
   /*  Stalls Info and Coupons Content Section  */
-  
+
   .stallsinfoandcouponscontent {
     display: flex;
     background: whitesmoke;
@@ -3546,18 +3577,18 @@
     width: 100dvw;
     align-items: center;
     justify-content: center;
-    padding : 2%;
+    padding: 2%;
   }
   .stallsheader {
     font-size: 2em;
     font-family: serif;
-    margin : 0 auto 0 1% ;
+    margin: 0 auto 0 1%;
   }
   .fastfoodstallsheader {
     font-size: 1.7em;
     width: 100%;
-    margin : 1% auto 0 1% ;
-    color :rgb(17, 16, 16) ;
+    margin: 1% auto 0 1%;
+    color: rgb(17, 16, 16);
   }
   .stallcard {
     height: 35vh;
@@ -3568,49 +3599,49 @@
     border: 3px solid black;
     box-shadow: 0 5px 5px black;
   }
-  .foodstallinfokey { 
-    width  : 20%; 
+  .foodstallinfokey {
+    width: 20%;
   }
   .foodstallinfocolon {
-    width  : 5%;
+    width: 5%;
     text-align: center;
   }
   .foodstallinfovalue {
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 75%;
   }
   .foodstallinfomobilevalue {
-    padding : 0 0 0 3%;
+    padding: 0 0 0 3%;
     width: 30%;
   }
   .ordernow {
-    width  : 40%;
+    width: 40%;
     font-weight: 700;
-    padding  : 0 0 0 5%;
-    background: linear-gradient(90deg , red , red);
+    padding: 0 0 0 5%;
+    background: linear-gradient(90deg, red, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: pulseGlow 1s ease-in-out infinite , shine 2.5s infinite;
+    animation: pulseGlow 1s ease-in-out infinite, shine 2.5s infinite;
     position: relative;
   }
   @keyframes pulseGlow {
-    0%,100% {
+    0%,
+    100% {
       text-shadow: 0 0 8px red 0 0 18px red;
       transform: scale(1);
     }
     50% {
-      text-shadow: 0 0 2px red 0 0 30px red ;
+      text-shadow: 0 0 2px red 0 0 30px red;
       transform: scale(1.15);
     }
-    
   }
   @keyframes shine {
-      0% {
-        background-position: 200% center;
-      }
-      100% {
-        background-position: 0% center;
-      }    
+    0% {
+      background-position: 200% center;
+    }
+    100% {
+      background-position: 0% center;
+    }
   }
 
   /* ======================================= */
@@ -3618,14 +3649,14 @@
   /*  About Fest Content Section  */
 
   .aboutfestcontent {
-    padding : 5%;
+    padding: 5%;
   }
   .aboutfestheading {
     font-size: 2em;
     font-family: serif;
   }
   .aboutfestinfo {
-    margin : 1% 0 0 0;
+    margin: 1% 0 0 0;
     text-align: justify;
   }
 
@@ -3634,12 +3665,12 @@
   /* Suport & Accessbility */
 
   /*  FAQ Section Content Section  */
-  
+
   .faqsectioncontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding : 2%;
+    padding: 2%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -3649,38 +3680,36 @@
     justify-content: center;
   }
   .faqheader {
-    width : 100%;
+    width: 100%;
     font-size: 2em;
     font-weight: 500;
-    padding : 1%;
+    padding: 1%;
     text-align: center;
-    margin :1% 0% 3% 0%;
-
+    margin: 1% 0% 3% 0%;
   }
   .faqquestioncontainer {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width  :90%;
-    margin : 2%;
-    padding : 1%;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.05);
-    transition : background-color 0.3s ease;
+    width: 90%;
+    margin: 2%;
+    padding: 1%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
   }
   .faqquestioncontainer:hover {
     background-color: skyblue;
-
   }
   .qn {
     font-size: 1.5em;
-    font-family: 'Times New Roman', Times;
-    margin : 0 0 0 3%;
+    font-family: "Times New Roman", Times;
+    margin: 0 0 0 3%;
   }
   .faqquestion {
     padding: 1%;
   }
   .faqanswer {
-    margin : 2% 0 0 5%;
+    margin: 2% 0 0 5%;
     font-size: 1.4em;
     word-spacing: 2px;
   }
@@ -3688,37 +3717,37 @@
   /* ======================================= */
 
   /*  Emergency Contacts Content Section  */
-  
+
   .emergencycontactcontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 5%;
+    padding: 5%;
   }
-   .emergencycontactcontainer {
-    width : 50%;
-    padding : 1% 1% 3% 1%;
+  .emergencycontactcontainer {
+    width: 50%;
+    padding: 1% 1% 3% 1%;
     border-top: 5px solid black;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-radius: 0.5em;
   }
   .emergencycontactsheader {
     text-align: center;
     font-size: 2em;
-    margin : 2% 0 0 0 ;
+    margin: 2% 0 0 0;
     padding: 2%;
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
   }
   .emergencycontact {
-    margin : 2%;
+    margin: 2%;
     padding: 0.5%;
     display: flex;
     justify-content: space-between;
     font-family: serif;
     font-size: 1.8em;
-    border-radius : 0.2em;
+    border-radius: 0.2em;
     box-shadow: 0 2px 3px black;
   }
 
@@ -3734,13 +3763,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 3% 5% 5% 5%;
+    padding: 3% 5% 5% 5%;
   }
   .feedbackcontainer {
-    height  :95vh ;
-    width : 50%;
+    height: 95vh;
+    width: 50%;
     border-top: 5px solid black;
-    box-shadow: 0 5px 5px  black;
+    box-shadow: 0 5px 5px black;
     border-radius: 0.5em;
   }
   .feebackformheader {
@@ -3748,44 +3777,45 @@
     font-weight: 600;
     font-family: serif;
     text-align: center;
-    margin : 5% 0 2% 0;
-    padding : 1%;
+    margin: 5% 0 2% 0;
+    padding: 1%;
   }
   .feedbackforminputscontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin  :5% 0 0 0 ;
+    margin: 5% 0 0 0;
   }
   .feedbackforminputfields {
-    padding : 1.5% 1.5% 1.5% 4%; 
+    padding: 1.5% 1.5% 1.5% 4%;
     font-size: 1.5em;
     font-weight: 400;
-    margin  :2%;
-    width : 50%;
-    border : 2px solid black;
+    margin: 2%;
+    width: 50%;
+    border: 2px solid black;
     border-radius: 0.7em;
   }
   .feedbackformtextarea {
-    width  :50%;
+    width: 50%;
     height: 25vh;
     resize: horizontal;
-    padding : 2%;
-    margin : 2% 0 0 0;
+    padding: 2%;
+    margin: 2% 0 0 0;
     font-size: 1.3em;
-    border : 2px solid #0d0707;
+    border: 2px solid #0d0707;
     border-radius: 0.4em;
   }
   .feedbackformbutton {
-    height : 6dvh;
+    height: 6dvh;
     font-size: 1.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin : 7% 0 7% 0 ;
-    width : 50%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 7% 0 7% 0;
+    width: 50%;
     border-radius: 0.4em;
     background-color: rgb(9, 213, 101);
-    color : whitesmoke;
+    color: whitesmoke;
   }
 
   /* ======================================= */
@@ -3797,34 +3827,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding : 5%;
+    padding: 5%;
   }
- 
+
   .resultsandwinnersdisplayselectcontainer {
     padding: 1% 2% 1% 2%;
-    width  :100%;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
   }
   .resultsandwinnerssselect {
-    padding : 0.3%;
+    padding: 0.3%;
     font-size: 1.2em;
     border-radius: 0.4em;
     font-weight: 600;
-    border : 2px solid black;
+    border: 2px solid black;
   }
-  
+
   .resultsandwinnersdisplaygridcontainer {
     display: grid;
-    width : 100%;
-    padding : 0 0 2% 2%;
+    width: 100%;
+    padding: 0 0 2% 2%;
     gap: 3em;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .resultsandwinnersdisplaygridcontainer > * {
-    height : 70vh;
-    width : 95%;
-    padding : 1%;
+    height: 70vh;
+    width: 95%;
+    padding: 1%;
     display: flex;
     margin-top: 4%;
     flex-direction: column;
@@ -3833,12 +3863,11 @@
     justify-content: flex-start;
     border-top: 3px solid #000;
     box-shadow: 0 5px 5px black;
-
   }
   .resultsandwinnersdisplaygridinneritem1squadimg {
-    width : 80%;
-    height : 40vh;
-    margin  : 2% 5% 4% 5%;
+    width: 80%;
+    height: 40vh;
+    margin: 2% 5% 4% 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3847,17 +3876,17 @@
     box-shadow: 0 5px 5px blue;
   }
   .resultsandwinnersdisplayeventname {
-    width : 100%;
+    width: 100%;
     text-align: center;
-    margin : 0.5% 0;
+    margin: 0.5% 0;
     font-size: 1.4em;
     font-family: serif;
     font-weight: 800;
   }
   .resultsandwinnersdisplaygridinneritem2squadinfo {
-    height : 15vh;
+    height: 15vh;
     text-align: justify;
-    width : 90%;
+    width: 90%;
     padding: 3%;
     font-family: serif;
     font-size: 1.1em;
@@ -3872,7 +3901,7 @@
   /* Terms & Conditions Content Section  */
 
   .termsandconditionscontent {
-    padding : 5%;
+    padding: 5%;
   }
   .termsandconditionsheading {
     font-size: 2em;
@@ -3886,16 +3915,16 @@
     word-spacing: 0.4em;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    margin : 1% 0 0 0;
+    margin: 1% 0 0 0;
     text-align: justify;
   }
 
   /* ======================================= */
 
   /*  Privacy Policy Content Section  */
-  
+
   .privacypolicycontent {
-    padding : 5%;
+    padding: 5%;
   }
   .privacypolicyheading {
     font-size: 2em;
@@ -3903,18 +3932,18 @@
     font-weight: 500;
   }
   .privacypolicyinfo {
-    margin : 1% 0 0 0;
+    margin: 1% 0 0 0;
     text-align: justify;
   }
   /* =======================================*/
 
   /*  About us Content Section  */
-  
+
   .authcontainer {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding :1%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1%;
   }
 
   .authphoto {
@@ -3922,8 +3951,8 @@
     width: 75%;
     border: 2px solid rgb(162, 162, 171);
     margin: 3% 0 0 2%;
-    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180"); 
-  /*background: url("./images/Jvinaykumar.jpeg"); */
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.-wnx5SWwVNiGijmmjkge_wHaEK&pid=Api&P=0&h=180");
+    /*background: url("./images/Jvinaykumar.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3931,11 +3960,11 @@
   }
   .aboutuscon {
     height: 70%;
-    width : 90%;
+    width: 90%;
     padding: 2%;
     font-weight: 550;
     font-family: serif;
-    margin :  13% 0 0 0;
+    margin: 13% 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3945,14 +3974,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap:0.5em;
+    gap: 0.5em;
     font-family: serif;
     font-size: 1.2em;
     margin: 2% 0 0 0;
-    width : 75%;
+    width: 75%;
   }
   .authinfo {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3960,17 +3989,17 @@
   }
   .info {
     font-family: serif;
-    width : 50%;
+    width: 50%;
     font-size: 1.2em;
-    padding: 3% ;
-    margin : 0 0 10% 0;
+    padding: 3%;
+    margin: 0 0 10% 0;
     border-top: 3px solid skyblue;
     border-radius: 0.4em;
     box-shadow: 0 5px 5px black;
   }
   .user {
-    width : 100%;
-    padding : 2%;
+    width: 100%;
+    padding: 2%;
     display: flex;
     margin-top: 1%;
     flex-direction: row;
@@ -3987,11 +4016,11 @@
   }
   .colon {
     width: 5%;
-    margin  : 0 0% 0 0%;
+    margin: 0 0% 0 0%;
   }
   .infovalue {
-    width : 65%;
-    margin  : 0 0 0 0%;
+    width: 65%;
+    margin: 0 0 0 0%;
   }
   .reachmeat {
     margin: 1% 0 0 0%;
@@ -3999,32 +4028,31 @@
   .reachmeatp {
     font-size: 1.1em;
     font-weight: 550;
-    margin: 6%  0 0 0%; 
+    margin: 6% 0 0 0%;
     width: 20vw;
-  } 
-   .smicons {
+  }
+  .smicons {
     display: flex;
-    gap :1em;
-    width : 40%;
-  
+    gap: 1em;
+    width: 40%;
   }
   .smimg {
     height: 4vh;
     margin: 1em 0 0 0;
   }
-  
+
   /* ======================================= */
 
   /*  Contact us Content Section  */
 
-   .contactuscontent {
+  .contactuscontent {
     min-height: 100dvh;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding : 3% 3%;
+    padding: 3% 3%;
   }
   .contactuscontainer {
     height: 70dvh;
@@ -4037,7 +4065,7 @@
     border: 5px solid black;
   }
   .contactusdiv {
-    width  :100%;
+    width: 100%;
     text-align: center;
   }
   .contactus {
@@ -4046,16 +4074,15 @@
     font-family: serif;
     text-align: center;
     width: 100%;
-    margin: 5% 0 3% 0 ;
-    
+    margin: 5% 0 3% 0;
   }
   .contactusmainimagecontainer {
-    width : 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin  : 0% 0 3% 0;
+    margin: 0% 0 3% 0;
   }
   .contactusimg {
     height: 10dvh;
@@ -4068,42 +4095,39 @@
     flex-direction: column;
     margin: 3% auto 0 0%;
     justify-content: flex-start;
-    gap : 2em;
-    
+    gap: 2em;
   }
   .contacticonsdiv {
     display: flex;
-    width : 60%;
+    width: 60%;
     flex-direction: row;
   }
   .contactinfocontainer {
     display: flex;
     flex-direction: column;
-    width : 100%;
+    width: 100%;
   }
-   .contactusinfoitem{
+  .contactusinfoitem {
     display: flex;
-    width  :100%;
-    padding : 1%;
+    width: 100%;
+    padding: 1%;
     margin-top: 10%;
-   
   }
   .contactusimgcon {
-    width : 20%;
+    width: 20%;
     padding: 0 0 0 4%;
   }
   .contactussocialimg {
     height: 3vh;
   }
-   .contactusvalue {
-    width : 80%;
-    padding : 0 0 0 5%;
+  .contactusvalue {
+    width: 80%;
+    padding: 0 0 0 5%;
     font-size: 1.1em;
     font-weight: 500;
   }
 
   /* =======================================*/
-  
-  }
+}
 
-  /* ======================================  */
+/* ======================================  */

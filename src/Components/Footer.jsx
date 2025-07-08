@@ -77,7 +77,25 @@ export function Footer() {
         </div>
       );
       break;
-       case "/TermsandConditionsContent":
+
+      case "/CustomDialog":
+      return (
+        <div className="footerbottom-div2">
+          <li className="footer-bottom2">Copyright &copy; 2025</li>
+          <li className="footer-bottom">|</li>
+          <li className="footer-bottom2">
+            <Link to="/TermsandConditionsContent">Terms</Link>
+          </li>
+          <li className="footer-bottom2">|</li>
+          <li className="footer-bottom2">
+            <Link to="/PrivacyPolicyContent">Privacy</Link>
+          </li>
+        </div>
+      );
+      break;
+
+
+      case "/TermsandConditionsContent":
       return (
         <div className="footerbottom-div2">
           <li className="footer-bottom2">Copyright &copy; 2025</li>

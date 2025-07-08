@@ -120,6 +120,25 @@ export function MainHeader() {
 
     break;
 
+      case "/CustomDialog"  :
+
+     return (
+        <header className="header">
+
+                <nav className="header-nav"> 
+
+                    <ul className="header-ul">
+
+                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                          
+                 </ul>
+                </nav>
+           
+        </header>
+    )
+
+    break;
+
     default :
     
     return (

@@ -7,27 +7,26 @@ export function SignupContent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const [invalid, setInvalid] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-   /*  console.log("Submit button clicked at outer"); */
-   
-    try {
+    /*  console.log("Submit button clicked at outer"); */
 
+    try {
       console.log("Submit button clicked at in try");
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
         {
           email,
-          password
+          password,
         }
-        
       );
-      console.log(" Status code :" + response.status);
-     console.log("Response : " + response);
+      /*   console.log(" Status code :" + response.status);
+     console.log("Response : " + response); */
       if (response.status === 200) {
-         setLoading(true);
+        setLoading(true);
         /* console.log("Submit button clicked at in if under try"); */
 
         setTimeout(() => {
@@ -36,15 +35,10 @@ export function SignupContent() {
           navigate("/HomeContent");
         }, 1500);
       }
-     
     } catch (error) {
       /* console.log("Response : " + response); */
-       setLoading(false);
-        console.log("In 401");
-        navigate("/SignupContent")
-        console.log("in catch");
-
-        alert("Invalid Credentials");
+      setLoading(false);
+      setInvalid(true);
       console.log("Error : " + error);
     }
   };
@@ -66,7 +60,6 @@ export function SignupContent() {
                     setEmail(e.target.value);
                   }}
                   className="signupinput"
-                  
                   placeholder="  E-mail address"
                 />
                 <input
@@ -82,12 +75,21 @@ export function SignupContent() {
                 />
 
                 <div className="captcha">
-                  <input type="checkbox" className="checkbox" required  />
+                  <input type="checkbox" className="checkbox" required />
                   <p className="verify">Verify if you are a human</p>
                 </div>
-                <button disabled={loading} type="submit" className="signupinputbutton">
+                <button
+                  disabled={loading}
+                  type="submit"
+                  className="signupinputbutton"
+                >
                   Sign up
                 </button>
+                {invalid ? (
+                  <p className="invalidcredentials">Invalid Credentials</p>
+                ) : (
+                  <></>
+                )}
               </div>
             </form>
             <div className="">
