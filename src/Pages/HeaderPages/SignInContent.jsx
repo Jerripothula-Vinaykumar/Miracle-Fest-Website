@@ -6,13 +6,13 @@ import { useNavigate } from "react-router-dom";
 export function SignupContent() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [invalid, seInvalid] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [invalid, setInvalid] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    /*  console.log("Submit button clicked at outer"); */
 
     try {
       console.log("Submit button clicked at in try");
@@ -23,25 +23,40 @@ export function SignupContent() {
           password,
         }
       );
-      /*   console.log(" Status code :" + response.status);
-     console.log("Response : " + response); */
-      if (response.status === 200) {
+     
+      if (response.status === 200 && response.data) {
         setLoading(true);
-        /* console.log("Submit button clicked at in if under try"); */
+       
+        const token = response.data;
+
+      
+        localStorage.setItem("token", token);
 
         setTimeout(() => {
           setLoading(false);
 
           navigate("/HomeContent");
-        }, 1500);
+        }, 1000);
       }
     } catch (error) {
-      /* console.log("Response : " + response); */
       setLoading(false);
-      setInvalid(true);
-      console.log("Error : " + error);
+      seInvalid(true);
+      if (error.response) {
+        if (error.response.status === 409) {
+          setErrorMessage("Email already registered");
+        } else if (error.response.status === 500) {
+          setErrorMessage("Server error, try again later");
+        } else {
+          setErrorMessage("Signup failed, try again");
+        }
+      } else {
+        setErrorMessage("Network error");
+      }
+
+      console.error("Signup error:", error);
     }
   };
+
   return (
     <>
       {loading ? (
@@ -86,13 +101,14 @@ export function SignupContent() {
                   Sign up
                 </button>
                 {invalid ? (
-                  <p className="invalidcredentials">Invalid Credentials</p>
+                  <p className="invalidcredentials">{errorMessage}</p>
                 ) : (
                   <></>
                 )}
               </div>
             </form>
-            <div className="">
+            <div className="signinwithcontainer">
+              
               <p className="signinwith">or you can sign in with , </p>
               <div className="signupcontainer">
                 <img

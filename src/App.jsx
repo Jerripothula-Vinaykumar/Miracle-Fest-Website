@@ -4,13 +4,13 @@ import { BrowserRouter , Routes , Route  } from 'react-router-dom'
 
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
-import CustomDialog from "./Pages/HeaderPages/Dialogbox";
+
 import LoadingSpinner from "./Pages/HeaderPages/LoadingSpinner";
 import { ScrollToTop } from "./Pages/HeaderPages/ScrollToTop";
 import { HomeContent } from "./Pages/HeaderPages/HomeContent";
 import { EventContent } from "./Pages/HeaderPages/EventContent";
 import { RegisterContent } from "./Pages/HeaderPages/RegisterContent";
-import { SignupContent } from "./Pages/HeaderPages/SignupContent";
+import { SignupContent } from "./Pages/HeaderPages/SignInContent";
 import { MyProfileContent } from "./Pages/HeaderPages/MyProfile";
 import { BannerLaunchContent } from "./Pages/HeaderPages/BannerLaunchContent";
 import { TraditionalDayContent } from "./Pages/HeaderPages/TraditionalDayContent";

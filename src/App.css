@@ -659,19 +659,18 @@ body {
   }
   .captcha {
     margin: 3% 0 0 0%;
-    height: 6vh;
+    padding: 4% 4% 4% 0%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1em;
     width: 100%;
     border-radius: 0.5em;
     border: 2px solid black;
   }
-  .checkbox {
-    margin: 0 0 0 6%;
-  }
   .verify {
-    margin: 6% 0 0 6%;
     font-size: 0.8em;
-    font-weight: 800;
+    font-weight: 500;
   }
   .signupinputbutton {
     margin: 5% 0 0 0;
@@ -685,29 +684,41 @@ body {
     border: 2px solid green;
     background-color: rgba(62, 164, 7, 0.888);
   }
+  .signupinputbutton:hover {
+    background-color: rgb(3, 237, 54);
+    color: black;
+    border: none;
+  }
+  .haveanacccontainer {
+    margin: 8% 0 0 0;
+  }
   .haveanacc {
     font-weight: 600;
     font-size: 0.7em;
     font-family: serif;
+    text-align: center;
     color: black;
     word-spacing: 0.2em;
-    margin: 10% 0 0 19%;
   }
   .signinwith {
     font-weight: 600;
     font-size: 0.7em;
     font-family: serif;
     word-spacing: 0.1em;
-    margin: 5% 0 0 23%;
+    margin: 5% 0 0 0%;
+    text-align: center;
+    width : 100%;
   }
   .signupcontainer {
     display: flex;
     flex-direction: row;
-    margin: 8% 0 0 28%;
+    align-items: center;
+    justify-content: center;
+    gap:0.7em;
+    margin: 8% 0 0 0;
   }
   .signupicon {
-    height: 1.9em;
-    padding-right: 6%;
+    height: 1.5em;
   }
   .clglogoinregisterpageli {
     margin: 8% auto 0 5%;
@@ -721,8 +732,12 @@ body {
     font-size: 0.8em;
     font-weight: 600;
     text-align: center;
-    margin: 7% 0 4% 0;
+    margin: 7% 0 0% 0;
     font-family: serif;
+  }
+  .signinwithcontainer {
+    display: flex;
+    flex-direction: column;
   }
 
   /* Dialog Box Content Section */
