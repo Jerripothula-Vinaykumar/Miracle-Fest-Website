@@ -4,10 +4,20 @@ import { useEffect } from "react";
 
 export function MyProfileContent() {
   const [Option, setOption] = useState("");
+  const [username, setName] = useState("");
+  const [year, setYear] = useState("");
+  const [branch, setBranch] = useState("");
+  const [section, setSection] = useState("");
+  const [mobileno, setMobileno] = useState("");
+  const [linkedin, setLinkedin] = useState("");
+  const [instaid, setInstaid] = useState("");
+  const [village, setVillage] = useState("");
+  const [district, setDistrict] = useState("");
+  const [state, setState] = useState("");
   const [userData, setUserData] = useState(null);
-  
-  useEffect( () => {
-    const fetchUserData = async () => {  
+
+  useEffect(() => {
+    const fetchUserData = async () => {
       try {
         const token = localStorage.getItem("token");
         console.log("Token:", token);
@@ -23,17 +33,59 @@ export function MyProfileContent() {
         if (response.status === 200) {
           const userData = response.data;
           setUserData(userData);
+          setName(userData.username || "");
+          setYear(userData.year || "");
+          setBranch(userData.branch || "");
+          setSection(userData.section || "");
+          setMobileno(userData.mobileno || "");
+          setLinkedin(userData.linkedin || "");
+          setInstaid(userData.instaid || "");
+          setVillage(userData.village || "");
+          setDistrict(userData.district || "");
+          setState(userData.state || "");
         }
       } catch (error) {
         console.error("Error fetching user data:", error);
       }
-    }
+    };
     fetchUserData();
-  } , []);
+  }, []);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const token = localStorage.getItem("token");
+      const response = await axios.patch(
+        "https://miracle-fest-website-backend.onrender.com/api/auth/setProfile",
+        {
+          username: username,
+          year: year,
+          branch: branch,
+          section: section,
+          mobileno: mobileno,
+          linkedin: linkedin,
+          instaid: instaid,
+          village: village,
+          district: district,
+          state: state,
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
 
+      if (response.status === 200) {
+        setOption("");
+        
+      }
+    } catch (error) {
+      setOption("");
+      console.error("Error updating profile:", error);
+    }
+  };
 
-  
   switch (Option) {
     case "editprofile":
       return (
@@ -47,7 +99,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Name</span>{" "}
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                  value={userData.username}
+                    value={username}
                     onChange={(e) => {
                       setName(e.target.value);
                     }}
@@ -59,7 +111,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Year</span>{" "}
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                    value={userData.year}
+                    value={year}
                     onChange={(e) => {
                       setYear(e.target.value);
                     }}
@@ -71,7 +123,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Branch</span>{" "}
                   <span className="myprofileinfocolon">:</span>
                   <input
-                    value={userData.branch}
+                    value={branch}
                     onChange={(e) => {
                       setBranch(e.target.value);
                     }}
@@ -83,7 +135,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Section</span>{" "}
                   <span className="myprofileinfocolon">:</span>
                   <input
-                    value={userData.section}
+                    value={section}
                     onChange={(e) => {
                       setSection(e.target.value);
                     }}
@@ -95,7 +147,7 @@ export function MyProfileContent() {
                   <span className="festuserkey"> Mobile no</span>
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                    value={userData.mobileno}
+                    value={mobileno}
                     onChange={(e) => {
                       setMobileno(e.target.value);
                     }}
@@ -107,7 +159,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Linked IN</span>{" "}
                   <span className="myprofileinfocolon">:</span>
                   <input
-                    value={userData.linkedin}
+                    value={linkedin}
                     onChange={(e) => {
                       setLinkedin(e.target.value);
                     }}
@@ -119,7 +171,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Insta I`D</span>{" "}
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                    value={userData.instaid}
+                    value={instaid}
                     onChange={(e) => {
                       setInstaid(e.target.value);
                     }}
@@ -131,7 +183,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">Village</span>{" "}
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                    value={userData.village}
+                    value={village}
                     onChange={(e) => {
                       setVillage(e.target.value);
                     }}
@@ -143,7 +195,7 @@ export function MyProfileContent() {
                   <span className="festuserkey">District</span>{" "}
                   <span className="myprofileinfocolon">:</span>
                   <input
-                    value={userData.district}
+                    value={district}
                     onChange={(e) => {
                       setDistrict(e.target.value);
                     }}
@@ -155,14 +207,17 @@ export function MyProfileContent() {
                   <span className="festuserkey"> State </span>
                   <span className="myprofileinfocolon">:</span>{" "}
                   <input
-                    value={userData.state}
+                    value={state}
                     onChange={(e) => {
                       setState(e.target.value);
                     }}
                     className="festusereditvalue"
                   ></input>
                 </p>
-                <button onClick={() => setOption("")} className="editprofile">
+                <button
+                  type="submit"
+                  className="editprofile"
+                >
                   Save
                 </button>
               </form>
@@ -182,61 +237,61 @@ export function MyProfileContent() {
                 {" "}
                 <span className="festuserkey">Name</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue">{userData?.username}</span>
+                <span className="festuservalue">{username}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Year</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue"> {userData?.year} </span>
+                <span className="festuservalue"> {year} </span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Branch</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue"> {userData?.branch}</span>
+                <span className="festuservalue"> {branch}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Section</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue"> {userData?.section} </span>{" "}
+                <span className="festuservalue"> {section} </span>{" "}
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey"> Mobile no</span>
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue">{userData?.mobileno}</span>
+                <span className="festuservalue">{mobileno}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Linked IN</span>{" "}
                 <span className="myprofileinfocolon">:</span>
-                <span className="festuservalue">{userData?.linkedin}</span>
+                <span className="festuservalue">{linkedin}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Insta I`D</span>{" "}
                 <span className="myprofileinfocolon">:</span>
-                <span className="festuservalue">{userData?.instaid}</span>
+                <span className="festuservalue">{instaid}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">Village</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue">{userData?.village}</span>
+                <span className="festuservalue">{village}</span>
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey">District</span>{" "}
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue">{userData?.district}</span>{" "}
+                <span className="festuservalue">{district}</span>{" "}
               </p>
               <p className="festuserinfocon">
                 {" "}
                 <span className="festuserkey"> State </span>
                 <span className="myprofileinfocolon">:</span>{" "}
-                <span className="festuservalue">{userData?.state}</span>
+                <span className="festuservalue">{state}</span>
               </p>
               <button
                 onClick={() => {
