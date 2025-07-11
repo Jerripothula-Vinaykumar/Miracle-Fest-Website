@@ -23,13 +23,12 @@ export function SignupContent() {
           password,
         }
       );
-     
+
       if (response.status === 200 && response.data) {
         setLoading(true);
-       
+
         const token = response.data;
 
-      
         localStorage.setItem("token", token);
 
         setTimeout(() => {
@@ -44,6 +43,10 @@ export function SignupContent() {
       if (error.response) {
         if (error.response.status === 409) {
           setErrorMessage("Email already registered");
+        } else if (error.response.status === 404) {
+          setErrorMessage("User not found with this email");
+        } else if (error.response.status === 401) {
+          setErrorMessage("Invalid password");
         } else if (error.response.status === 500) {
           setErrorMessage("Server error, try again later");
         } else {
@@ -108,7 +111,6 @@ export function SignupContent() {
               </div>
             </form>
             <div className="signinwithcontainer">
-              
               <p className="signinwith">or you can sign in with , </p>
               <div className="signupcontainer">
                 <img
