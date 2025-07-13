@@ -112,6 +112,7 @@ export function SignupContent() {
             </form>
             <div className="signinwithcontainer">
               <p className="signinwith">or you can sign in with , </p>
+             </div>
               <div className="signupcontainer">
                 <img
                   className="signupicon"
@@ -129,7 +130,7 @@ export function SignupContent() {
                   alt=""
                 />
               </div>
-            </div>
+            
           </section>
         </main>
       )}

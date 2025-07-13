@@ -20,7 +20,7 @@ export function MyProfileContent() {
     const fetchUserData = async () => {
       try {
         const token = localStorage.getItem("token");
-        console.log("Token:", token);
+        /* console.log("Token:", token); */
         const response = await axios.get(
           "https://miracle-fest-website-backend.onrender.com/api/auth/getProfile",
           {

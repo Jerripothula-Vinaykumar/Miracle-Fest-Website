@@ -35,7 +35,6 @@ export function RegisterContent() {
         setLoading(true);
         const token = response.data;
 
-
         localStorage.setItem("token", token);
 
         setTimeout(() => {
@@ -121,29 +120,26 @@ export function RegisterContent() {
               <p className="haveanacc">
                 Have an account? <Link to="/SignupContent">Sign in</Link>
               </p>
-            </div>
-
-            <div>
               <p className="signinwith">or you can sign in with</p>
             </div>
-              
-              <div className="signupcontainer">
-                <img
-                  className="signupicon"
-                  src="https://cdn-icons-png.flaticon.com/128/10110/10110386.png"
-                  alt="google"
-                />
-                <img
-                  className="signupicon"
-                  src="https://img.icons8.com/?size=100&id=12599&format=png"
-                  alt="linkedin"
-                />
-                <img
-                  className="signupicon"
-                  src="https://cdn-icons-png.flaticon.com/128/15047/15047495.png"
-                  alt="github"
-                />
-              </div>
+
+            <div className="signupcontainer">
+              <img
+                className="signupicon"
+                src="https://cdn-icons-png.flaticon.com/128/10110/10110386.png"
+                alt="google"
+              />
+              <img
+                className="signupicon"
+                src="https://img.icons8.com/?size=100&id=12599&format=png"
+                alt="linkedin"
+              />
+              <img
+                className="signupicon"
+                src="https://cdn-icons-png.flaticon.com/128/15047/15047495.png"
+                alt="github"
+              />
+            </div>
           </section>
         </main>
       )}
