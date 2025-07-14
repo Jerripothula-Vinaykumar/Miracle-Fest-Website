@@ -2432,6 +2432,8 @@ body {
     height: 3vh;
   }
 
+  
+
   /* ======================================= */
 
   /*  Loading Spinner Content*/
@@ -2628,32 +2630,56 @@ body {
     height: 80dvh;
     grid-column: span 4;
     grid-row: span 2;
+    /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
   .landingpagegallerygriditem2 {
     height: 60dvh;
     grid-column: span 1;
     grid-row: span 2;
+   /*  background-image: url("https://tse3.mm.bing.net/th/id/OIP.m6TSqC-88ZvTk7Rz1WDgqwHaE8?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
   .landingpagegallerygriditem3 {
     height: 60dvh;
     grid-column: span 2;
     grid-row: span 2;
     border-radius: 2em;
+    /* background-image: url("https://tse1.mm.bing.net/th/id/OIP.cogwAyNW_iNXeDH0ZA6-BgHaDV?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
   .landingpagegallerygriditem4 {
     height: 60dvh;
     grid-column: span 1;
     grid-row: span 2;
+    /* background-image: url("https://tse1.mm.bing.net/th/id/OIP.cogwAyNW_iNXeDH0ZA6-BgHaDV?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
   .landingpagegallerygriditem5 {
     height: 40dvh;
     grid-column: span 3;
     grid-row: span 0;
+  /* background-image: url("https://tse1.mm.bing.net/th/id/OIP.cogwAyNW_iNXeDH0ZA6-BgHaDV?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
   .landingpagegallerygriditem6 {
     height: 40dvh;
     grid-column: span 0;
     grid-row: span 0;
+    /* background-image: url("https://tse1.mm.bing.net/th/id/OIP.cogwAyNW_iNXeDH0ZA6-BgHaDV?pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
   }
 
   /* =================================== */
