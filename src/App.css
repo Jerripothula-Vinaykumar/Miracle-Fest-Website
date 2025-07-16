@@ -3691,7 +3691,8 @@ body {
   }
   .header .header-nav .header-ul .logo {
     height: 100%;
-    font-size: 3em;
+    font-size: 1.6em;
+    color : whitesmoke;
     font-family: serif;
     margin: 1.5% auto 0 1%;
   }
@@ -3773,9 +3774,10 @@ body {
     border-radius: 0.5em;
   }
   .landingaboutfest {
-    margin: 2.5% 2% 0 0;
+    margin: 2.8% 2% 0 0;
     text-align: center;
-    font-size: 2px;
+    color : whitesmoke;
+    font-size: 1.5em;
     font-family: serif;
   }
   .landingpagecontainer {

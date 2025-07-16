@@ -65,8 +65,12 @@ import './App.css'
 
 import { MainHeader } from "./Components/Header";
 import { Footer } from "./Components/Footer";
+import useAutoRefresh from "./authhook/auth";
 
 function App() {
+
+  useAutoRefresh();
+
   return (
     <BrowserRouter>
 
