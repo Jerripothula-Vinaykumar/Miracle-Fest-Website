@@ -27,6 +27,7 @@ export function MyProfileContent() {
             headers: {
               Authorization: `Bearer ${token}`,
             },
+            withCredentials: true
           }
         );
 
