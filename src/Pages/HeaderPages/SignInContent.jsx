@@ -15,7 +15,7 @@ export function SignupContent() {
     e.preventDefault();
 
     try {
-      console.log("Submit button clicked at in try");
+      
       const response = await axios.post(
         "https://miracle-fest-website-backend.onrender.com/api/auth/login",
         {

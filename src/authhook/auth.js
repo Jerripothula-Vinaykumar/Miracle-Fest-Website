@@ -23,16 +23,19 @@ const useAutoRefresh = () => {
           }
         )
         .then((response) => {
-         
+        
+          const accessToken = response.data;
+    
           if (accessToken) {
-           
+        
             axios.defaults.headers.common[
               "Authorization"
             ] = `Bearer ${accessToken}`;
 
-           
             localStorage.setItem("token", accessToken);
-            
+
+
+    
           }
         })
         .catch((error) => {
@@ -41,7 +44,7 @@ const useAutoRefresh = () => {
             error.response?.data || error.message
           );
         });
-    }, 6 * 60 * 1000); 
+    }, 1 * 60 * 1000); // every 7 minutes
 
     return () => clearInterval(refreshInterval);
   }, []);
