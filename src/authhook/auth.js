@@ -45,7 +45,7 @@ const useAutoRefresh = () => {
             error.response?.data || error.message
           );
         });
-    }, 5 * 60 * 1000); // every 7 minutes
+    }, 3 * 60 * 1000); // every 4 minutes
 
     return () => clearInterval(refreshInterval);
   }, []);
