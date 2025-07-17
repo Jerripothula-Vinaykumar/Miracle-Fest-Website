@@ -15,7 +15,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
                  </ul>
                 </nav>
            
@@ -32,7 +32,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
                  </ul>
                 </nav>
            
@@ -50,7 +50,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
                  </ul>
                 </nav>
            
@@ -69,7 +69,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="logo"><h1 className="logo"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
                            <li className="landingaboutfest"><Link to="/AboutFestContent">About Fest</Link></li>
                         <button className="landingregister"><Link to="/RegisterContent">Login</Link></button>
 
@@ -90,7 +90,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
 
                  </ul>
                 </nav>
@@ -110,7 +110,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
                           
                  </ul>
                 </nav>
@@ -129,7 +129,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="clglogoinregisterpageli"><h1 className="clglogoinregisterpage"><Link to="/">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/">MIRACLE</Link></li>
                           
                  </ul>
                 </nav>
@@ -148,7 +148,7 @@ export function MainHeader() {
 
                     <ul className="header-ul">
 
-                        <li className="logo"><h1 className="defaultheaderlogo"><Link to="/HomeContent">MIRACLE</Link></h1></li>
+                        <li className="logo"><Link to="/HomeContent">MIRACLE</Link></li>
                         <li className="nav-li"><Link to="/HomeContent">Home</Link></li>
                         <li className="nav-li"><Link to="/EventContent">Events</Link></li>
                         <li className="nav-li"><Link to="/AboutusContent">About us</Link></li>
