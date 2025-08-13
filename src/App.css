@@ -361,7 +361,47 @@ body {
     box-shadow: 0 20px 20px black;
     border-top: 4px solid black;
   }
-
+  .landingpagegallerygriditem1 {
+   
+    background-image: url("./images/Collegeimg3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+ /*  .landingpagegallerygriditem2 {
+    background-image: url("./images/Collegeimg6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+  .landingpagegallerygriditem3 {
+   
+    background-image: url("./images/Collegeimg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .landingpagegallerygriditem4 {
+    
+    background-image: url("./images/Collegeimg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .landingpagegallerygriditem5 {
+   
+  background-image: url("./images/Collegeimg8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+ /*  .landingpagegallerygriditem6 {
+    background-image: url("./images/Collegeimg7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }  */
+  
   /* ============================== */
 
   /* Loading Spinner Content */
