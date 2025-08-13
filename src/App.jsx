@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter , Routes , Route  } from 'react-router-dom'
+import { BrowserRouter , Routes , Route, useNavigate, useLocation  } from 'react-router-dom'
 
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
@@ -66,14 +66,24 @@ import './App.css'
 import { MainHeader } from "./Components/Header";
 import { Footer } from "./Components/Footer";
 import useAutoRefresh from "./authhook/auth";
+import { useEffect } from "react";
+import { Navigate } from "react-router-dom";
 
 function App() {
 
+  const navigate = useNavigate();
+  const location = useLocation();
+  const token = localStorage.getItem("token");
+  const publicPaths = [ "/PrivacyPolicyContent" , "/TermsandConditionsContent" ,"/AboutFestContent" , "/RegisterContent" , "/SignupContent"  ]
+  useEffect(() => {
+  if (!token && !publicPaths.includes(location.pathname)) {
+    navigate("/", { replace: true });
+   }
+  }, [token, navigate , location.pathname]);
   useAutoRefresh();
 
   return (
-    <BrowserRouter>
-
+    <>
     <MainHeader />
     <ScrollToTop />
 
@@ -336,7 +346,7 @@ function App() {
         
       </Routes>
       <Footer />
-    </BrowserRouter>
+   </>
   );
 }
 
