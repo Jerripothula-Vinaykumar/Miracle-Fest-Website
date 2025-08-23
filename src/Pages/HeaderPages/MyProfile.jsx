@@ -233,7 +233,7 @@ export function MyProfileContent() {
       return (
         <main className="myprofilecontent">
           <div className="myprofilecontainer">
-            <div className="profilepiccon">Profile Picture</div>
+            <div className="profilepiccon">Hello , {username}</div>
             <div className="myprofileinfo">
               <p className="festuserinfocon">
                 {" "}
