@@ -1007,6 +1007,9 @@ body {
     list-style-type: none;
     margin: 2%;
   }
+  .livechatsupport {
+    display: none;
+  }
   .footerbottom-div2 {
     height: 9vh;
     background-color: rgb(77, 75, 75);
@@ -4555,6 +4558,9 @@ body {
   }
   .footerbottom-div li {
     list-style-type: none;
+  }
+  .livechatsupport {
+    display: none;
   }
   .footerbottom-div2 {
     height: 10vh;

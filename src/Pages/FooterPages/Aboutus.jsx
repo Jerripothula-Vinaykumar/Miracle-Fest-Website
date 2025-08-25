@@ -63,7 +63,7 @@ export function AboutusContent() {
                     alt=""
                   />
                 </Link>
-                <Link>
+                <Link to="https://www.linkedin.com/in/vinay-kumar-jerripothula-996879276">
                   <img
                     className="smimg"
                     src="https://img.icons8.com/?size=96&id=xuvGCOXi8Wyg&format=png"

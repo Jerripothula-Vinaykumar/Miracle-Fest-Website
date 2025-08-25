@@ -179,7 +179,7 @@ export function Footer() {
               <li>
                 <Link to="/EmergencyContactContent">Emergency Contacts</Link>
               </li>
-              <li>
+              <li className="livechatsupport">
                 <Link to="/LiveChatSupportContent"> Live Chat Support</Link>
               </li>
               </div>
