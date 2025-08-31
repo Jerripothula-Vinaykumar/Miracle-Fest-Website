@@ -444,7 +444,7 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    max-height: 100dvh;
+    min-height: 100dvh;
   }
   .homepic {
     min-height: 30vh;
