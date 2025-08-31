@@ -168,6 +168,8 @@ body {
   .header {
     height: 11vh;
     width: 100%;
+    position : fixed;
+    z-index: 1000;
     background-color: rgb(18, 17, 17);
   }
 
@@ -216,7 +218,7 @@ body {
     display: flex;
     color: black;
     flex-direction: column;
-    padding: 3% 3%;
+    padding: 11dvh 3% 3% 3%;
     min-width: 100vw;
     min-height: 80vh;
   }
