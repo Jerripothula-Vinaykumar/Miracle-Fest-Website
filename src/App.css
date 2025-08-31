@@ -218,8 +218,9 @@ body {
     display: flex;
     color: black;
     flex-direction: column;
-    padding: 11dvh 3% 3% 3%;
+    padding: 11dvh 3% 10dvh 3%;
     min-width: 100vw;
+    z-index: 99;
     min-height: 80vh;
   }
   .landingregister {
@@ -439,6 +440,7 @@ body {
   .homecontent {
     background: skyblue;
     display: flex;
+    padding: 11dvh 2%;
     justify-content: center;
     align-items: center;
     min-width: 100vw;
@@ -460,7 +462,7 @@ body {
     flex-direction: column;
     gap: 1em;
     align-items: center;
-    padding: 2% 4% 4% 4%;
+    padding: 11dvh  4% 6% 4%;
   }
 
   .eventheader {
@@ -517,7 +519,7 @@ body {
   /* Each Event Content  */
 
   .event-container {
-    padding: 7%;
+    padding: 14dvh 7% 7% 7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -590,7 +592,7 @@ body {
   /* Event Registration Form Content */
 
   .eventregistrationcontent {
-    padding: 10% 5%;
+    padding: 14dvh 2% 5%  2%;
   }
 
   .event-registration-container {
@@ -663,10 +665,11 @@ body {
     border-radius: 0.3em;
   }
   .querie-coordinator-details {
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    margin: 4% 0 0 3%;
+    margin: 4% 0 0 0%;
+    padding : 2% 0 ;
     display: flex;
   }
   .queriecoor-key {
@@ -866,7 +869,7 @@ body {
     background: rgb(235, 235, 243);
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 14dvh 2% 2% 2%;
   }
   .myprofilecontainer {
     display: flex;
@@ -1016,6 +1019,7 @@ body {
     height: 9vh;
     background-color: rgb(77, 75, 75);
     display: flex;
+    width: 100%;
     font-family: serif;
     color: whitesmoke;
     flex-direction: row;
@@ -1024,6 +1028,12 @@ body {
     gap: 2em;
     font-size: 0.8em;
     list-style-type: none;
+    position: fixed;
+    z-index: 100;
+    bottom:0px;
+    left : 0px;
+
+
   }
   .footerhr {
     width: 100%;
@@ -1038,7 +1048,7 @@ body {
   /* For HOD */
 
   .facultydashboardcontent {
-    padding: 10%;
+    padding:  14dvh 10% 10% 10%;
   }
   .facultydashboard-container {
     width: 80vw;
@@ -1129,7 +1139,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 5%;
+    padding: 14dvh 5% 5% 5%;
   }
   .facultydashboardforotherscontentcontainer {
     width: 100%;
@@ -1226,7 +1236,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6%;
+    padding: 14dvh 6% 6% 6% ;
   }
   .eventcoordinatordashboardcontainer {
     width: 100%;
@@ -1252,7 +1262,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 12% 7% 7% 7%;
+    padding: 14dvh 7% 7% 7%;
   }
   .volunteerassignmentheader {
     margin: 2% 2% 5% 2%;
@@ -1357,7 +1367,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25% 10%;
+    padding: 14dvh  10% 10%  10%;
   }
   .certificatedownloadheader {
     margin: 1%;
@@ -1403,7 +1413,7 @@ body {
   /*  Sponsor Logos and Offers Content Section  */
 
   .sponsorslogosandofferscontent {
-    padding: 8%;
+    padding:14dvh 8% 8% 8%;
   }
   .sponserlogoheader {
     margin: 0 0 5% 0;
@@ -1465,7 +1475,7 @@ body {
     gap: 1em;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 14dvh 5% 5% 5%;
   }
   .stallsheader {
     font-size: 1em;
@@ -1538,7 +1548,7 @@ body {
     font-size: 1.2em;
   }
   .aboutfestcontent {
-    margin: 10% 10% 10% 10%;
+    padding : 14dvh 5% 5% 5% ;
     text-align: justify;
   }
   .aboutfestinfo {
@@ -1555,7 +1565,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3%;
+    padding: 14dvh 3% 3% 3%;
   }
   .faqsectioncontainer {
     display: flex;
@@ -1609,7 +1619,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15% 5%;
+    padding: 19dvh 5% 10dvh 5%; 
   }
   .emergencycontactcontainer {
     width: 100%;
@@ -1658,7 +1668,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 6%;
+    padding: 14dvh 6% 6% 6%;
   }
   .feedbackcontainer {
     width: 100%;
@@ -1720,7 +1730,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding: 14dvh 5% 5% 5%;
   }
 
   .resultsandwinnersdisplayselectcontainer {
@@ -1800,7 +1810,7 @@ body {
     font-size: 1.2em;
   }
   .termsandconditionscontent {
-    margin: 10% 10% 10% 10%;
+    padding: 13dvh 10% 11dvh 10%; 
     text-align: justify;
   }
   .termsandconditionsinfo {
@@ -1815,7 +1825,7 @@ body {
     font-size: 1.2em;
   }
   .privacypolicycontent {
-    margin: 10% 10% 10% 10%;
+    padding: 13dvh 10% 11dvh 10%; 
     text-align: justify;
   }
   .privacypolicyinfo {
@@ -1830,7 +1840,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 9% 5%;
+    padding: 14dvh 5% 10dvh 5%;
   }
   .authcontainer {
     display: flex;
@@ -1922,7 +1932,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30% 10%;
+    padding: 20dvh 10% 30% 10%;
   }
   .contactuscontainer {
     width: 90vw;
