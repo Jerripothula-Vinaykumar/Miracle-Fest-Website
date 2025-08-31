@@ -93,7 +93,7 @@ export function MyProfileContent() {
       return (
         <main className="myprofilecontent">
           <div className="myprofilecontainer">
-            <div className="profilepiccon">Profile Picture</div>
+            <div className="profilepiccon"></div>
             <div className="myprofileinfo">
               <form onSubmit={handleSubmit}>
                 <p className="festuserinfocon">
