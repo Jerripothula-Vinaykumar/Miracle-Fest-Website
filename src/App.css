@@ -170,6 +170,7 @@ body {
     width: 100%;
     position : fixed;
     z-index: 1000;
+    font-family: 'Poppins' , serif;
     background-color: rgb(18, 17, 17);
   }
 
@@ -185,6 +186,7 @@ body {
     align-items: flex-end;
     height: 100%;
     flex-wrap: nowrap;
+    
   }
   .header .header-nav .header-ul .logo {
     height: 100%;
@@ -220,6 +222,7 @@ body {
     flex-direction: column;
     padding: 11dvh 3% 10dvh 3%;
     min-width: 100vw;
+    font-family: 'Poppins' , serif;
     z-index: 99;
     min-height: 80vh;
   }
@@ -231,6 +234,7 @@ body {
     background-color: rgba(255, 0, 0, 0.7);
     color: whitesmoke;
     border: 2px solid red;
+    font-family: 'Poppins' , serif;
     border-radius: 0.5em;
   }
   .landingaboutfest {
@@ -292,6 +296,7 @@ body {
   }
   .landingpagedetailsqn {
     padding: 0 0 0 2.5%;
+    font-family: 'Poppins', serif;
   }
   .landingpagedetailsanswer {
     margin: 0 2%;
@@ -299,7 +304,7 @@ body {
     padding: 0% 7% 1% 2%;
     font-size: 0.7em;
     font-weight: 500;
-    font-family: serif;
+     font-family: 'Poppins' , serif;
     text-align: justify;
   }
   .landingpagedetailsqnhr {
@@ -320,6 +325,7 @@ body {
     display: flex;
     width: 100%;
     margin-bottom: 2%;
+    font-family: 'Poppins' , serif;
     font-size: 0.9em;
     flex-direction: row;
     align-items: center;
