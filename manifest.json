@@ -1,0 +1,7 @@
+{
+    "name" : "Miracle Fest Website" , 
+    "short_name" : "App", 
+    "display" : "standalone" ,
+    "theme_color": "#000000" , 
+    "background_color": "#000000"
+}
