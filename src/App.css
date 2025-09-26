@@ -65,8 +65,12 @@ body {
   .header .header-ul li {
     font-size: 0.7em;
     text-align: center;
-    color: whitesmoke;
+    color: whitesmoke; 
   }
+  .header .header-ul li:hover {
+    border-bottom: 2px solid rgb(7, 173, 228);   
+  }
+  
   .myprofileicon {
     height: 2vh;
   }
@@ -1980,7 +1984,7 @@ body {
     color: whitesmoke;
   }
   .landingpagedetailscontainer {
-    margin: 2% 1%;
+    margin: 2% 1%; 
     transform: box-shadow 1s ease-in;
     border: 1px solid transparent;
   }
