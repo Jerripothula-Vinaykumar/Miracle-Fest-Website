@@ -34,6 +34,7 @@ export function Footer() {
           <li className="footer-bottom2">
             <Link to="/TermsandConditionsContent">Terms</Link>
           </li>
+
           <li className="footer-bottom2">|</li>
           <li className="footer-bottom2">
             <Link to="/PrivacyPolicyContent">Privacy</Link>
