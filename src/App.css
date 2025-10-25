@@ -108,6 +108,7 @@ body {
   }
   .landingregister {
     padding: 0.4% 2.2%;
+    margin-top: 3%;
     font-size: 0.8em;
     text-align: center;
     background-color: rgba(255, 0, 0, 0.7);
@@ -117,7 +118,7 @@ body {
     border-radius: 0.5em;
   }
   .landingaboutfest {
-    margin: 0 4% 1.5% 0;
+    margin: 2% 4% 1.5% 0;
     font-size: 1em;
     text-align: center;
     padding: 1%;
@@ -145,7 +146,7 @@ body {
   .landingpagefirstgriditem3 {
     height: 38dvh;
     margin: 5% 5% 2% 5%;
-    width: 100%;
+    width: 90%;
     background-image: url("https://tse1.mm.bing.net/th?id=OIP.rcbVWbQUViVJWQfMBchrgwHaDt&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
